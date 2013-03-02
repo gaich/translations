@@ -367,12 +367,12 @@ toekomstige versie van deze applicatie.</string>
 valideren van de applicatie licentie. Druk op retry als je de
 applicatie gekocht hebt of op buy als je me in de maling probeert te
 nemen.</string>
-    <string name="error_vibration_toast">Je kunt alleen tussen 0 en 100 kiezen.</string>
+    <string name="error_vibration_toast">Je kunt alleen een waarde tussen 0 en 100 kiezen.</string>
     <string name="vibration_summary">Stel hier de sterkte van je haptische waarneming in. Standaard is 70, Franco gebruikt 100.</string>
     <string name="vibration_title">Haptische waarneming sterkte (vibratie).</string>
     <string name="error_md5_no_match">PAS OP! Het MD5 algoritme komt niet overeen, voor je eigen veiligheid is de kernel niet toegepast. Je zult het opnieuw moeten downloaden.</string>
-    <string name="colors_summary">Hier kun je je scherm tunen. Rood, Groen en Blauw. De waarden die je hebt ingevoerd worden automatisch met het opstarten ingesteld.</string>
-    <string name="colors_title">Scherm kleur tuning</string>
+    <string name="colors_summary">Hier kun je je schermkleuren bijstellen. Rood, Groen en Blauw. De waarden die je hebt ingevoerd worden automatisch met het opstarten ingesteld.</string>
+    <string name="colors_title">Schermkleur bijstelling</string>
     <string name="defaults_summary">Hierdoor worden de standaard meegeleverde (stock) instellingen hersteld.</string>
     <string name="defaults_title">Standaard waarden herstellen.</string>
     <string name="n4_color_control_title">IPS Scherm kleur correctie</string>
@@ -383,11 +383,50 @@ nemen.</string>
     <string name="kernel_update_n10">Nexus 10 Kernel download</string>
     <string name="busybox_warning">Excuses, Je hebt busybox nodig om deze pagina te kunnen bekijken. Dit is een maatregel om force closes tegen te gaan. Je kunt busybox gratis vanuit de Play Store downloaden.</string>
     <string name="clear_app_data">"Waarschuwing: Dit zal er voor zorgen dat de gegevens van deze applicatie worden gewist. Je raakt alle ingevoerde waarden en gegevens van deze applicatie kwijt, dus ook je licentie. De eerst volgende keer dat je deze applicatie weer opstart wordt je omgeleid naar de Play Store om je licentie weer op te vragen. Nadat je op OK klikt wordt de applicatie afgesloten."</string>
-    <string name="clear_app_data_title">Wis app gegevens</string>
-    <string name="enable_all_load_threshold_summary">Focus op de hoogte van de system load om zo alle CPU cores te activeren. Door het hoger in te stellen wordt het lastiger om de cores aan te zetten. Door het lager in te stellen wordt het makkelijker.</string>
-    <string name="enable_load_threshold_summary">Threshold waarde waardoor de single CPU core aan gaat (online). Hoe hoger de waarde, hoe minder snel hij online zal gaan. Hoe lager, hoe sneller.</string>
-    <string name="disable_load_threshold_summary">Detecteerd wanneer de cores uit moeten gaan. Als je dit een lage waarde geeft zullen de cores minder snel uitgeschakeld worden. Een hoger waarde zorgt er voor dat de cores sneller uitschakelen.</string>
-    <string name="temp_threshold_summary">Dit is de celsius limiet van je CPU (temperatuur) voordat je toestel gaat throttlen. Dit wordt gedaan om je toestel koeler te maken (throttle) dus ook minder kracht.</string>
-    <string name="temp_threshold_title">Termal throttle threshold</string>
+    <string name="clear_app_data_title">Wis applicatie gegevens</string>
+    <string name="enable_all_load_threshold_summary">Systeem 'load' waarop alle cores aangezet worden. Hoe hoger de waarde, hoe minder waarschijnlijk dat alle cores worden bijgeschakeld.</string>
+    <string name="enable_load_threshold_summary">Ssyteem 'load' waarop er een core wordt bijgeschakeld. Hoe hoger de waarde, hoe minder waarschijnlijk dat er een core wordt bijgeschakeld.</string>
+    <string name="disable_load_threshold_summary">Detecteert wanneer de cores uit moeten gaan. Als je dit een lage waarde geeft zullen de cores minder snel uitgeschakeld worden. Een hoger waarde zorgt er voor dat de cores sneller uitschakelen.</string>
+    <string name="temp_threshold_summary">Dit is de temperatuur limiet van je CPU waarna je toestel begrensd wordt. Dit wordt gedaan om je toestel koeler te maken, je hebt dan minder snelheid.</string>
+    <string name="temp_threshold_title">Temperatuur regeling grenswaarde</string>
+<string name="io_tuning_title">IO Scheduler Tuning</string>
+	<string name="io_tuning_summary">WARNING: this section contains all the options to tune the IO scheduler. It is for ADVANCED users. If you don\'t understand the options inside you have to search on the Kernel Documentation files. The values are NOT set on boot, so you can reset them back easily.</string>
+	<string name="gamma_title">Scherm Gamma instellingen</string>
+	<string name="gamma_summary">Hier kun je alle Gamma instellingen doen zoals: wit-, midden- en zwartwaarden, contrast, helderheid, kleurverzadiging en grijswaarden.</string>
+	<string name="cpu_freq_title">Huidige CPU frequentie</string>
+	<string name="temperature_title">CPU temperatuur</string>
+	<string name="gamma_defaults_summary">Hiermee zet je alle Gamma instellingen weer terug op de standaard waarden.</string>
+	<string name="gamma_warning_title">BELANGRIJK</string>
+	<string name="gamma_defaults_title">Standaard waarden</string>
+	<string name="gamma_category_title">Gamma instellingen</string>
+	<string name="grays">Grijswaarden</string>
+	<string name="mids">Middenwaarden</string>
+	<string name="blacks">Zwartwaarden</string>
+	<string name="contrast">Contrast</string>
+	<string name="brightness">Helderheid</string>
+	<string name="saturation">Verzadiging</string>
+	<string name="whites">Witwaarden</string>
+	<string name="gpu_oc_title">Maximale GPU frequentie</string>
+	<string name="lp_oc_title">Maximale Companion Core frequentie</string>
+	<string name="hotplug_control_title">Hotplug beheer</string>
+	<string name="cpuquiet_title">CPUQuiet regelaar</string>
+	<string name="hotplug_control_summary">Pas de parameters van je apparaat aan om het management van de CPU cores te wijzigen.</string>
+	<string name="enable_all_load_title">Grenswaarde om alle cores online te brengen</string>
+	<string name="enable_load_title">Grenswaarde om een enkele core online te brengen</string>
+	<string name="disable_load_title">Grenswaarde om een enkele core offline te brengen</string>
+	<string name="hotplug_mode_title">Core management mode</string>
+	<string name="hotplug_mode_summary">Hotplug: aan/uit zetten van cores op basis van de systeem 'load'.\nDual-Core: gebruik altijd 2 cores.\nQuad-Core: gebruikt altijd 4 cores. Dit werkt goed bij spelletjes.\nHet kan zijn dat je het scherm uit en aan moet zetten om dit in werking te stellen.</string>
+	<string name="hotplug_category_title">Hotplug instellingen</string>
+	<string name="clicky_summary">Scherm om de Gamma instellingen te veranderen.</string>
+	<string name="clicky_title">Druk hier voor GAMMA</string>
+	<string name="gamma_recommended_summary">Aangeraden waarden voor rijke kleuren en een diepe zwart, met dan aan obsanity!</string>
+	<string name="gamma_recommended_title">Aangeraden waarden</string>
+	<string name="sampling_rate_summary">Deze waarde bepaalt hoe vaak er naar de systeem 'load' wordt gekeken om te bepalen of er een core uit kan. De standaard waarde is een goed compromis tussen zuinigheid en prestatie. Ophogen van de waarde levert meer prestatie, verlagen meer zuinigheid.</string>
+	<string name="sampling_rate_title">Bemonsteringsfrequentie</string>
+	<string name="su_dialog_summary">Je hebt root toestemming nodig om deze applicatie te gebruiken. Sluit de app af en probeer opnieuw.</string>
+	<string name="su_dialog_title">Geen root?</string>
+	<string name="tvRed">Rood:</string>
+	<string name="tvGreen">Groen:</string>
+	<string name="tvBlue">Blauw:</string>
 
 </resources>
