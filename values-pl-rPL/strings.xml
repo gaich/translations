@@ -1,0 +1,263 @@
+<resources>
+
+    <string name="app_name">franco.Kernel updater</string>
+    <string name="menu_settings">Ustawienia</string>
+
+    <!-- Main Activity -->
+    <string name="main">Okno główne</string>
+    <string name="device_supported_title">Status Twojego urządzenia</string>
+    <string name="device_supported_summary">Twoje urządzenie jest:</string>
+    <string name="franco_kernel_title">franco.Kernel updater</string>
+    <string name="franco_kernel_summary">Tutaj sprawdzisz czy dostępne są nowe wersje Franco.Kernel oraz pobierzesz je i zainstalujesz. </string>
+    <string name="lean_kernel_title">LeanKernel updater</string>
+    <string name="lean_kernel_summary">	Jeśli klikniesz tutaj, oficjalnie jesteś zdrajcą, ale za to możesz cieszyć się Kernelem Imoseyona :) </string>
+    <string name="backup_restore_title">Kopia zapasowa/Przywracanie Kernela</string>
+    <string name="backup_restore_summary">Zapisz obecne ustawienia Kernela i przywróć je w razie potrzeby bez konieczności korzystania z recovery. </string>
+    <string name="oc_uv_title">Częstotliwości/Napięcia</string>
+    <string name="oc_uv_summary">Chcesz pozgrywać bohatera? To jest miejsce dla Ciebie :) Tutaj dowolnie skonfigurujesz ustawienia częstotliwości i napięcia.</string>
+    <string name="kernel_settings_title">Ustawienia Kernela</string>
+    <string name="kernel_settings_summary">Wszystkie Twoje ulubione ustawienia w jednym miejscu. Są ładowane jeśli zostaną wykryte.</string>
+    <string name="color_control_title">Kontrola kolorów</string>
+    <string name="color_control_summary">Pełna kontrola nad Twoim ekranem AMOLED. Zaledwie kilkoma kliknięciami możesz rozbudzić w sobie artystę i odnaleźć właściwą dla swoich oczu kolorystykę.</string>
+    <string name="power_modes_title">Profile zarządzania Kernelem</string>
+    <string name="power_modes_summary">Jeśli czujesz się kreatywny, możesz stworzyć swój własny profil w celu osiągnięcia maksymalnej wydajności lub oszczędności baterii.</string>
+    <string name="device_monitor_title">Monitorowanie Urządzenia</string>
+    <string name="device_monitor_summary">Status urządzenia w czasie rzeczywistym.</string>
+
+    <!-- Frequencies/Voltages Activity -->
+    <string name="oc_uv_class">Częstotliwości/Napięcia</string>
+    <string name="max_cpu_title">Maksymalna częstotliwość CPU</string>
+    <string name="min_cpu_title">Minimalna częstotliwość CPU</string>
+    <string name="governor_title">Używany zarządca</string>
+    <string name="toast_max_cpu">Nie możesz wybrać niższej częstotliwości niż obecne minimum.</string>
+    <string name="toast_min_cpu">Nie możesz wybrać wyższej częstotliwości niż obecne maximum.</string>
+    <string name="toast_governor">Nie możesz wybrać takiego samego zarządcy jak ten, którego obecnie używasz.</string>
+    <string name="screen_off_max_freq_title">Maksymalna częstotliwość procesora dla wyłączonego ekranu.</string>
+    <string name="toast_screen_off_max_freq">Nie możesz wybrać takiej samej częstotliwości jak ta, której obecnie używasz.</string>
+    <string name="cpu_boot_title">Włącz ustawienia CPU podczas uruchamiania</string>
+    <string name="cpu_boot_summary">Jeśli zaznaczone, częstotliwości procesora i zarządca będą ustawiane już przy uruchamianiu urządzenia. </string>
+    <string name="governor_control_boot_title">Włącz ustawienia zarządcy podczas uruchamiania</string>
+    <string name="governor_control_boot_summary">Jeśli zaznaczone, stworzony przez Ciebie zarządca będzie ustawiany już przy uruchamianiu urządzenia.</string>
+    <string name="governor_control_error_toast">Twój zarządca nie jest obsługiwany.</string>
+    <string name="voltages_summary">Przejdź na ciemną stronę mocy i poeksperymentuj z napięciami CPU, IVA i CORE.</string>
+    <string name="voltages_title">Napięcia</string>
+
+    <!-- Kernel Settings Activity -->
+    <string name="kernel_settings">Ustawienia Kernela</string>
+    <string name="loud_summary">Te ustawienia spowodują zwiększenie głośności dźwięków w skali 0-3.</string>
+    <string name="loud_title">Zwiększenie głośności dźwięku w słuchawkach.</string>
+    <string name="tcp_summary">W Twoim telefonie musi być zainstalowany BusyBox, żebyś mógł zmienić te ustawienia.</string>
+    <string name="throttle_off_summary">UWAGA! To ustawienie całkowicie wyłącza kontrolę temperatury. Jeśli wyłączysz tę opcję urządzenie wyłączy się dopiero, gdy osiągnie temperaturę 110ºC (jeśli nie wiesz co to, zostaw w spokoju).</string>
+    <string name="throttle_off_title">Wyłącz kontrolę temperatury</string>
+    <string name="io_sched_title">Harmonogram IO</string>
+    <string name="input_touch_booster_title">Wspomaganie detekcji dotyku</string>
+    <string name="fsync_summary">Jeśli włączone, gwarantuje większą integralność danych, ale urządzenie wolniej reaguje na kliknięcią. Jeśli wyłączone, urządzenie lepiej reaguje na kliknięcia, ale integralność danych się pogarsza. </string>
+    <string name="fsync_title">Włącz fsync</string>
+    <string name="logger_off_summary">Wyłącza Logger (logcat). Możliwe polepszenie wydajności/oszczędność baterii. Jeśli wyłączone, nie działa debugowanie.</string>
+    <string name="logger_off_title">Wyłącz Logcat</string>
+    <string name="events_off_summary">Ta opcja wyłączy logowanie zdarzeń. Możliwe minimalne polepszenie wydajności/oszczędność baterii.</string>
+    <string name="events_off_title">Wyłącz logowanie zdarzeń</string>
+    <string name="fast_charge_summary">Zaznacz tę opcję, aby ładować swoje urządzenie tak szybko jak z gniazdka elektrycznego, nawet wtedy, gdy jest ono podłączone do USB</string>
+    <string name="fast_charge_title">Włącz szybkie ładowanie przez USB</string>
+    <string name="wifi_pm_summary">Zaznacz tę opcję w celu polepszenia jakości sygnału WI-FI kosztem zużycia baterii. Przydatne podczas streamowania z wyłączonym ekranem.</string>
+    <string name="wifi_pm_title">Wzmocnienie sygnału Wi-Fi</string>
+    <string name="blx_summary">Ustawienie determinujące maksymalną wartość, do jakiej akumulator w urządzeniu może być ładowany.</string>
+    <string name="blx_title">Battery Life eXtender</string>
+    <string name="tegra_screen_dimmer_summary">	Domyślnie włączona opcja, która oszczędza baterię poprzez zmniejszenie kontrastu i jasności w filmach. Jeśli zależy Ci na najlepszej jakości filmów, wyłącz tę opcję. </string>
+    <string name="tegra_screen_dimmer_title">Przyciemniacz ekranów Tegra</string>
+    <string name="tcp_title">Algorytm odciążania TCP</string>
+    <string name="high_performance_summary">Udoskonala "czystość" dźwięków.</string>
+    <string name="high_performance_title">Włącz dźwięki wysokiej jakości - Działa tylko na słuchawkach.</string>
+    <string name="volume_boost_title">Wspomaganie głośności - działa tylko na słuchawkach. </string>
+    <string name="bootanimation_category_title">Własna animacja podczas uruchamiania urządzenia</string>
+    <string name="bootanimation_summary">Animacja franco.Kernel wykonana pzez Rascarlo. Musisz być połączony z internetem by ją pobrać.</string>
+    <string name="bootanimation_title">Animacja franco.Kernel podczas uruchamiania urządzenia</string>
+    <string name="download_path_category_title">Ścieżka zapisu Kernela</string>
+    <string name="download_path_title">Własna ścieżka zapisu Kernela</string>
+    <string name="toast_volume_boost">Nie możesz wprowadzić mniej niż 0 i wiecej niż 62 znaki !</string>
+
+    <!-- Device Monitor Activity -->
+    <string name="monitor_category_title">Monitorowanie urządzenia</string>
+    <string name="gpu_freq_title">Obecna częstotliwość GPU</string>
+    <string name="voltage_mpu_title">Napięcie - Częstotliwość - Temperatura CPU</string>
+    <string name="voltage_iva_title">Napięcie IVA</string>
+    <string name="voltage_core_title">Napięcie - Częstotliwość GPU</string>
+    <string name="mpu_smartreflex_summary">Kalibracja napięcia dla CPU ustanie.</string>
+    <string name="mpu_smartreflex_title">Wyłącz MPU Smartreflex</string>
+    <string name="iva_smartreflex_summary">Kalibracja napięcia dla Media Decoder ustanie.</string>
+    <string name="iva_smartreflex_title">Wyłącz IVA Smartreflex</string>
+    <string name="core_smartreflex_summary">Kalibracja napięcia dla GPU ustanie.</string>
+    <string name="core_smartreflex_title">Wyłącz CORE Smartreflex</string>
+    <string name="governor_control_title">Kontrola zarządcy</string>
+    <string name="governor_control_summary">Kombinuj z własnymi ustawieniami zarządcy w celu osiągnięcia zamierzonej wydajności i żywotności baterii.</string>
+    <string name="cpu0_title">CPU Core 0</string>
+    <string name="cpu1_title">CPU Core 1</string>
+    <string name="cpu2_title">CPU Core 2</string>
+    <string name="cpu3_title">CPU Core 3</string>
+
+    <!-- Voltages Activity -->
+    <string name="voltages_category_title">Napięcia</string>
+    <string name="mpu_voltages_summary">Zabaw się bezpiecznie z napięciami CPU!</string>
+    <string name="mpu_voltages_title">Napięcia CPU</string>
+    <string name="iva_voltages_summary">Wartość napięcia dla Media Decoder</string>
+    <string name="iva_voltages_title">Napiecia IVA</string>
+    <string name="core_voltages_summary">Wartość napięcia dla GPU</string>
+    <string name="core_voltages_title">Napięcia CORE</string>
+    <string name="apply_summary">Kliknij tutaj aby ustawić nowo wybrane poziomy napięcia.</string>
+    <string name="apply_title">Zastosuj wszystkie</string>
+    <string name="volt_dialog_button">Zastosuj</string>
+    <string name="mpu_voltages_activity_title">Napięcia CPU</string>
+    <string name="core_voltages_activity_title">Napięcia CORE</string>
+    <string name="iva_voltages_activity_title">Napięcia IVA</string>
+    <string name="voltages_boot_summary">Jeśli zaznaczone, wszystkie zapisane napięcia będą ustawianie podczas uruchamiania, jeśli ustawiłeś złe napięcia i urządzenie np. się nie uruchomi będziesz sam sobie winien. :)</string>
+    <string name="voltages_boot_title">Ustaw napięcia podczas uruchamiania.</string>
+
+    <!-- ColorControl Activity -->
+    <string name="profile_confirmation_text">Zapisz to</string>
+    <string name="profile_dialog_title">Nazwa profilu:</string>
+    <string name="multipliers_dialog_title">Współczynniki koloru</string>
+    <string name="gamma_dialog_title">RGB Gamma</string>
+    <string name="colorcontrol_category_title">Kontrola kolorów</string>
+    <string name="color_multiplier_summary">Ulepsz kolory swojego ekranu AMOLED tak, by odpowiadały Twoim upodobaniom.</string>
+    <string name="color_multiplier_title">Współczynniki koloru</string>
+    <string name="color_gamma_summary">Podrasuj wartości RGB swojego ekranu.</string>
+    <string name="color_gamma_title">RGB Gamma</string>
+    <string name="color_profiles_summary">	Zapisuje profil koloru, co ułatwia późniejsze przełączanie ich w zależności od potrzeb. </string>
+    <string name="color_profiles_title">Zapisz profil kolorów</string>
+    <string name="load_profiles_summary">Zaznacz i wczytaj wcześniej zapisany profil kolorów.</string>
+    <string name="load_profiles_title">Wczytaj swój profil kolorów</string>
+    <string name="adaptive_brightness_summary">Dostosowuje jasność kolorów w zależności od tego, co jest wyświetlane na ekranie.</string>
+    <string name="adaptive_brightness_title">Wyłącz dostosowywanie jasności</string>
+    <string name="trinity_contrast_summary">	Oryginalna implementacja z Kernela Trinity, która umożliwia polepszenie kontrastu dla osiągnięcia lepszego komfortu wizualnego. </string>
+    <string name="trinity_contrast_title">Interfejs kontrastu Trinity</string>
+    <string name="omap_gamma_summary">	Interfejs od Omapzoom, który umożliwia zmianę współczynika gamma ekranu poprzez zestaw zdefiniowanych wartości. Działa niezależnie od interfejsu powyżej.</string>
+    <string name="omap_gamma_title">Interfejs GAMMA OMAP</string>
+    <string name="color_profiles_category_title">Profile kolorów</string>
+
+    <!-- Backup Restore Activity -->
+    <string name="backup_restore_activity">Kopia zapasowa/Przywracanie Kernela</string>
+    <string name="backup_summary">Zrób kopię zapasową Twojego Kernela</string>
+    <string name="backup_title">Kopia zapasowa</string>
+    <string name="restore_kernel_title">Przywracanie Kernela</string>
+    <string name="backup_kernel">Plik kopii zapasowej jest zapisywany w /sdcard/kernel_backups. NIE UŻYWAJ spacji w nazwie pliku.</string>
+    <string name="clicky_to_backup">Zrób kopię</string>
+    <string name="backup_title1">Dodane: </string>
+    <string name="backup_title2">Kliknij żeby przywrócić lub usunąć.</string>
+    <string name="backup_toast">Co chcesz zrobić? Ta funkcja nie jest wspierana na Twoim urządzeniu.</string>
+
+    <!-- Franco Kernel Activity -->
+    <string name="franco_kernel_current_version_summary">Nie korzystasz z franco.Kernel - jak możesz!? :) </string>
+    <string name="franco_kernel_activity_toast">Musisz być połączony z internetem.</string>
+    <string name="franco_kernel_rebootDialog_title">Uruchomić ponownie?</string>
+    <string name="franco_kernel_rebootDialog_message">Kernel został zainstalowany pomyślnie, ale musisz uruchomić ponownie urządzenie, aby zaczął działać. Uruchomić ponownie teraz? </string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Tak, uruchom ponownie!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">Nie.</string>
+    <string name="latest_stable_summary">Sprawdzanie…</string>
+    <string name="latest_nightly_summary">Sprawdzanie…</string>
+    <string name="franco_kernel_activity_title">Pobieranie franco.Kernel</string>
+    <string name="current_version_title">Zainstalowana wersja</string>
+    <string name="nightly_version_title">Zainstalowana wersja Nightly</string>
+    <string name="latest_stable_title">Ostatnia dostępna wersja stabilna</string>
+    <string name="latest_nightly_title">Ostatnia dostępna wersja Nightly</string>
+    <string name="nightly_download_summary">Kliknij tutaj by wybrać autoinstalację lub pobranie paczki .zip </string>
+    <string name="nightly_download_title">Pobierz najnowszy kernel Nightly</string>
+    <string name="stable_download_summary">Kliknij tutaj by wybrać autoinstalację lub pobranie paczki .zip</string>
+    <string name="stable_download_title">Pobierz najnowszy stabilny Kernel</string>
+    <string name="latest_stable_version_error">Musisz być połączony z internetem, że by to zobaczyć.</string>
+
+    <!-- Lean Kernel Activity -->
+    <string name="lean_kernel_dialog_exp_title">Pobierz najnowszy eksperymentalny LeanKernel</string>
+    <string name="lean_kernel_dialog_stable_title">Pobierz najnowszy stabilny LeanKernel</string>
+    <string name="lean_kernel_activity_title">Pobieranie LeanKernel</string>
+    <string name="latest_exp_title">Najnowsza eksperymentalna wersja</string>
+    <string name="lean_stable_download_summary">Kliknij tutaj, aby automatycznie zainstalować stabilną wersję LeanKernel.</string>
+    <string name="lean_exp_download_summary">Kliknij tutaj, aby automatycznie zainstalować eksperymentalną wersję LeanKernel.</string>
+    <string name="lean_exp_download_title">Pobierz najnowszą eksperymentalną wersję LeanKernel.</string>
+
+    <!-- Power Modes Activity -->
+    <string name="power_modes_create_summary">W tym miejscu możesz tworzyć własne profile zarządzania Kernelem w celu dopasowania jego działania do własnych potrzeb.</string>
+    <string name="power_modes_create_title">Stwórz własny Profil zarządzania Kernelem</string>
+    <string name="power_modes_create_error_toast">Nie możesz zapisać tego profilu bez wypełnienia wszystkich pól.</string>
+    <string name="pm_max_cpu_title">Maksymalne taktowanie zegara CPU</string>
+    <string name="pm_min_cpu_title">Minimalne taktowanie zegara CPU</string>
+    <string name="pm_governor_title">Zarządca</string>
+    <string name="pm_io_sched_title">Harmonogram IO</string>
+    <string name="pm_screen_max_freq_title">Maksymalna częstotliwość procesora dla wyłączonego ekranu.</string>
+    <string name="pm_save_title">Zapisz</string>
+    <string name="power_modes_button_apply">Zastosuj</string>
+    <string name="power_modes_button_delete">Usuń</string>
+    <string name="pm_name_title">Nazwa proflu</string>
+    <string name="power_modes_button_on_boot">Ustaw profil podczas uruchamiania urządzenia.</string>
+    <string name="power_modes_button_on_boot_toast">Jeśli zaznaczone, profil będzie włączany już podczas startu urządzenia.</string>
+    <string name="on_boot_title">Ustaw profil podczas uruchamiania</string>
+    <string name="on_boot_summary">Profil wybrany do zastosowania podczas uruchamiania: </string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="application_error">Błąd aplikacji: %1$s</string>
+    <string name="unlicensed_dialog_title">Aplikacja bez licencji</string>
+    <string name="unlicensed_dialog_body">Ta aplikacja nie ma licenji. Kup oryginał, kosztuje tylko dyszkę! </string>
+    <string name="buy_button">Kup aplikację</string>
+    <string name="quit_button">Wyjdź</string>
+
+    <!-- Main Menu -->
+    <string name="about_me">O mnie</string>
+    <string name="donate">Wyślij dotację</string>
+    <string name="share_settings">Podziel się ustawieniami</string>
+
+    <!-- FrancoKernelN7 Activity -->
+    <string name="mstable_n7_title">Pobierz najnowszy franco.Kernel </string>
+    <string name="mstable_n7_message">Ta opcja pobierze najnowszą wersję Kernela dla Twojego tabletu. Jeśli klikniesz autoinstalację po pobraniu Kernela, tablet zostanie automatycznie uruchomiony ponownie.</string>
+    <string name="kernel_update_n7">franco.Kernel dla Nexus 7</string>
+    <string name="stable_download_n7_summary">Kliknij tutaj, żeby automatycznie zainstalować franco.Kernel.</string>
+
+    <!-- FrancoKernelSGS3 Activity -->
+    <string name="franco_kernel_sgs3_title">franco.Kernel dla Galaxy S3</string>
+    <string name="stable_download_sgs3_title">Pobierz najnowszy Kernel</string>
+
+    <!-- FrancoKernelOneX Activity -->
+    <string name="stable_download_onex_title">Kliknij tutaj, by wybrać autoinstalację lub pobranie paczki .zip</string>
+    <string name="readme_title">Przeczytaj TO!!!</string>
+    <string name="readme_summary">Bardzo ważne, przeczytaj to teraz!</string>
+    <string name="franco_kernel_onex_title">franco.Kernel dla One X</string>
+    <string name="checkbox_text">Nie pokazuj więcej tego okna!</string>
+    <string name="new_pm_name_text">Nazwa:</string>
+    <string name="new_pm_max_cpu_text">Maklymalna częstotliwość CPU:</string>
+    <string name="new_pm_min_cpu_text">Minimalna częstotliwość CPU:</string>
+    <string name="new_pm_gov_text">Zarządca:</string>
+    <string name="new_pm_io_sched_text">Harmonogram IO:</string>
+    <string name="new_pm_freq_screen_off_text">Maksymalna częstotliwość CPU dla wyłączonego ekranu.</string>
+    <string name="power_modes_warning">	Jeśli posiadałeś jakiekolwiek profile zarządzania przed aktualizacją do wersji 8.0, po aktualizacji nie będą one działać. Wybranie profilu z poprzednich wersji będzie skutkowało wymuszonym zamknięciem aplikacji. Wyczyść dane aplikacji albo zainstaluj ją ponownie aby rozwiązać problemy- przepraszam za kłopot. </string>
+    <string name="backup_toast_error">	Kopia zapasowa o takiej nazwie już istnieje, wybierz inną nazwę.</string>
+    <string name="xda_nexus">Wątek dot. Galaxy Nexus na XDA </string>
+    <string name="xda_nexus7">Wątek dot. Asus Nexus 7 na XDA</string>
+    <string name="xda_nexus4">Wątek dot. LG Nexus 4 na XDA </string>
+    <string name="presets_summary">	Ta opcja pozwala na dostęp do czterech zestawów ustawień proponowanych przez twórcę aplikacji: Oszczędność baterii, Zrównoważony, Przyśpieszony i Pełna wydajność.     </string>
+    <string name="presets_title">Power-Presets</string>
+    <string name="power_presets_error">	Opcja jeszcze nie jest dostępna na Twoim urządzeniu. Powinno się to zmienić w niedalekiej przyszłości.</string>
+    <string name="license_checkz_title">Błąd sprawdzania licencji</string>
+    <string name="license_checkz_message">	Pojawił się problem z weryfikacją Twojej licencji na program FKU. Spróbuj ponownie, jeśli kupiłeś aplikację lub kup ją, jeśli jest inaczej. Kosztuje tylko dyszkę! :) </string>
+
+    <string name="error_vibration_toast">Możesz wybrać tylko wartość w przedziale 0-100.</string>
+    <string name="vibration_summary">To ustawienie wpływa na siłę wibracji dotyku. W stockowym kernelu wartość ta ustawiona jest na 70, ale we franco.Kernel jest ona zwiększona do 100.</string>
+    <string name="vibration_title">Siła wibracji dotyku.</string>
+    <string name="error_md5_no_match">UWAGA! Sumy MD5 się nie zgadzają, dla Twojego bezpieczeństwa Kernel nie został zainstalowany. Pobierz kernel jeszcze raz i spróbuj ponownie.</string>
+    <string name="colors_summary">W tym miejscu możesz zarządzać składowymi kolorami Twojego wyświetlacza, tak by dostosować efekt do swoich upodobań. Wybrane wartości będą automatycznie wczytywane podczas uruchamiania telefonu.</string>
+    <string name="colors_title">Kontrola składowych kolorów</string>
+    <string name="defaults_summary">Ta funkcja przywróci domyślne dla Kernela wartości kolorów.</string>
+    <string name="defaults_title">Przywróć domyślne wartości kolorów</string>
+    <string name="n4_color_control_title">Korekcja kolorów ekranu IPS</string>
+    <string name="franco_kernel_rebootZipDialog_message">Paczka .zip z kernelem została pobrana. Możesz wybrać opcję uruchom ponownie aby kernel został automatycznie zainstalowany. </string>
+    <string name="languages">Ustaw język</string>
+    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="stable_download_n10_summary">Pobierz franco.Kernel dla Nexusa 10!</string>
+    <string name="kernel_update_n10">Pobieranie  franco.Kernel dla Nexusa 10</string>
+    <string name="busybox_warning">Musisz zainstalować busyboxa by móc zobaczyć te opcje. Możesz pobrać busybox ze sklepu Play za darmo.</string>
+	<string name="clear_app_data">"UWAGA! Ta funkcja wyczyści WSZYSTKIE Twoje ustawienia aplikacji, włącznie z zapisanymi profilami oraz licencją. Po ponownym uruchomieniu aplikacja sprawdzi licencję w sklepie Play. Kliknij OK a aplikacja zostanie zamknięta."</string>
+	<string name="clear_app_data_title">Wyczyśc dane aplikacji</string>
+	<string name="enable_all_load_threshold_summary">Wpływa na aktywowanie wszystkich rdzeni CPU. Wyższe wartości powodują, że rdzenie będą włączane rzadziej, niższe zaś ułatwiają włączanie wszystkich rdzeni.</string>
+	<string name="enable_load_threshold_summary">Wartość brzegowa odpowiedzialna za aktywowanie pojedynczego rdzenia CPU. Ustawienie wyższych wartości spowoduje, że pojedyńcze rdzenie będą włączane rzadziej,niższe zaś ułatwią dodawanie kolejnych rdzeni.</string>
+	<string name="disable_load_threshold_summary">Kontroluje jak często rdzenie są deaktywowane. Im niższa wartość tym rzadziej rdzenie będą deaktywowane, im wyższa wartość tym częsciej.</string>
+	<string name="temp_threshold_summary">Progowa wartość temperatury w stopniach celsjusza po jakiej przekroczeniu procesor zacznie zwalniać w celu schłodzenia.</string>
+	<string name="temp_threshold_title">Kontrola temperatury- wartość progowa</string>
+
+</resources>

@@ -1,0 +1,393 @@
+<resources>
+
+    <string name="app_name">franco.Kernel updater</string>
+    <string name="menu_settings">Instellingen</string>
+
+    <!-- Main Activity -->
+    <string name="main">Hoofdmenu</string>
+    <string name="device_supported_title">Ondersteuningsstatus</string>
+    <string name="device_supported_summary">Jouw systeem is:</string>
+    <string name="franco_kernel_title">franco.Kernel updater</string>
+    <string name="franco_kernel_summary">Hier vind je nieuwe versies
+van de franco.Kernel en kun je ze downloaden en flashen.</string>
+    <string name="lean_kernel_title">LeanKernel updater</string>
+    <string name="lean_kernel_summary">Als je hier klikt, ben je
+officieel een verrader, maar kun je wel genieten van Imoseyon\'s
+kernels.</string>
+    <string name="backup_restore_title">Kernel opslaan / terug zetten</string>
+    <string name="backup_restore_summary">Krachtige manier om je
+kernel op te slaan of terug te zetten, zonder recovery te
+gebruiken.</string>
+    <string name="oc_uv_title">Frequenties / voltages</string>
+    <string name="oc_uv_summary">Als je voor Rambo wilt spelen moet je
+hier zijn. Gebruik en misbruik je systeem door extreme en onstabiele
+frequenties en voltages in te stellen.</string>
+    <string name="kernel_settings_title">Aangepaste kernel instellingen</string>
+    <string name="kernel_settings_summary">Al je favoriete
+instellingen op één plaats. Ze worden geladen als de kernel ze
+ondersteunt.</string>
+    <string name="color_control_title">Kleur aanpassingen</string>
+    <string name="color_control_summary">Complete controle over je
+AMOLED scherm. Breng de artiest in jezelf tot leven en vind de
+perfecte scherm calibratie voor je ogen.</string>
+    <string name="power_modes_title">Energie instellingen</string>
+    <string name="power_modes_summary">Voel je je creatief? Dit is de
+plaats waar het allemaal gebeurt. Leer de kunst van de aangepaste
+energie instellingen en creëer je eigen monster!</string>
+    <string name="device_monitor_title">Systeem controle</string>
+    <string name="device_monitor_summary">Volledige real-time controle
+van de status van je systeem.</string>
+
+    <!-- Frequencies/Voltages Activity -->
+    <string name="oc_uv_class">Frequenties / voltages</string>
+    <string name="max_cpu_title">Maximale CPU Frequentie</string>
+    <string name="min_cpu_title">Minimale CPU Frequentie</string>
+    <string name="governor_title">Huidige regelaar</string>
+    <string name="toast_max_cpu">Je kunt geen lagere frequentie
+selecteren dan je huidige minimum.</string>
+    <string name="toast_min_cpu">Je kunt geen hogere frequentie
+selecteren dan je huidige maximum.</string>
+    <string name="toast_governor">Je kunt niet dezelfde regelaar
+instellen als degene die je al gebruikt.</string>
+    <string name="screen_off_max_freq_title">Maximum CPU frequentie
+met het scherm uit.</string>
+    <string name="toast_screen_off_max_freq">Je kunt niet dezelfde
+frequentie instellen als degene die je al gebruikt.</string>
+    <string name="cpu_boot_title">Stel CPU instellingen automatisch in
+bij het opstarten.</string>
+    <string name="cpu_boot_summary">Selecteer om de CPU frequentie en
+regelaar automatisch in te stellen bij het opstarten.</string>
+    <string name="governor_control_boot_title">Stel regelaar
+automatisch in bij het opstarten.</string>
+    <string name="governor_control_boot_summary">Selecteer om de
+regelaar automatisch in te stellen bij het opstarten.</string>
+    <string name="governor_control_error_toast">De geselecteerde
+regelaar wordt niet ondersteund door dit programma.</string>
+    <string name="voltages_summary">Sluit je aan bij de duistere zijde
+en experimenteer met je CPU, IVA en CORE voltages.</string>
+    <string name="voltages_title">Voltages</string>
+
+    <!-- Kernel Settings Activity -->
+    <string name="kernel_settings">Aangepaste kernel instellingen</string>
+    <string name="loud_summary">Hier kun je je koptelefoon
+volumeversterking instellen van 0 tot 3.</string>
+    <string name="loud_title">Zet het volume van de koptelefoon harder.</string>
+    <string name="tcp_summary">Om het TCP algoritme te zien en in te
+stellen heb je busybox nodig.</string>
+    <string name="throttle_off_summary">ATTENTIE! Hiermee schakel je
+de temperatuur beveiliging uit. Hiermee zal je systeem niet
+automatisch de instellingen aanpassen als de temperatuur te hoog wordt
+en schakelt het automatisch uit bij 100 graden celcius.</string>
+    <string name="throttle_off_title">Zet termperatuur beveiliging uit.</string>
+    <string name="io_sched_title">I/O regelaar</string>
+    <string name="input_touch_booster_title">Input Touch Booster</string>
+    <string name="fsync_summary">Als je dit aanzet heb je meer data
+integriteit maar minder I/O snelheid. Als je het uit laat heb je
+minder data integriteit maar meer snelheid.</string>
+    <string name="fsync_title">Zet fsync aan</string>
+    <string name="logger_off_summary">Did zet de logger (logcat) uit.
+Mogelijk betere systeem/batterij prestaties, al is het minimaal.
+Debugging werkt niet als je dit aan zet (en dus de logger
+uit).</string>
+    <string name="logger_off_title">Zet logger uit</string>
+    <string name="events_off_summary">Dit zet de event logger uit.
+Mogelijk betere systeem/batterij prestaties, al is het
+minimaal.</string>
+    <string name="events_off_title">Zet events logger uit</string>
+    <string name="fast_charge_summary">Zet dit aan om je Galaxy Nexus
+via USB net zo snel op te laden als via de gewone lader.</string>
+    <string name="fast_charge_title">Snel opladen via USB</string>
+    <string name="wifi_pm_summary">Zet dit aan om de wifi wat sterker
+te zetten. Dit kost wel wat extra batterijlading maar is handig om te
+streamen met het scherm uit.</string>
+    <string name="wifi_pm_title">Wifi PM_FAST</string>
+    <string name="blx_summary">Hiermee stel je de maximale lading van
+de batterij in. Dit zou de levensduur verlengen.</string>
+    <string name="blx_title">Batterij levensduur verlenger</string>
+    <string name="tegra_screen_dimmer_summary">Dit staat standaard
+aan. Het scheelt wat batterijlading om tijdens het weergeven van video
+de contrast ratio en helderheid wat te dimmen. Als je maximale video
+kwaliteit wilt, zet je dit uit.</string>
+    <string name="tegra_screen_dimmer_title">Tegra scherm dimmer</string>
+    <string name="tcp_title">TCP botsing voorkomingsalgoritme</string>
+    <string name="high_performance_summary">Dit geeft meer kwaliteit
+aan het geluid.</string>
+    <string name="high_performance_title">Hoge geluidskwaliteit,
+alleen voor koptelefoon.</string>
+    <string name="volume_boost_title">Volume boost, alleen voor
+koptelefoon.</string>
+    <string name="bootanimation_category_title">Alternatieve
+opstartanimatie</string>
+    <string name="bootanimation_summary">Alternatieve franco.Kernel
+opstartanimatie, gemaakt door rascarlo. Hiervoor heb je Internet
+nodig.</string>
+    <string name="bootanimation_title">franco.Kernel opstartanimatie</string>
+    <string name="download_path_category_title">Kernel download pad</string>
+    <string name="download_path_title">Alternatief download pad</string>
+    <string name="toast_volume_boost">Je kunt niet lager dan 0 of
+hoger dan 62, stiekemerd!</string>
+
+    <!-- Device Monitor Activity -->
+    <string name="monitor_category_title">Systeem controle</string>
+    <string name="gpu_freq_title">Huidige GPU frequentie</string>
+    <string name="voltage_mpu_title">CPU voltage - Frequentie -
+Temperaturen</string>
+    <string name="voltage_iva_title">IVA voltage</string>
+    <string name="voltage_core_title">GPU voltage - Frequentie</string>
+    <string name="mpu_smartreflex_summary">Voltage calibratie voor CPU
+zal uit gaan.</string>
+    <string name="mpu_smartreflex_title">Zet MPU Smartreflex uit</string>
+    <string name="iva_smartreflex_summary">Voltage calibratie voor de
+Media decoder zal uit gaan.</string>
+    <string name="iva_smartreflex_title">Zet IVA Smartreflex uit</string>
+    <string name="core_smartreflex_summary">Voltage calibratie voor de
+GPU zal uit gaan.</string>
+    <string name="core_smartreflex_title">Zet CORE Smartreflex uit</string>
+    <string name="governor_control_title">Regelaar instellingen</string>
+    <string name="governor_control_summary">Speel met de instellingen
+van de regelaar om je gewenste snelheid en batterijduur te
+krijgen.</string>
+    <string name="cpu0_title">CPU kern 0</string>
+    <string name="cpu1_title">CPU kern 1</string>
+    <string name="cpu2_title">CPU kern 2</string>
+    <string name="cpu3_title">CPU kern 3</string>
+
+    <!-- Voltages Activity -->
+    <string name="voltages_category_title">Voltages</string>
+    <string name="mpu_voltages_summary">Wees voorzichtig met de CPU
+voltages!</string>
+    <string name="mpu_voltages_title">CPU voltages</string>
+    <string name="iva_voltages_summary">Dit zijn de Media decoder
+voltages</string>
+    <string name="iva_voltages_title">IVA voltages</string>
+    <string name="core_voltages_summary">Dit zijn de GPU voltages</string>
+    <string name="core_voltages_title">CORE voltages</string>
+    <string name="apply_summary">Klik hier om je nieuw ingestelde
+voltages aan te zetten.</string>
+    <string name="apply_title">Sla alles op</string>
+    <string name="volt_dialog_button">Sla op</string>
+    <string name="mpu_voltages_activity_title">CPU voltages</string>
+    <string name="core_voltages_activity_title">CORE voltages</string>
+    <string name="iva_voltages_activity_title">IVA voltages</string>
+    <string name="voltages_boot_summary">Hiermee zullen alle
+opgeslagen voltages bij opstarten automatisch ingesteld worden. Dit is
+op eigen risico! Als je het verkeerd doet, sta je alleen.</string>
+    <string name="voltages_boot_title">Stel voltages automatisch in
+bij opstarten</string>
+
+    <!-- ColorControl Activity -->
+    <string name="profile_confirmation_text">Sla op</string>
+    <string name="profile_dialog_title">Naam van het profiel:</string>
+    <string name="multipliers_dialog_title">Kleur vermenigvuldigers</string>
+    <string name="gamma_dialog_title">RGB gamma</string>
+    <string name="colorcontrol_category_title">Kleur instellingen</string>
+    <string name="color_multiplier_summary">Stel de kleuren van je
+AMOLED scherm in naar je eigen standaard.</string>
+    <string name="color_multiplier_title">Kleur vermenigvuldigers</string>
+    <string name="color_gamma_summary">Verander de gamma instellingen
+van je scherm</string>
+    <string name="color_gamma_title">RGB gamma</string>
+    <string name="color_profiles_summary">Hiermee kun je
+kleurprofielen aanmaken om eenvoudig te wisselen als je daar behoefte
+aan hebt.</string>
+    <string name="color_profiles_title">Sla een kleurprofiel op</string>
+    <string name="load_profiles_summary">Controleer en laad een eerder
+opgeslagen kleurprofiel.</string>
+    <string name="load_profiles_title">Laad je kleurprofiel</string>
+    <string name="adaptive_brightness_summary">Weergave afhankelijke
+helderheid past de helderheid van het scherm aan aan de hand van wat
+er weergegeven wordt (witten + tekst).</string>
+    <string name="adaptive_brightness_title">Zet weergave afhankelijke
+helderheid uit</string>
+    <string name="trinity_contrast_summary">Originele implementatie
+van Trinity\'s kernel die toelaat het contract aan te passen voor een
+beter weergave.</string>
+    <string name="trinity_contrast_title">Trinity\'s contrast
+instellingen</string>
+    <string name="omap_gamma_summary">Instellingen van omapzoom
+waarmee je de gamma van het scherm kunt instellen aan de hand van
+voorag bepaalde waardes. Werkt onafhankelijk van de bovenstaande
+instellingen.</string>
+    <string name="omap_gamma_title">OMAP gamma instellingen</string>
+    <string name="color_profiles_category_title">Kleur profielen</string>
+
+    <!-- Backup Restore Activity -->
+    <string name="backup_restore_activity">Kernel backup / terug zetten</string>
+    <string name="backup_summary">maak een backup van je huidige kernel</string>
+    <string name="backup_title">Backup</string>
+    <string name="restore_kernel_title">Kernel terug zetten</string>
+    <string name="backup_kernel">De backup komt terecht in
+/sdcard/kernel_backups. Gebruik geen spaties in de
+bestandsnaam.</string>
+    <string name="clicky_to_backup">Klik om te backuppen</string>
+    <string name="backup_title1">Toegevoegd: </string>
+    <string name="backup_title2">Klik om terug te zetten of te
+verwijderen.</string>
+    <string name="backup_toast">Wat probeer je? Je systeem ondersteunt
+dit niet.</string>
+
+    <!-- Franco Kernel Activity -->
+    <string name="franco_kernel_current_version_summary">Je draait
+geen franco.Kernel... Wat denk je nou?!</string>
+    <string name="franco_kernel_activity_toast">Hier heb je een
+Internet verbinding voor nodig.</string>
+    <string name="franco_kernel_rebootDialog_title">Opnieuw opstarten?</string>
+    <string name="franco_kernel_rebootDialog_message">De kernel staat
+op je systeem, maar je moet opnieuw opstarten om deze te activeren. Nu
+opnieuw opstarten?</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Ja. KOM
+MAAR OP!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">Nee.</string>
+    <string name="latest_stable_summary">Ophalen…</string>
+    <string name="latest_nightly_summary">Ophalen…</string>
+    <string name="franco_kernel_activity_title">franco.Kernel download</string>
+    <string name="current_version_title">Geïnstalleerde versie</string>
+    <string name="nightly_version_title">Geïnstalleerde nachtelijke
+versie</string>
+    <string name="latest_stable_title">Laatst beschikbare stabiele
+versie</string>
+    <string name="latest_nightly_title">Laatst beschikbare nachtelijke
+versie</string>
+    <string name="nightly_download_summary">Klik hier om te kiezen
+voor download of automatische installatie.</string>
+    <string name="nightly_download_title">Download laatst beschikbare
+nachtelijke kernel</string>
+    <string name="stable_download_summary">Klik hier om te kiezen voor
+download of automatische installatie.</string>
+    <string name="stable_download_title">Download laatst beschikbare
+stabiele kernel</string>
+    <string name="latest_stable_version_error">Je hebt een Internet
+verbinding nodig om dit te zien.</string>
+
+    <!-- Lean Kernel Activity -->
+    <string name="lean_kernel_dialog_exp_title">Download laatst
+beschikbare Exp Imoseyon Kernel</string>
+    <string name="lean_kernel_dialog_stable_title">Download laatst
+beschikbare stabiele Imoseyon Kernel</string>
+    <string name="lean_kernel_activity_title">Download LeanKernel</string>
+    <string name="latest_exp_title">Laatst beschikbare exp versie</string>
+    <string name="lean_stable_download_summary">Klik hier om
+Imoseyon\'s stabiele kernel automatisch te installeren.</string>
+    <string name="lean_exp_download_summary">Klik hier om Imoseyon\'s
+exp kernel automatisch te installeren.</string>
+    <string name="lean_exp_download_title">Download de laatst
+beschikbare exp kernel</string>
+
+    <!-- Power Modes Activity -->
+    <string name="power_modes_create_summary">Hier kun je je eigen
+energie profielen maken naar je persoonlijke smaak.</string>
+    <string name="power_modes_create_title">Maak een alternatief
+energie profiel aan</string>
+    <string name="power_modes_create_error_toast">Je kunt dit profiel
+niet opslaan zonder alles eerst in te vullen.</string>
+    <string name="pm_max_cpu_title">Maximale CPU frequentie</string>
+    <string name="pm_min_cpu_title">Minmale CPU frequentie</string>
+    <string name="pm_governor_title">Frequentie regelaar</string>
+    <string name="pm_io_sched_title">IO regelaarr</string>
+    <string name="pm_screen_max_freq_title">Maximale frequentie met
+het scherm uit</string>
+    <string name="pm_save_title">Sla op</string>
+    <string name="power_modes_button_apply">Stel in</string>
+    <string name="power_modes_button_delete">Verwijder</string>
+    <string name="pm_name_title">Naam</string>
+    <string name="power_modes_button_on_boot">Automatisch instellen
+bij opstarten</string>
+    <string name="power_modes_button_on_boot_toast">Je kunt deze
+instelling nu automatisch laten gelden als je dat hierboven
+aanvinkt!</string>
+    <string name="on_boot_title">Selecteer energie profiel automatisch
+bij opstarten</string>
+    <string name="on_boot_summary">Selecteer wat er bij opstarten
+ingesteld moet worden: </string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="application_error">Applicatie fout: %1$s</string>
+    <string name="unlicensed_dialog_title">Geen licentie aanwezig</string>
+    <string name="unlicensed_dialog_body">Er is geen licentie aanwezig
+voor deze applicatie. Gelieve deze te kopen in de Android
+markt.</string>
+    <string name="buy_button">Koop applicatie</string>
+    <string name="quit_button">Sluit af</string>
+
+    <!-- Main Menu -->
+    <string name="about_me">Over mij</string>
+    <string name="donate">Doneer aan mij</string>
+    <string name="share_settings">Deel instellingen</string>
+
+    <!-- FrancoKernelN7 Activity -->
+    <string name="mstable_n7_title">Download laatst beschikbare kernel</string>
+    <string name="mstable_n7_message">Dit zal de laatst beschikbare
+Grouper franco.kernel downloaden. Als je automatisch installeren
+selecteert, zal je systeem automatisch opnieuw opstarten als het
+downloaden klaar is.</string>
+    <string name="kernel_update_n7">franco.Kernel voor Nexus 7</string>
+    <string name="stable_download_n7_summary">Klik hier om de
+franco.Kernel automatisch te installeren</string>
+
+    <!-- FrancoKernelSGS3 Activity -->
+    <string name="franco_kernel_sgs3_title">franco.Kernel voor Galaxy
+S3</string>
+    <string name="stable_download_sgs3_title">Download laatst
+beschikbare stabiele kernel</string>
+
+    <!-- FrancoKernelOneX Activity -->
+    <string name="stable_download_onex_title">Klik hier om automatisch
+te installeren of te downloaden</string>
+    <string name="readme_title">LEES DIT!!!</string>
+    <string name="readme_summary">Heel belangrijk, lees dit nu!</string>
+    <string name="franco_kernel_onex_title">franco.Kernel voor de One X</string>
+    <string name="checkbox_text">Niet meer laten zien</string>
+    <string name="new_pm_name_text">Naam:</string>
+    <string name="new_pm_max_cpu_text">Max. CPU frequentie:</string>
+    <string name="new_pm_min_cpu_text">Min. CPU frequentie:</string>
+    <string name="new_pm_gov_text">Regelaar:</string>
+    <string name="new_pm_io_sched_text">IO regelaar:</string>
+    <string name="new_pm_freq_screen_off_text">Maximale frequentie met
+scherm uit</string>
+    <string name="power_modes_warning">Als je voor het updaten naar
+v8.0 energie instellingen gebruikte, werken deze nu niet meer. Ze
+zullen een \'force close\' geven omdat de implementatie nu compleet
+anders is. De enige oplossing is om de applicatie data te verwijderen
+of de applicatie opnieuw te installeren. Sorry voor het
+ongemak!</string>
+    <string name="backup_toast_error">Er bestaat al een backup met deze
+naam, kies a.u.b. een andere naam.</string>
+    <string name="xda_nexus">Galaxy Nexus XDA forumonderwerp</string>
+    <string name="xda_nexus7">Asus Nexus 7 XDA forumonderwerp</string>
+    <string name="xda_nexus4">LG Nexus 4 XDA forumonderwerp</string>
+    <string name="presets_summary">Met deze optie krijg je toegang tot 4
+voorinstellingen: Beastly Battery, Best Balance, Slight Speed en
+Powerful Performance.</string>
+    <string name="presets_title">Energie voorinstellingen</string>
+    <string name="power_presets_error">Deze functionaliteit wordt niet
+ondersteund op dit apparaat, maar zeer waarschijnlijk wel in een
+toekomstige versie van deze applicatie.</string>
+    <string name="license_checkz_title">Licentie controle probleem</string>
+    <string name="license_checkz_message">Er was een probleem tijdens het
+valideren van de applicatie licentie. Druk op retry als je de
+applicatie gekocht hebt of op buy als je me in de maling probeert te
+nemen.</string>
+    <string name="error_vibration_toast">Je kunt alleen tussen 0 en 100 kiezen.</string>
+    <string name="vibration_summary">Stel hier de sterkte van je haptische waarneming in. Standaard is 70, Franco gebruikt 100.</string>
+    <string name="vibration_title">Haptische waarneming sterkte (vibratie).</string>
+    <string name="error_md5_no_match">PAS OP! Het MD5 algoritme komt niet overeen, voor je eigen veiligheid is de kernel niet toegepast. Je zult het opnieuw moeten downloaden.</string>
+    <string name="colors_summary">Hier kun je je scherm tunen. Rood, Groen en Blauw. De waarden die je hebt ingevoerd worden automatisch met het opstarten ingesteld.</string>
+    <string name="colors_title">Scherm kleur tuning</string>
+    <string name="defaults_summary">Hierdoor worden de standaard meegeleverde (stock) instellingen hersteld.</string>
+    <string name="defaults_title">Standaard waarden herstellen.</string>
+    <string name="n4_color_control_title">IPS Scherm kleur correctie</string>
+    <string name="franco_kernel_rebootZipDialog_message">De kernel .zip is succesvol gedownload. Je kunt kiezen voor herstart. Hierdoor zal de kernel automatisch worden geflashed in recovery.</string>
+    <string name="languages">Stel taal in.</string>
+    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="stable_download_n10_summary">Download franco.Kernel voor je Nexus 10!</string>
+    <string name="kernel_update_n10">Nexus 10 Kernel download</string>
+    <string name="busybox_warning">Excuses, Je hebt busybox nodig om deze pagina te kunnen bekijken. Dit is een maatregel om force closes tegen te gaan. Je kunt busybox gratis vanuit de Play Store downloaden.</string>
+    <string name="clear_app_data">"Waarschuwing: Dit zal er voor zorgen dat de gegevens van deze applicatie worden gewist. Je raakt alle ingevoerde waarden en gegevens van deze applicatie kwijt, dus ook je licentie. De eerst volgende keer dat je deze applicatie weer opstart wordt je omgeleid naar de Play Store om je licentie weer op te vragen. Nadat je op OK klikt wordt de applicatie afgesloten."</string>
+    <string name="clear_app_data_title">Wis app gegevens</string>
+    <string name="enable_all_load_threshold_summary">Focus op de hoogte van de system load om zo alle CPU cores te activeren. Door het hoger in te stellen wordt het lastiger om de cores aan te zetten. Door het lager in te stellen wordt het makkelijker.</string>
+    <string name="enable_load_threshold_summary">Threshold waarde waardoor de single CPU core aan gaat (online). Hoe hoger de waarde, hoe minder snel hij online zal gaan. Hoe lager, hoe sneller.</string>
+    <string name="disable_load_threshold_summary">Detecteerd wanneer de cores uit moeten gaan. Als je dit een lage waarde geeft zullen de cores minder snel uitgeschakeld worden. Een hoger waarde zorgt er voor dat de cores sneller uitschakelen.</string>
+    <string name="temp_threshold_summary">Dit is de celsius limiet van je CPU (temperatuur) voordat je toestel gaat throttlen. Dit wordt gedaan om je toestel koeler te maken (throttle) dus ook minder kracht.</string>
+    <string name="temp_threshold_title">Termal throttle threshold</string>
+
+</resources>

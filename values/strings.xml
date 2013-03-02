@@ -1,0 +1,306 @@
+<resources>
+
+    <string name="app_name">franco.Kernel updater</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="main">Main</string>
+    <string name="device_supported_title">Your device status</string>
+    <string name="device_supported_summary">Your device is:</string>
+    <string name="franco_kernel_title">franco.Kernel updater</string>
+    <string name="franco_kernel_summary">Here is where you\'ll check for new versions of franco.Kernel, download them and flash them ondemand.</string>
+    <string name="lean_kernel_title">LeanKernel updater</string>
+    <string name="lean_kernel_summary">If you click here you\'re officially a traitor, but you\'ll still be able to enjoy Imoseyon\'s kernels.</string>
+    <string name="backup_restore_title">Kernel backup/restore</string>
+    <string name="backup_restore_summary">Powerful Kernel backup and restore. Save your current kernels and load them up anytime without needing to use the recovery.</string>
+    <string name="oc_uv_title">Frequencies/Voltages</string>
+    <string name="oc_uv_summary">If you want to play Rambo this is the place for you. Use and abuse your device by loading extreme and unstable frequencies and voltages.</string>
+    <string name="kernel_settings_title">Custom Kernel settings</string>
+    <string name="kernel_settings_summary">All your favorite settings in one place. They are loaded if they are detected in the Kernel.</string>
+    <string name="color_control_title">Color Control</string>
+    <string name="color_control_summary">Complete control over your screen. Flourish the artist sleeping within you and find the perfect screen calibration for your eyes.</string>
+    <string name="power_modes_title">Power Modes</string>
+    <string name="power_modes_summary">Feeling creative? This is the spot where everything happens. Master the art of the custom power modes and create your own monster!</string>
+    <string name="device_monitor_title">Device Monitor</string>
+    <string name="device_monitor_summary">Full real-time panel of your device\'s status.</string>
+
+    <!-- Frequencies/Voltages Activity -->
+    <string name="oc_uv_class">Frequencies/Voltages</string>
+    <string name="max_cpu_title">Maximum CPU Frequency</string>
+    <string name="min_cpu_title">Minimum CPU Frequency</string>
+    <string name="governor_title">Current Governor</string>
+    <string name="toast_max_cpu">You can\'t select a lower frequency than your current minimum.</string>
+    <string name="toast_min_cpu">You can\'t select a higher frequency than your current maximum.</string>
+    <string name="toast_governor">You can\'t select the same governor that you currently use.</string>
+    <string name="screen_off_max_freq_title">Maximum CPU Frequency for screen off</string>
+    <string name="toast_screen_off_max_freq">You can\'t select the same frequency you are currently using.</string>
+    <string name="cpu_boot_title">Set CPU settings on boot</string>
+    <string name="cpu_boot_summary">If this is checked CPU frequency and governor will be set on boot.</string>
+    <string name="governor_control_boot_title">Set Governor Control on boot</string>
+    <string name="governor_control_boot_summary">If this is checked your custom governor settings will be set on boot.</string>
+    <string name="governor_control_error_toast">Your governor is not supported by this utility.</string>
+    <string name="voltages_summary">Join the Dark Side and experiment with your device\'s voltages if the kernel supports it.</string>
+    <string name="voltages_title">Voltages</string>
+
+    <!-- Kernel Settings Activity -->
+    <string name="kernel_settings">Custom Kernel Settings</string>
+    <string name="loud_summary">From 0 to 3 this will increase your headphones output volume.</string>
+    <string name="loud_title">Increase headphones sound volume</string>
+    <string name="tcp_summary">You need busybox to be able to see the TCP algorithm and be able to change it.</string>
+    <string name="throttle_off_summary">WARNING! This disables thermal throttle completely. With this disabled your device won\'t throttle when its warmer and it will shutdown when it reaches 110ºC.</string>
+    <string name="throttle_off_title">Turn Thermal Throttle off</string>
+    <string name="io_sched_title">IO Scheduler</string>
+    <string name="input_touch_booster_title">Input Touch Booster</string>
+    <string name="fsync_summary">With this option enabled the device will have more data integrity but less IO speed. With it disabled it will have less data integrity but more IO speed.</string>
+    <string name="fsync_title">Turn fsync on</string>
+    <string name="logger_off_summary">This will turn Logger(logcat) off. Possible performance/battery improvement, even if minimal. App debugging won\'t work with this enabled.</string>
+    <string name="logger_off_title">Turn Logger off</string>
+    <string name="events_off_summary">This will turn Events logging off. Possible performance/battery improvement, even if minimal.</string>
+    <string name="events_off_title">Turn Events logging off</string>
+    <string name="fast_charge_summary">Check this to charge your device as fast as on the AC charger when you\'re connected to the USB port.</string>
+    <string name="fast_charge_title">Enable fast USB charge</string>
+    <string name="wifi_pm_summary">Enable this option to boost wi-fi signal at some battery cost. Useful for streaming with screen off.</string>
+    <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
+    <string name="blx_summary">Setting to cap the max battery percentage that the device is capable of being charged.</string>
+    <string name="blx_title">Battery Life eXtender</string>
+    <string name="tegra_screen_dimmer_summary">Enabled by default it saves a little battery during video playback decreasing contrast and brightness. If you want maximum quality for watching videos disable this.</string>
+    <string name="tegra_screen_dimmer_title">Tegra Screen Dimmer</string>
+    <string name="tcp_title">TCP Congestion Avoidance algorithm</string>
+    <string name="high_performance_summary">This improves sound clarity.</string>
+    <string name="high_performance_title">Turn high performance sound - Headphones only</string>
+    <string name="volume_boost_title">Volume Boost - Headphones only</string>
+    <string name="bootanimation_category_title">Custom boot animation</string>
+    <string name="bootanimation_summary">Custom franco.Kernel boot animation made by rascarlo. You need internet connection for this.</string>
+    <string name="bootanimation_title">franco.Kernel boot animation</string>
+    <string name="download_path_category_title">Kernel download path</string>
+    <string name="download_path_title">Custom download path</string>
+    <string name="toast_volume_boost">You can\'t input less than 0 or more than 62 you sneaky bastard!</string>
+
+    <!-- Device Monitor Activity -->
+    <string name="monitor_category_title">Device Monitor</string>
+    <string name="gpu_freq_title">Current GPU frequency</string>
+    <string name="voltage_mpu_title">CPU Voltage - Frequency - Temps</string>
+    <string name="voltage_iva_title">IVA Voltage</string>
+    <string name="voltage_core_title">GPU Voltage - Frequency</string>
+    <string name="mpu_smartreflex_summary">Voltage calibration for the CPU will cease.</string>
+    <string name="mpu_smartreflex_title">Disable MPU Smartreflex</string>
+    <string name="iva_smartreflex_summary">Voltage calibration for the Media Decoder will cease.</string>
+    <string name="iva_smartreflex_title">Disable IVA Smartreflex</string>
+    <string name="core_smartreflex_summary">Voltage calibration for the GPU will cease.</string>
+    <string name="core_smartreflex_title">Disable CORE Smartreflex</string>
+    <string name="governor_control_title">Governor Control</string>
+    <string name="governor_control_summary">Play with your governor preferences to achieve your desired performance and battery life.</string>
+    <string name="cpu0_title">CPU Core 0</string>
+    <string name="cpu1_title">CPU Core 1</string>
+    <string name="cpu2_title">CPU Core 2</string>
+    <string name="cpu3_title">CPU Core 3</string>
+
+    <!-- Voltages Activity -->
+    <string name="voltages_category_title">Voltages</string>
+    <string name="mpu_voltages_summary">Play safe with the CPU voltages!</string>
+    <string name="mpu_voltages_title">CPU voltages</string>
+    <string name="iva_voltages_summary">This is the Media decoder voltages</string>
+    <string name="iva_voltages_title">IVA voltages</string>
+    <string name="core_voltages_summary">This controls the GPU voltages</string>
+    <string name="core_voltages_title">CORE voltages</string>
+    <string name="apply_summary">Click here to set your newly selected voltages.</string>
+    <string name="apply_title">Apply all</string>
+    <string name="volt_dialog_button">Apply</string>
+    <string name="mpu_voltages_activity_title">CPU Voltages</string>
+    <string name="core_voltages_activity_title">CORE Voltages</string>
+    <string name="iva_voltages_activity_title">IVA Voltages</string>
+    <string name="voltages_boot_summary">With this option checked all saved voltages will be set on boot. This is your responsibility, if you set wrong voltages you\'re on your own.</string>
+    <string name="voltages_boot_title">Set voltages on boot</string>
+
+    <!-- ColorControl Activity -->
+    <string name="profile_confirmation_text">Save it</string>
+    <string name="profile_dialog_title">Name of the profile:</string>
+    <string name="multipliers_dialog_title">Color Multipliers</string>
+    <string name="gamma_dialog_title">RGB Gamma</string>
+    <string name="colorcontrol_category_title">ColorControl</string>
+    <string name="color_multiplier_summary">Tune your AMOLED screen colors to be up to your eyes standards.</string>
+    <string name="color_multiplier_title">Color Multipliers</string>
+    <string name="color_gamma_summary">Tweak your screen RGB gamma values.</string>
+    <string name="color_gamma_title">RGB Gamma</string>
+    <string name="color_profiles_summary">This saves your Color Multipliers and RGB Gamma values for easily swapping depending on your mood/situation.</string>
+    <string name="color_profiles_title">Save a Color Profile</string>
+    <string name="load_profiles_summary">Check and load your previously saved color profiles.</string>
+    <string name="load_profiles_title">Load Your Color Profile</string>
+    <string name="adaptive_brightness_summary">Content Adaptive Brightness adjusts the brightness depending on what\'s showing on the screen (whites + text).</string>
+    <string name="adaptive_brightness_title">Disable Content Adaptive Brightness</string>
+    <string name="trinity_contrast_summary">Original implementation from Trinity\'s kernel which allows us to tweak the contrast for a better viewing experience.</string>
+    <string name="trinity_contrast_title">Trinity\'s Contrast interface</string>
+    <string name="omap_gamma_summary">Interface picked from omapzoom that allows to change the screen gamma within a set of defined values. Works independent from the interface above.</string>
+    <string name="omap_gamma_title">OMAP Gamma interface</string>
+    <string name="color_profiles_category_title">Color Profiles</string>
+
+    <!-- Backup Restore Activity -->
+    <string name="backup_restore_activity">Kernel Backup/Restore</string>
+    <string name="backup_summary">Backup your current kernel image</string>
+    <string name="backup_title">Backup</string>
+    <string name="restore_kernel_title">Kernel restore</string>
+    <string name="backup_kernel">The backup file goes to /sdcard/kernel_backups. Please don\'t use any spaces for the filename.</string>
+    <string name="clicky_to_backup">Clicky to backup</string>
+    <string name="backup_title1">Added: </string>
+    <string name="backup_title2">Click to restore or delete.</string>
+    <string name="backup_toast">What are you trying to do? This feature is not supported on your device.</string>
+
+    <!-- Franco Kernel Activity -->
+    <string name="franco_kernel_current_version_summary">You\'re not running franco.Kernel… What are you thinking!?</string>
+    <string name="franco_kernel_activity_toast">You need internet connection for this.</string>
+    <string name="franco_kernel_rebootDialog_title">Reboot?</string>
+    <string name="franco_kernel_rebootDialog_message">The kernel was successfully auto-flashed, but you need to reboot to load the new kernel. Reboot now?</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Yes - BRING IT ON!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">No.</string>
+    <string name="latest_stable_summary">Fetching…</string>
+    <string name="latest_nightly_summary">Fetching…</string>
+    <string name="franco_kernel_activity_title">franco.Kernel download</string>
+    <string name="current_version_title">Installed version</string>
+    <string name="nightly_version_title">Installed nightly version</string>
+    <string name="latest_stable_title">Latest stable version available</string>
+    <string name="latest_nightly_title">Latest nightly version available</string>
+    <string name="nightly_download_summary">Click here to choose auto-flash or .zip download.</string>
+    <string name="nightly_download_title">Download latest nightly kernel</string>
+    <string name="stable_download_summary">Click here to choose auto-flash or .zip download.</string>
+    <string name="stable_download_title">Download latest stable kernel</string>
+    <string name="latest_stable_version_error">You need internet connectivity to see this.</string>
+
+    <!-- Lean Kernel Activity -->
+    <string name="lean_kernel_dialog_exp_title">Download latest Exp Imoseyon Kernel</string>
+    <string name="lean_kernel_dialog_stable_title">Download latest stable Imoseyon Kernel</string>
+    <string name="lean_kernel_activity_title">LeanKernel download</string>
+    <string name="latest_exp_title">Latest exp version</string>
+    <string name="lean_stable_download_summary">Click here to auto-flash Imoseyon\'s stable Kernel.</string>
+    <string name="lean_exp_download_summary">Click here to auto-flash Imoseyon\'s exp Kernel.</string>
+    <string name="lean_exp_download_title">Download latest exp kernel</string>
+
+    <!-- Power Modes Activity -->
+    <string name="power_modes_create_summary">Here you\'ll be able to create your own Power Modes to fit your personal usage.</string>
+    <string name="power_modes_create_title">Create a custom Power Mode</string>
+    <string name="power_modes_create_error_toast">You can\'t save this power mode without filling all the fields.</string>
+    <string name="pm_max_cpu_title">Max CPU clock</string>
+    <string name="pm_min_cpu_title">Min CPU clock</string>
+    <string name="pm_governor_title">Governor</string>
+    <string name="pm_io_sched_title">IO Scheduler</string>
+    <string name="pm_screen_max_freq_title">Screen off max frequency</string>
+    <string name="pm_save_title">Save</string>
+    <string name="power_modes_button_apply">Apply</string>
+    <string name="power_modes_button_delete">Delete</string>
+    <string name="pm_name_title">Name</string>
+    <string name="power_modes_button_on_boot">Set this on boot</string>
+    <string name="power_modes_button_on_boot_toast">This mode is now elegible to be set on boot if you check the set on boot Checkbox above!</string>
+    <string name="on_boot_title">Set Power Mode on boot</string>
+    <string name="on_boot_summary">Selected for being set on boot: </string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="application_error">Application error: %1$s</string>
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+
+    <!-- Main Menu -->
+    <string name="about_me">About me</string>
+    <string name="donate">Donate to me</string>
+    <string name="share_settings">Share settings</string>
+
+    <!-- FrancoKernelN7 Activity -->
+    <string name="mstable_n7_title">Download latest kernel</string>
+    <string name="mstable_n7_message">This will download the latest Grouper franco.Kernel. If you click auto-flash after the download is finished it will reboot your device.</string>
+    <string name="kernel_update_n7">franco.Kernel for Nexus 7</string>
+    <string name="stable_download_n7_summary">Click here to auto-flash franco.Kernel.</string>
+
+    <!-- FrancoKernelSGS3 Activity -->
+    <string name="franco_kernel_sgs3_title">franco.Kernel for Galaxy S3</string>
+    <string name="stable_download_sgs3_title">Download latest stable kernel</string>
+
+    <!-- FrancoKernelOneX Activity -->
+    <string name="stable_download_onex_title">Click here to choose auto-flash or .zip download.</string>
+    <string name="readme_title">READ THIS!!!</string>
+    <string name="readme_summary">Very important, read this now!</string>
+    <string name="franco_kernel_onex_title">franco.Kernel for the One X</string>
+    <string name="checkbox_text">don\'t show again</string>
+
+    <!-- New PM Dialog -->
+    <string name="new_pm_name_text">Name:</string>
+    <string name="new_pm_max_cpu_text">Max CPU Frequency:</string>
+    <string name="new_pm_min_cpu_text">Min CPU Frequency:</string>
+    <string name="new_pm_gov_text">Governor:</string>
+    <string name="new_pm_io_sched_text">IO Scheduler:</string>
+    <string name="new_pm_freq_screen_off_text">Screen off Max Freq</string>
+    <string name="power_modes_warning">If you had Power Modes before updating to v8.0 they won\'t work and selecting one will cause a Force Close because the implementation pre and post v8.0 is completely different. The only solution is for you to clear the application data or uninstall/install it again. Sorry for the inconvenience.</string>
+    <string name="backup_toast_error">You already have a backup with this name, please choose a different one.</string>
+    <string name="xda_nexus">Galaxy Nexus XDA thread</string>
+    <string name="xda_nexus7">Asus Nexus 7 XDA thread</string>
+    <string name="xda_nexus4">LG Nexus 4 XDA thread</string>
+    <string name="presets_summary">This option will give you access to 4 presets: Beastly Battery, Best Balance, Slight Speed and Powerful Performance.</string>
+    <string name="presets_title">Power-Presets</string>
+    <string name="power_presets_error">Functionality not supported on this device. Most likely to be available soon in some future iteration.</string>
+    <string name="license_checkz_title">License Check Error</string>
+    <string name="license_checkz_message">There was a problem validating your application license. Hit retry if you bought the app before, or hit buy if you\'re trying to fool me down.</string>
+    <string name="preview_img">preview_img</string>
+    
+    <string name="error_vibration_toast">You can only chose between 0 and 100.</string>
+    <string name="vibration_summary">This controls the strength of your haptic feedback. Stock kernel value is 70, but if you\'re using franco.Kernel its 100.</string>
+    <string name="vibration_title">Haptic feedback strength (vibration)</string>
+    <string name="error_md5_no_match">WARNING! The MD5\'s didn\'t match, for your safety the Kernel was not applied. You have to download it again for safety!</string>
+    <string name="colors_summary">Here you\'ll be able to tune your screen\'s Red, Green and Blue colors to make it look more pleasant for your eyes. The values choosed are automatically set on boot.</string>
+    <string name="colors_title">Screen Color Tuning</string>
+    <string name="defaults_summary">This reverts your color settings to the Kernel defaults.</string>
+    <string name="defaults_title">Restore the default values</string>
+    <string name="n4_color_control_title">IPS Screen Color Correction</string>
+    <string name="franco_kernel_rebootZipDialog_message">The kernel .zip was successfuly downloaded. You can choose to reboot and the .zip will be automatically flashed in recovery.</string>
+    <string name="languages">Set the language</string>
+    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="stable_download_n10_summary">Download franco.Kernel for your Nexus 10!</string>
+    <string name="kernel_update_n10">Nexus 10 Kernel download</string>
+    <string name="busybox_warning">I\'m sorry but you need busybox to be able to view this page. This is just a precaution against force closes. You can download busybox from the Play Store for free.</string>
+	<string name="clear_app_data">"Warning: this will clear this application data as if it was installed fresh - you\'ll lose all your saved options and it will clear your license so it will query the Play Store for your license key the next time you open the app. After you click OK the application will be closed."</string>
+	<string name="clear_app_data_title">Clear app\'s data</string>
+	<string name="enable_all_load_threshold_summary">Target system load to activate all CPU cores. Higher value makes it harder to online cores, lower value makes it easier.</string>
+	<string name="enable_load_threshold_summary">Threshold value responsible to detect when to online a single CPU core. Higher value makes it harder to online a core, lower value makes it easier</string>
+	<string name="disable_load_threshold_summary">Controls how often cores are disabled. If you lower this it will be harder to disable cores, but higher value makes it very easy disable cores.</string>
+	<string name="temp_threshold_summary">This is the celsius temperature limit of your CPU temperature before it starts to throttle to decrease heat.</string>
+	<string name="temp_threshold_title">Thermal throttle threshold</string>
+	<string name="io_tuning_title">IO Scheduler Tuning</string>
+	<string name="io_tuning_summary">WARNING: this section contains all the options to tune the IO scheduler. It is for ADVANCED users. If you don\'t understand the options inside you have to search on the Kernel Documentation files. The values are NOT set on boot, so you can reset them back easily.</string>
+	
+	<string name="gamma_title">Screen Gamma Settings</string>
+	<string name="gamma_summary">Inside you\'ll be able to tweak all your Gamma settings ranging from whites, mids, blacks, contrast, brightness, saturation and grays.</string>
+	<string name="cpu_freq_title">Live CPU frequency</string>
+	<string name="temperature_title">CPU temperature</string>
+	<string name="gamma_defaults_summary">This resets all gamma values to the Kernel defaults.</string>
+	<string name="gamma_warning_title">IMPORTANT</string>
+	<string name="gamma_defaults_title">Default values</string>
+	<string name="gamma_category_title">Gamma Settings</string>
+	<string name="grays">Grays</string>
+	<string name="mids">Mids</string>
+	<string name="blacks">Blacks</string>
+	<string name="contrast">Contrast</string>
+	<string name="brightness">Brightness</string>
+	<string name="saturation">Saturation</string>
+	<string name="whites">Whites</string>
+	<string name="gpu_oc_title">Max GPU frequency</string>
+	<string name="lp_oc_title">Max Companion Core frequency</string>
+	<string name="hotplug_control_title">Hotplug Control</string>
+	<string name="cpuquiet_title">CPUQuiet Governor</string>
+	<string name="hotplug_control_summary">Tweak your device\'s parameters to control the CPU cores management.</string>
+	<string name="enable_all_load_title">Online all cores threshold</string>
+	<string name="enable_load_title">Online a single core threshold</string>
+	<string name="disable_load_title">Offline a single core threshold</string>
+	<string name="hotplug_mode_title">Core Management Mode</string>
+	<string name="hotplug_mode_summary">Hotplug: turns cores on/off based on system load.\nDual-Core: behaves like a dual-core device no matter how big the load is.\nQuad-Core: the four cores are always on. This is good for gaming.\nThis might require a screen off/on to be enabled properly.</string>
+	<string name="hotplug_category_title">Hotplug Control</string>
+	<string name="clicky_summary">Dialog to tweak the display GAMMA settings.</string>
+	<string name="clicky_title">Clicky for GAMMA</string>
+	<string name="gamma_recommended_summary">Recommended values for rich colours and deep blacks thanks to obsanity!</string>
+	<string name="gamma_recommended_title">Recommended Values</string>
+	<string name="sampling_rate_summary">This value represents how many times the driver samples for low load before deciding if the device is really ready to offline the cores. Default value is a good compromise between battery and performance. Increasing the value will be better for gaming, decreasing will be better for battery.</string>
+	<string name="sampling_rate_title">Sampling Rate</string>
+	<string name="su_dialog_summary">You need root permissions to operate this application. Exit and try again.</string>
+	<string name="su_dialog_title">No root?</string>
+	<string name="tvRed">Red:</string>
+	<string name="tvGreen">Green:</string>
+	<string name="tvBlue">Blue:</string>
+    
+</resources>

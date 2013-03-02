@@ -1,0 +1,246 @@
+<resources>
+
+    <string name="app_name">franco.Kernel Guncelleyici</string>
+    <string name="menu_settings">Ayarlar</string>
+
+    <!-- Main Activity -->
+
+    <string name="main">Baslangic</string>
+    <string name="device_supported_title">Cihazinizin Durumu</string>
+    <string name="device_supported_summary">Cihaziniz:</string>
+    <string name="franco_kernel_title">franco.Kernel guncelleyici</string>
+    <string name="franco_kernel_summary">Kernel guncelleigini buradan kotrol edebilir ve dilediginiz zaman guncelleyebilirsiniz.</string>
+    <string name="lean_kernel_title">LeanKernel guncelleyici</string>
+    <string name="lean_kernel_summary">Eger buraya tiklarsaniz hainsiniz, ama Imoseyon\'un kernellerinden de hoslanabilirsiniz.:)</string>
+    <string name="backup_restore_title">Kernel  yedekleme/geri yukleme</string>
+    <string name="backup_restore_summary">Guclu yedekleme ve geri yukleme. Mevcut kernellerinizi koruyun ve kurtarma operasyonu yapmadan dilediginizde geri yukleyin .</string>
+    <string name="oc_uv_title">Frekans/Voltaj</string>
+    <string name="oc_uv_summary">Ramboculuk oynamak isteyenler buraya.  cilgin frekans ve voltajlar ile telefonunuzu taciz edin.</string>
+    <string name="kernel_settings_title">Kisisel Kernel ayarlari</string>
+    <string name="kernel_settings_summary">Tum sevdiginiz kernel ayarlari ayni yerde. Kernelde tesbit edilirse onlar yuklenir.</string>
+    <string name="color_control_title">Renk Kontrolu</string>
+    <string name="color_control_summary">AMOLED ekraniniza tam hakim olun. Icinizde uyuyan dev sanatciyi uyandirin ve gozleriniz icin mukemmel ekran kalibrasyonunu yakalayin.</string>
+    <string name="power_modes_title">Guc modlari</string>
+    <string name="power_modes_summary">uretkenligine guveniyor musun? Herseyin oldugu nokta iste burasi. Kisisellestirilmis guc sanatinin ustalarinaÖ Kendi canavarinizi var edin..</string>
+    <string name="device_monitor_title">Cihaz monitoru</string>
+    <string name="device_monitor_summary">Gercek zamanli cihaz durum paneli.</string>
+
+    <!-- Frequencies/Voltages Activity -->
+
+    <string name="oc_uv_class">Frekans/Voltaj</string>
+    <string name="max_cpu_title">Azami CPU Frekansi</string>
+    <string name="min_cpu_title">Asgari CPU Frekansi</string>
+    <string name="governor_title">Mevcut yonetici</string>
+    <string name="toast_max_cpu"> su anda kullandiginiz azami frekansi secemeyebilirsiniz.</string>
+    <string name="toast_min_cpu">su anda kullandiginiz azami frekansi secemeyebilirsiniz.</string>
+    <string name="toast_governor">su anda kullandiginiz yoneticiyi secemeyebilirsiniz.</string>
+    <string name="screen_off_max_freq_title">Ekran kapandigindaki azami CPU Frekansi</string>
+    <string name="toast_screen_off_max_freq">su anda kullandiginiz frekansi secemeyebilirsiniz.</string>
+    <string name="cpu_boot_title"> Baslangicta CPU ayarlarini ayarla.</string>
+    <string name="cpu_boot_summary">Eger bu secilmisse CPU frekansi ve yonetici baslangicta ayarlanir.</string>
+    <string name="governor_control_boot_title">Baslangista yonetici kontrolunu ayarla</string>
+    <string name="governor_control_boot_summary"> Eger bu secilmisse baslangicta kisisellestirdiginiz yonetici ayarlari yuklenir.</string>
+    <string name="governor_control_error_toast">Yoneticiniz  bu araci desteklemiyor.</string>
+    <string name="voltages_summary"> Tecrubeniz, CPU, IVA  ve  CORE voltajlarinizla Dark Sideía katilin.</string>
+    <string name="voltages_title">Voltajlar</string>
+
+    <!-- Kernel Settings Activity -->
+
+    <string name="kernel_settings">Kisisellesmis Kernel ayarlari</string>
+    <string name="loud_summary">Kulaklik ses cikisinizi 0ídan 3íe kadar yukseltir.</string>
+    <string name="loud_title">Kulaklik ses cikisini arttirin</string>
+    <string name="tcp_summary">TCP algoritmalarini gormek ve degistirebilmek icin busyboxía ihtiyaciniz var.</string>
+    <string name="throttle_off_summary">oNEMLI UYARI! Isi vanasini tamamen devre disi birakir. Eger devre disi birakirsaniz cihazinizin isisi kontrol edilemez ve 110∫Cíye ulastiginda kapanir.</string>
+    <string name="throttle_off_title">Isi vanasini kapatir</string>
+    <string name="io_sched_title">IO Zamanlayici</string>
+    <string name="input_touch_booster_title">Giris dokunmatigini guclendirici</string>
+    <string name="fsync_summary">Bunu opsiyonla cihazin daha fazla data butunlugu olur ama IO hizi duser. Devre disi birakirsaniz daha az "data butunlugune" karsin daha fazla hizlanir.</string>
+    <string name="fsync_title">Fsyncíi acin</string>
+    <string name="logger_off_summary">Bu opsiyon Logger(logcat) kapatir. Possible performance/battery improvement, even if minimal. App debugging won\'t work with this enabled.</string>
+    <string name="logger_off_title">Gunlukleyiciyi kapat</string>
+    <string name="events_off_summary">Olay kayitlayicisini kapatir. Possible performance/battery improvement, even if minimal.</string>
+    <string name="events_off_title">Olay gunlukleyicisini kapat</string>
+    <string name="fast_charge_summary">Nexusíu USBíden sarj ederken prizden sarj ederken ki kadar hizli sarj icin bunu secin</string>
+    <string name="fast_charge_title">Hizli USB sarji calistir</string>
+    <string name="wifi_pm_summary">Biraz batarya gucu karsiliginda Wi-Fi guclendirmek icin bunu kullanin.  Useful for streaming with screen off.</string>
+    <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
+    <string name="blx_summary">Cihazin Maksimum sarj olma kapasitesini ayarlayin.</string>
+    <string name="blx_title">Bataryaya omur Kazandirin.</string>
+    <string name="tegra_screen_dimmer_summary">Aktif iken kontrast ve parlikligi biraz kisarak azicik daha batarya performansi elde edilir.. Maksimum kalitede video izlemek istiyorsaniz pasif yapin.</string>
+    <string name="tegra_screen_dimmer_title">Tegra Ekran Ayari</string>
+    <string name="tcp_title">TCP Tikaniklik onleme Algoritmasi</string>
+    <string name="high_performance_summary">Ses berrakligini arttirir.</string>
+    <string name="high_performance_title">Yuksek performansli sesi ac - Sadece kulaklik </string>
+    <string name="volume_boost_title">Sesi arttir ñ Sadece kulaklik</string>
+    <string name="bootanimation_category_title">Kisisel baslangic animasyonu</string>
+    <string name="bootanimation_summary">Carlascoínun kisisellestirilmis franco.Kernel animasyonu. Internete ihtiyaciniz olacak.</string>
+    <string name="bootanimation_title">franco.Kernel boot animasyonu</string>
+    <string name="download_path_category_title">Kernel indirme yeri</string>
+    <string name="download_path_title">Custom indirme yeri</string>
+    <string name="toast_volume_boost">0 dan kucuk veya 62 den buyuk sayi giremezsin psikolojik deli.</string>
+
+    <!-- Device Monitor Activity -->
+
+    <string name="monitor_category_title">Cihaz Takip Monitoru</string>
+    <string name="gpu_freq_title">Gecerli GPU frekansi</string>
+    <string name="voltage_mpu_title">CPU Voltaji - Frekansi - Isisi</string>
+    <string name="voltage_iva_title">IVA Voltaji</string>
+    <string name="voltage_core_title">GPU Voltaji - Frekansi</string>
+    <string name="mpu_smartreflex_summary">CPU Voltaj kalibrasyonu sona erecek.</string>
+    <string name="mpu_smartreflex_title">MPU Smartreflex pasif olur</string>
+    <string name="iva_smartreflex_summary">Media cozumleyici Voltaj kalibrasyonu sona erecektir.</string>
+    <string name="iva_smartreflex_title">IVA Smartreflex pasif</string>
+    <string name="core_smartreflex_summary">GPU Voltaj kalibrasyonu sona erecek.</string>
+    <string name="core_smartreflex_title">CORE Smartreflex pasif</string>
+    <string name="governor_control_title">Yonetici Kontrol</string>
+    <string name="governor_control_summary">Ulasmayi istediginiz batarya omru ve performansi icin yonetici ayarlarini degistirin.</string>
+    <string name="cpu0_title">CPU cekirdegi 0</string>
+    <string name="cpu1_title">CPU cekirdegi 1</string>
+    <string name="cpu2_title">CPU cekirdegi 2</string>
+    <string name="cpu3_title">CPU cekirdegi 3</string>
+
+
+    <!-- Voltages Activity -->
+
+    <string name="voltages_category_title">voltaj</string>
+    <string name="mpu_voltages_summary">Islemci voltajini dikkatli ayarlayin!</string>
+    <string name="mpu_voltages_title">Islemci voltajlari</string>
+    <string name="iva_voltages_summary">Media sifre cozucu voltaji</string>
+    <string name="iva_voltages_title">IVA voltajlari</string>
+    <string name="core_voltages_summary">Gpu voltajini ayarlar</string>
+    <string name="core_voltages_title">CORE voltajlari</string>
+    <string name="apply_summary">Yeni ayarladiginiz voltajlari uygulamak icin buraya tiklayiniz.</string>
+    <string name="apply_title">Hepsini uygula</string>
+    <string name="volt_dialog_button">Uygula</string>
+    <string name="mpu_voltages_activity_title">CPU voltajlari</string>
+    <string name="core_voltages_activity_title">CORE Voltajlari</string>
+    <string name="iva_voltages_activity_title">IVA Voltajlari</string>
+    <string name="voltages_boot_summary">bu butonla kontrol etmis oldugunuz voltajlari boot olarak kaydedersiniz, yanlis voltaj ayarlamalarinin sorumlulugu sizin ustunuzdedir.</string>
+    <string name="voltages_boot_title">voltajlari boot icin ayarla</string>
+
+    <!-- ColorControl Activity -->
+
+    <string name="profile_confirmation_text">kaydet</string>
+    <string name="profile_dialog_title">Profil ismi:</string>
+    <string name="multipliers_dialog_title">Renk carpanlari</string>
+    <string name="gamma_dialog_title">RGB Kontrast</string>
+    <string name="colorcontrol_category_title">Renk Kontrolu</string>
+    <string name="color_multiplier_summary">AMOLED ekran renklerini goz standartlarina uygun ayarla.</string>
+    <string name="color_multiplier_title">Renk carpanlari</string>
+    <string name="color_gamma_summary">Ekranin RGB kontrast degerlerini buk.</string>
+     <string name="color_gamma_title">RGB Kontrast</string>
+    <string name="color_profiles_summary">Bu ayar, sizin Renk carpanlarinizi ve RGB Kontrast degerlerinizi for kolayca degistirebilmeniz icin kaydeder.</string>
+    <string name="color_profiles_title">Renk profilini kaydeder</string>
+    <string name="load_profiles_summary">gecmis renk aylarinizi kontrol eder ve uygular.</string>
+    <string name="load_profiles_title">Renk ayarlarinizi uygular</string>
+    <string name="adaptive_brightness_summary">icerikteki uygulamalarin parlakligini ayarla.</string>
+    <string name="adaptive_brightness_title">Kapat Icerik uyarlama ayarlarini</string>
+    <string name="trinity_contrast_summary">Trinity kernelden alinti uygulama, bize kontrast ayarlarini bukmemize izin verir</string>
+    <string name="trinity_contrast_title">Trinity\'nin kontrast arayuzu</string>
+    <string name="omap_gamma_summary">Arayuz omapzoom\'dan alinmistir, bize belirli degerlerdeki ayarlari uygulamamiza izin verir. Yukaridaki arayuzden bagimsiz calisir.</string>
+    <string name="omap_gamma_title">OMAP Kontrast Arayuzu</string>
+    <string name="color_profiles_category_title">Renk Profilleri</string>
+
+    <!-- Backup Restore Activity -->
+ 
+    <string name="backup_restore_activity">Kernel Yedekle/Geri Onar</string>
+    <string name="backup_summary">Guncel kernelinizi image olarak kaydet</string>
+    <string name="backup_title">Yedekle</string>
+    <string name="restore_kernel_title">Kerneli Yeniden yukle</string>
+    <string name="backup_kernel">Yedeklenmis dosyalar /sdcard/kernel_backups dizinine kaydedilir. Lutfen dosya adinda bosluk kullanmayin.</string>
+    <string name="clicky_to_backup">Yedeklemek icin tikla</string>
+    <string name="backup_title1">Eklenmis: </string>
+    <string name="backup_title2">Geri onarmak ya da silmek icin tikla.</string>
+    <string name="backup_toast">Ne yapmak icin deniyorsun? Bu ozelligi senin cihazin desteklemiyor.</string>
+
+    <!-- Franco Kernel Activity -->
+
+    <string name="franco_kernel_current_version_summary">franco.Kernel kullanmiyorsunÖ Amacin ne!?</string>
+    <string name="franco_kernel_activity_toast">Bu ozellik icin internet baglantisi lazim.</string>
+    <string name="franco_kernel_rebootDialog_title">Yeniden baslat?</string>
+    <string name="franco_kernel_rebootDialog_message">kernel basariyla flaslandi ama yeni kerneli yuklemek icin yeniden baslatmak lazim. simdi baslatilsin mi?</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Evet - GETIR ONU!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">Hayir.</string>
+    <string name="latest_stable_summary">cekiciÖ</string>
+    <string name="latest_nightly_summary">cekiciÖ</string>
+    <string name="franco_kernel_activity_title">franco.Kernel indir</string>
+    <string name="current_version_title">Yuklu versiyon</string>
+    <string name="nightly_version_title">Yuklenmis nightly versiyon</string>
+    <string name="latest_stable_title">En yeni stabil versiyon mevcut</string>
+    <string name="latest_nightly_title">En yeni nightly versiyon mevcut</string>
+    <string name="nightly_download_summary">auto-flash veya .zip indirmeyi secmek icin buraya tiklayin.</string>
+    <string name="nightly_download_title">En guncel nightly versiyonu indir</string>
+    <string name="stable_download_summary">auto-flash veya .zip indirmeyi secmek icin buraya tiklayin.</string>
+    <string name="stable_download_title">En guncel stabil kerneli indir</string>
+    <string name="latest_stable_version_error">Bu ozellik icin internet baglantisi lazim.</string>
+
+    <!-- Lean Kernel Activity -->
+
+    <string name="lean_kernel_dialog_exp_title">En guncel Exp Imoseyon Kerneli indir</string>
+    <string name="lean_kernel_dialog_stable_title">En guncel Imoseyon Kerneli indir</string>
+    <string name="lean_kernel_activity_title">LeanKernel indir</string>
+    <string name="latest_exp_title">En yeni exp versiyon</string>
+    <string name="lean_stable_download_summary">Imoseyon\'s stabil Kerneli oto-flaslamak icin buraya tiklayin.</string>
+    <string name="lean_exp_download_summary">Imoseyon\'s exp kerneli oto-flaslamak icin buraya tiklayin.</string>
+    <string name="lean_exp_download_title">En guncel exp kerneli indir</string>
+ 
+    <!-- Power Modes Activity -->
+
+    <string name="power_modes_create_summary">Burada kendine uygun guc modunu olusturabilirsin.</string>
+    <string name="power_modes_create_title">ozel guc modu olustur</string>
+    <string name="power_modes_create_error_toast">Butun bosluklari doldurmadan bu guc modunu kaydedemezsin.</string>
+    <string name="pm_max_cpu_title">Max CPU hizi</string>
+    <string name="pm_min_cpu_title">Min CPU hizi</string>
+    <string name="pm_governor_title">Yonetici</string>
+    <string name="pm_io_sched_title">IO Zamanlayici</string>
+    <string name="pm_screen_max_freq_title">Max frekansi bolumlendir</string>
+    <string name="pm_save_title">Kaydet</string>
+    <string name="power_modes_button_apply">Uygula</string>
+    <string name="power_modes_button_delete">Sil</string>
+    <string name="pm_name_title">Isim</string>
+    <string name="power_modes_button_on_boot">Boot icin ayarla</string>
+    <string name="power_modes_button_on_boot_toast">Eger yukarida kontrol kutusunu kontrol ettiysen bu ayar suan boot\'a ayarlamak icin uygun!</string>
+    <string name="on_boot_title"> Power Modu boot icin ayarla</string>
+    <string name="on_boot_summary">boot ayarlari olmak icin secildi: </string>
+
+    <!-- Unlicensed dialog messages -->
+
+    <string name="application_error">Uygulama hatasi: %1$s</string>
+    <string name="unlicensed_dialog_title">Lisanssiz uygulama</string>
+    <string name="unlicensed_dialog_body">Bu uygulamanin lisanssiz olandir. Lutfen Android Marketíten satin alin.</string>
+    <string name="buy_button">Satin al</string>
+    <string name="quit_button">cikis</string>
+
+    
+
+    <!-- Main Menu -->
+
+    <string name="about_me">Hakkimda</string>
+    <string name="donate">Bagista bulunun</string>
+    <string name="share_settings">Ayarlari paylas</string>
+
+    
+
+    <!-- FrancoKernelN7 Activity-->
+ 
+    <string name="mstable_n7_title">En son kerneli indir</string>
+    <string name="mstable_n7_message">Burasi enguncel Grouper franco.Kerneli indirir . Eger tiklarsaniz indirme sonrasi auto-flash ve reboot gerektirir.</string>
+    <string name="kernel_update_n7"> Nexus 7 icin franco.Kernel  </string>
+    <string name="stable_download_n7_summary"> franco.Kernelíi auto-flash yuklemek icin buraya tiklayin.</string>
+ 
+
+    <!-- FrancoKernelSGS3 Activity -->
+
+    <string name="franco_kernel_sgs3_title"> Galaxy S3 icin franco.Kernel </string>
+    <string name="stable_download_sgs3_title">Son stabil kerneli indir</string>
+
+
+    <!-- FrancoKernelOneX Activity -->
+
+    <string name="stable_download_onex_title">Auto-Flash secmek veya .zip formatinda indirmek icin bunu secin</string>
+    <string name="readme_title">BUNU OKU!!!</string>
+    <string name="readme_summary">cok onemli. Bunu simdi oku!</string>
+    <string name="franco_kernel_onex_title"> One X  icin franco.Kernel </string>
+    <string name="checkbox_text">Bir daha gosterme</string>
+
+</resources>

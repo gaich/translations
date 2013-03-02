@@ -1,0 +1,224 @@
+<resources>
+
+    <string name="app_name">franco.Kernel updater</string>
+    <string name="menu_settings">Beállítások</string>
+
+    <!-- Main Activity -->
+    <string name="main">Főoldal</string>
+    <string name="device_supported_title">Készülékének állapota</string>
+    <string name="device_supported_summary">Készüléke:</string>
+    <string name="franco_kernel_title">franco.Kernel frissítő</string>
+    <string name="franco_kernel_summary">Itt ellenőrizheti, hogy van-e újabb franco.Kernel, letöltheti azt és igény szerint flashelheti is.</string>
+    <string name="lean_kernel_title">LeanKernel frissítés</string>
+    <string name="lean_kernel_summary">Ha ide kattint, akkor hivatalosan is áruló lesz, ám ennek fejében élvezheti az Imoseyon kernelt.</string>
+    <string name="backup_restore_title">Kernel mentés/visszaállítás</string>
+    <string name="backup_restore_summary">Kernel mentés is visszaállítás. Készítsen mentést az aktuális kernelről és töltse vissza azt bármikor, recovery használata nélkül.</string>
+    <string name="oc_uv_title">Frekvenciák/feszültségek</string>
+    <string name="oc_uv_summary">Ha Rambót akar játszani, akkor ez a megfelelő hely. Feszítse túl a húrt az extrém és kevésbé stabil frekvenciák/feszültségek beállításával.</string>
+    <string name="kernel_settings_title">További kernel beállítások</string>
+    <string name="kernel_settings_summary">Minden kedvelt beállítás egy helyen. Amit a kernel támogat, az itt beállítható.</string>
+    <string name="color_control_title">Színbeállítás</string>
+    <string name="color_control_summary">AMOLED kijelzőjének teljes vezérlése. Hozza elő az Önben rejlő művészt és találja meg az Önnek megfelelő képernyő beállítást.</string>
+    <string name="power_modes_title">Power üzemmód</string>
+    <string name="power_modes_summary">Kreatív? Akkor ez az a hely, ahol a buli van. Hozza létre a saját power üzemmódját és keltse életre a szörnyet!</string>
+    <string name="device_monitor_title">Készülékfigyelő</string>
+    <string name="device_monitor_summary">Készüléke valós idejű állapota.</string>
+
+    <!-- Frequencies/Voltages Activity -->
+    <string name="oc_uv_class">Frekvenciák/feszültségek</string>
+    <string name="max_cpu_title">Maximum CPU frekvencia</string>
+    <string name="min_cpu_title">Minimum CPU frekvencia</string>
+    <string name="governor_title">Jelenlegi szabályzó</string>
+    <string name="toast_max_cpu">Jelenleg beállított minimum frekvenciája alatti érték nem választható.</string>
+    <string name="toast_min_cpu">Jelenleg beállított maximum frekvenciája feletti érték nem választható.</string>
+    <string name="toast_governor">Jelenleg beállított szabályzóját nem választhatja.</string>
+    <string name="screen_off_max_freq_title">Kikapcsolt kijelző melletti maximum CPU frekvencia</string>
+    <string name="toast_screen_off_max_freq">Jelenleg beállított frekvenciáját nem választhatja.</string>
+    <string name="cpu_boot_title">CPU beállítások alkalmazása indításkor</string>
+    <string name="cpu_boot_summary">Ha ezt engedélyezi, akkor a CPU frekvenciák és a szabályzó induláskor alkalmazásra kerül.</string>
+    <string name="governor_control_boot_title">Szabályzó alkalmazása indításkor</string>
+    <string name="governor_control_boot_summary">Ha ezt engedélyezi, akkor a saját szabályzó beállítások induláskor alkalmazásra kerülnek.</string>
+    <string name="governor_control_error_toast">Ez az alkalmazás nem támogatja a jelenlegi szabályzóját.</string>
+    <string name="voltages_summary">Lépjen át a sötét oldalra és kísérletezzen a CPU, IVA és CORE frekvenciákkal.</string>
+    <string name="voltages_title">Frekvenciák</string>
+
+    <!-- Kernel Settings Activity -->
+    <string name="kernel_settings">További kernel beállítások</string>
+    <string name="loud_summary">0 és 3 közötti értékben adhatja meg a fülhallgató hangerejének hangosítását.</string>
+    <string name="loud_title">Fülhallgató hangerejének megnövelése</string>
+    <string name="tcp_summary">A TCP algoritmus megtekintéséhez és változtatásához busybox-ra van szüksége.</string>
+    <string name="throttle_off_summary">FIGYELEM! Ezzel teljesen kikapcsolja a hőmérséklet-védelmet. Ha ezt kikapcsolja, akkor készüléke nem vesz vissza a teljesítményből és nem áll le 110ºC elérésekor.</string>
+    <string name="throttle_off_title">Hőmérséklet-védelem kikapcsolása</string>
+    <string name="io_sched_title">IO ütemező</string>
+    <string name="input_touch_booster_title">Kezdeti érintés fokozása</string>
+    <string name="fsync_summary">Az opció bekapcsolásával készüléke adatainak sértetlensége megnövekszik, azonban az IO sebesség csökken. Ha kikapcsolja, akkor az adatok sértetlensége csökken, ám az IO sebesség megnövekszik.</string>
+    <string name="fsync_title">Fsync kikapcsolása</string>
+    <string name="logger_off_summary">Ez kikapcsolja a naplózót (logcat). A teljesítmény/üzemidő megnövekedhet, noha minimális mértékben. Kikapcsolt állapotban naplózás készítése nem lehetséges.</string>
+    <string name="logger_off_title">Naplózás kikapcsolása</string>
+    <string name="events_off_summary">Események naplózásának kikapcsolása. A teljesítmény/üzemidő megnövekedhet, noha minimális mértékben.</string>
+    <string name="events_off_title">Esemény-napló kikapcsolása</string>
+    <string name="fast_charge_summary">Kapcsolja be ezt, ha Galaxy Nexus készülékét USB csatlakozón keresztül is olyan gyorsan szeretné feltölteni, mint hálózatról.</string>
+    <string name="fast_charge_title">Gyors USB töltés engedélyezése</string>
+    <string name="wifi_pm_summary">Engedélyezze ezt az opciót a wi-fi-jel felerősítése érdekében, az üzemidő csökkenése figyelembevételével. Hasznos lehet a kikapcsolt kijelző melletti valós idejű közvetítés esetén.</string>
+    <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
+    <string name="blx_summary">Ezzel beállíthatja, hogy hány százalékkal maradjon akkumulátora a lehetséges maximum feltöltés alatt.</string>
+    <string name="blx_title">Akkumulátor élettartamának megnövelése</string>
+    <string name="tegra_screen_dimmer_summary">Alapértelmezésen bekapcsolva, valamennyi üzemidőt spórol videók lejátszása során a kontraszt és a fényerő csökkentésével. Ha a lehető legjobb minőséget szeretné elérni a videók megtekintésekor, akkor kapcsolja ki ezt.</string>
+    <string name="tegra_screen_dimmer_title">Tegra kijelző dimmelő</string>
+    <string name="tcp_title">TCP torlódáselkerülési algoritmus</string>
+    <string name="high_performance_summary">Ez megnöveli a hang tisztaságát.</string>
+    <string name="high_performance_title">Magas minőségű hang bekapcsolása – csak fülhallgatók esetén</string>
+    <string name="volume_boost_title">Hangerő megnövelése - csak fülhallgatók esetén</string>
+    <string name="bootanimation_category_title">Testre szabott rendszerindítás-animáció</string>
+    <string name="bootanimation_summary">franco.Kernel rendszerindítás-animáció rascarlo-tól. Ennek beállításához internet-kapcsolatra lesz szüksége.</string>
+    <string name="bootanimation_title">franco.Kernel rendszerindítás-animáció</string>
+    <string name="download_path_category_title">Kernel letöltésének helye</string>
+    <string name="download_path_title">Saját letöltési hely</string>
+    <string name="toast_volume_boost">0-nál kisebb és 62-nél magasabb érték nem adható be!</string>
+
+    <!-- Device Monitor Activity -->
+    <string name="monitor_category_title">Készülékfigyelő</string>
+    <string name="gpu_freq_title">Jelenlegi GPU frekvencia</string>
+    <string name="voltage_mpu_title">CPU feszültség - frekvencia - hőmérséklet</string>
+    <string name="voltage_iva_title">IVA feszültség</string>
+    <string name="voltage_core_title">GPU feszültség - frekvencia</string>
+    <string name="mpu_smartreflex_summary">A CPU feszültéségének kalibrálása leáll.</string>
+    <string name="mpu_smartreflex_title">MPU Smartreflex kikapcsolása</string>
+    <string name="iva_smartreflex_summary">A mediadekóder feszültéségének kalibrálása leáll.</string>
+    <string name="iva_smartreflex_title">IVA Smartreflex kikapcsolása</string>
+    <string name="core_smartreflex_summary">A GPU feszültéségének kalibrálása leáll.</string>
+    <string name="core_smartreflex_title">CORE Smartreflex kikapcsolása</string>
+    <string name="governor_control_title">Szabályzó-beállítások</string>
+    <string name="governor_control_summary">Játsszon a szabályzó-beállításokkal a kívánt teljesítmény és üzemidő elérésének érdekében.</string>
+    <string name="cpu0_title">CPU mag 0</string>
+    <string name="cpu1_title">CPU mag 1</string>
+    <string name="cpu2_title">CPU mag 2</string>
+    <string name="cpu3_title">CPU mag 3</string>
+
+    <!-- Voltages Activity -->
+    <string name="voltages_category_title">Feszültségek</string>
+    <string name="mpu_voltages_summary">Legyen óvatos a CPU feszültségek beállításával!</string>
+    <string name="mpu_voltages_title">CPU feszültségek</string>
+    <string name="iva_voltages_summary">A mediadekóder feszültéségének beállítása</string>
+    <string name="iva_voltages_title">IVA feszültségek</string>
+    <string name="core_voltages_summary">A GPU feszültéségének beállítása</string>
+    <string name="core_voltages_title">CORE feszültségek</string>
+    <string name="apply_summary">Kattintson ide az újonnan kiválasztott feszültségek kiválasztásához.</string>
+    <string name="apply_title">Minden alkalmazása</string>
+    <string name="volt_dialog_button">Alkalmazás</string>
+    <string name="mpu_voltages_activity_title">CPU feszültségek</string>
+    <string name="core_voltages_activity_title">CORE feszültségek</string>
+    <string name="iva_voltages_activity_title">IVA feszültségek</string>
+    <string name="voltages_boot_summary">Ezen opció bekapcsolásával minden elmentett feszültség indításkor beállításra kerül. Ez az Ön felelőssége, ha helytelen feszültségeket állít be, akkor magára marad.</string>
+    <string name="voltages_boot_title">Feszültségek beállítása indításkor</string>
+
+    <!-- ColorControl Activity -->
+    <string name="profile_confirmation_text">Mentés</string>
+    <string name="profile_dialog_title">Profil megnevezése:</string>
+    <string name="multipliers_dialog_title">Szín multiplikátorok</string>
+    <string name="gamma_dialog_title">RGB Gamma</string>
+    <string name="colorcontrol_category_title">ColorControl</string>
+    <string name="color_multiplier_summary">Állítsa be AMOLED-kijelzőjének színeit saját elképzelései szerint.</string>
+    <string name="color_multiplier_title">Szín multiplikátorok</string>
+    <string name="color_gamma_summary">Hangolja finomra kijelzőjének RGB értékeit.</string>
+    <string name="color_gamma_title">RGB Gamma</string>
+    <string name="color_profiles_summary">Ezzel elmentheti a szín multiplikátorokat és az RGB értékeket, hogy később kedélyállapotának megfelelően váltogathasson közöttük.</string>
+    <string name="color_profiles_title">Szín-profil elmentése</string>
+    <string name="load_profiles_summary">Ellenőrizze és töltse be a korábban elmentett szín-profilokat.</string>
+    <string name="load_profiles_title">Saját szín-profil betöltése</string>
+    <string name="adaptive_brightness_summary">A „megjelenített tartalomtól függő fényerő” a kijelző fényerejét a kijelzőn látható tartalomtól függően állítja (fehérek + szöveg).</string>
+    <string name="adaptive_brightness_title">Megjelenített tartalomtól függő fényerő szabályzásának kikapcsolása</string>
+    <string name="trinity_contrast_summary">A Trinity kernel eredeti implementációja, melynek segítségével a jobb megjelenítési élmény elérése érdekében állítható a kontraszt.</string>
+    <string name="trinity_contrast_title">Trinity kontraszt felület</string>
+    <string name="omap_gamma_summary">A kijelző gamma-értékeinek beállítása előre meghatározott mértékben. A fenti csatolótól függetlenül működik.</string>
+    <string name="omap_gamma_title">OMAP Gamma felület</string>
+    <string name="color_profiles_category_title">Szín-profilok</string>
+
+    <!-- Backup Restore Activity -->
+    <string name="backup_restore_activity">Kernel mentés/visszaállítás</string>
+    <string name="backup_summary">Mentse el a jelenlegi kernelt</string>
+    <string name="backup_title">Mentés</string>
+    <string name="restore_kernel_title">Kernel visszaállítás</string>
+    <string name="backup_kernel">A mentés az /sdcard/kernel_backups alatt található. Kérjük ne használjon szóközt a fájlnévben.</string>
+    <string name="clicky_to_backup">Mentés készítése</string>
+    <string name="backup_title1">Hozzáadva:</string>
+    <string name="backup_title2">Visszaállítás vagy törlés.</string>
+    <string name="backup_toast">Mit akar tenni? Ez a lehetőség nem támogatott a készülékén.</string>
+
+    <!-- Franco Kernel Activity -->
+    <string name="franco_kernel_current_version_summary">Nem franco.Kernel-t futtat… Mégis mit gondolt!?</string>
+    <string name="franco_kernel_activity_toast">Ehhez internet-kapcsolatra van szüksége.</string>
+    <string name="franco_kernel_rebootDialog_title">Újraindítás?</string>
+    <string name="franco_kernel_rebootDialog_message">A kernel betöltése sikeresen megtörtént, ám az új kernel alkalmazásához újra kell indítani a készüléket. Újraindítás most?</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Igen - MEHET!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">Nem.</string>
+    <string name="latest_stable_summary">Lekérdezés…</string>
+    <string name="latest_nightly_summary">Lekérdezés…</string>
+    <string name="franco_kernel_activity_title">franco.Kernel letöltése</string>
+    <string name="current_version_title">Telepített verzió</string>
+    <string name="nightly_version_title">Telepített nightly verzió</string>
+    <string name="latest_stable_title">Legfrissebb elérhető stabil verzió</string>
+    <string name="latest_nightly_title">Legfrissebb elérhető nightly verzió</string>
+    <string name="nightly_download_summary">Automatikus flash vagy. zip letöltés.</string>
+    <string name="nightly_download_title">Legfrissebb nightly kernel letöltése</string>
+    <string name="stable_download_summary">Automatikus flash vagy. zip letöltés.</string>
+    <string name="stable_download_title">Legfrissebb stabil kernel letöltése</string>
+    <string name="latest_stable_version_error">A megtekintéshez internet-csatlakozásra van szüksége.</string>
+
+    <!-- Lean Kernel Activity -->
+    <string name="lean_kernel_dialog_exp_title">Legfrissebb kísérleti Imoseyon kernel letöltése</string>
+    <string name="lean_kernel_dialog_stable_title">Legfrissebb stabil Imoseyon kernel letöltése</string>
+    <string name="lean_kernel_activity_title">LeanKernel letöltése</string>
+    <string name="latest_exp_title">Legfrissebb kísérleti verzió</string>
+    <string name="lean_stable_download_summary">A stabil Imoseyon kernel automatikus letöltése.</string>
+    <string name="lean_exp_download_summary">A kísérleti Imoseyon kernel automatikus letöltése.</string>
+    <string name="lean_exp_download_title">Legfrissebb kísérleti kernel letöltése</string>
+
+    <!-- Power Modes Activity -->
+    <string name="power_modes_create_summary">Saját power üzemmód létrehozása, a személyes felhasználás optimalizálása érdekében.</string>
+    <string name="power_modes_create_title">Saját power üzemmód létrehozása</string>
+    <string name="power_modes_create_error_toast">A power üzemmód nem menthető el, ha nem tölt ki minden mezőt.</string>
+    <string name="pm_max_cpu_title">Max CPU órajel</string>
+    <string name="pm_min_cpu_title">Min CPU órajel</string>
+    <string name="pm_governor_title">Szabályzó</string>
+    <string name="pm_io_sched_title">IO üzemező</string>
+    <string name="pm_screen_max_freq_title">Kikapcsolt kijelző melletti maximum CPU frekvencia</string>
+    <string name="pm_save_title">Mentés</string>
+    <string name="power_modes_button_apply">Alkalmazás</string>
+    <string name="power_modes_button_delete">Törlés</string>
+    <string name="pm_name_title">Név</string>
+    <string name="power_modes_button_on_boot">Indításkor alkalmazás</string>
+    <string name="power_modes_button_on_boot_toast">Ez az üzemmód beállítható indításkor, ha a fenti mezőben ezt engedélyezi!</string>
+    <string name="on_boot_title">Power üzemmód alkalmazása indításkor</string>
+    <string name="on_boot_summary">Az indításkor betöltésre kerül: </string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="application_error">Alkalmazáshiba: %1$s</string>
+    <string name="unlicensed_dialog_title">Alkalmazás jogtalan használata</string>
+    <string name="unlicensed_dialog_body">Ezt az alkalmazást jogtalanul használja. Kérjük vásárolja meg az Android Marketben.</string>
+    <string name="buy_button">Alkalmazás megvásárlása</string>
+    <string name="quit_button">Kilépés</string>
+    
+    <!-- Main Menu -->
+    <string name="about_me">Rólam</string>
+    <string name="donate">Adományozás</string>
+    <string name="share_settings">Beállítások megosztása</string>
+    
+    <!-- FrancoKernelN7 Activity-->
+    <string name="mstable_n7_title">Legújabb kernel letöltése</string>
+    <string name="mstable_n7_message">Itt töltheti le a legújabb Grouper franco.Kernel rendszermagot. Ha az auto-flash lehetőséget választja a letöltés után, akkor a készüléke újraindul.</string>
+    <string name="kernel_update_n7">Nexus 7 franco.Kernel</string>
+    <string name="stable_download_n7_summary">A franco.Kernel automatikus betöltése.</string>
+    
+    <!-- FrancoKernelSGS3 Activity -->
+    <string name="franco_kernel_sgs3_title">Galaxy S3 franco.Kernel</string>
+    <string name="stable_download_sgs3_title">Legújabb stabil verzió letöltése</string>
+    
+    <!-- FrancoKernelOneX Activity -->
+    <string name="stable_download_onex_title">Legújabb kernel automatikus betöltse vagy a .zip letöltése.</string>
+    <string name="readme_title">OLVASSA EL!!!</string>
+    <string name="readme_summary">Nagyon fontos, olvassa el most!</string>
+    <string name="franco_kernel_onex_title">One X franco.Kernel</string>
+    <string name="checkbox_text">Ne mutassa többet</string>
+
+</resources>
