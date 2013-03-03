@@ -18,7 +18,7 @@
     <string name="kernel_settings_title">Eigene Kerneleinstellungen</string>
     <string name="kernel_settings_summary">All Deine bevorzugten Einstellungen an einem Platz. Sie werden nur geladen wenn sie im Kernel gefunden werden.</string>
     <string name="color_control_title">Farb Kontrolle</string>
-    <string name="color_control_summary">Völlige Kontrolle über Deinen AMOLED Screen. Erwecke den schlafenden Künstler in Dir und finde die perfekte Screen Kalibrierung fuer Deine Augen heraus.</string>
+    <string name="color_control_summary">Völlige Kontrolle über Deinen Screen. Erwecke den schlafenden Künstler in Dir und finde die perfekte Screen Kalibrierung für Deine Augen heraus.</string>
     <string name="power_modes_title">Power Modes</string>
     <string name="power_modes_summary">Du denkst Du bist kreativ? Das ist der Punkt an dem alles passiert. Meistere die Kunst der eigenen Power Modes und erstelle Dein eigenes Monster!</string>
     <string name="device_monitor_title">Geräte Monitor</string>
@@ -39,7 +39,7 @@
     <string name="governor_control_boot_title">Setze Governor Einstellungen beim hochfahren</string>
     <string name="governor_control_boot_summary">Wenn Du diese Option auswählst werden Deine eigenen Einstellungen für den Governor beim Hochfahren gesetzt.</string>
     <string name="governor_control_error_toast">Dein Governor wird nicht von diesem Tool unterstüzt.</string>
-    <string name="voltages_summary">Schliesse Dich der dunklen Seite an und experimentiere mit Deinen CPU, IVA und CORE Spannungen.</string>
+    <string name="voltages_summary">Schliesse Dich der dunklen Seite an und experimentiere mit den Spannungen, sofern Dein Kernel dies unterstützt.</string>
     <string name="voltages_title">Spannungen</string>
 
     <!-- Kernel Settings Activity -->
@@ -57,7 +57,7 @@
     <string name="logger_off_title">Logger ausschalten</string>
     <string name="events_off_summary">Schaltet Event Logs aus. Evtl minimale Steigerung der Geschwindigkeits/Batterie Leistung.</string>
     <string name="events_off_title">Event Logs ausschalten</string>
-    <string name="fast_charge_summary">Aktivieren um das Galaxy Nexus am USB Port so schnell zu laden wie an einem AC Adapter.</string>
+    <string name="fast_charge_summary">Aktivieren um Dein Gerät am USB Port so schnell zu laden wie an einem AC Adapter.</string>
     <string name="fast_charge_title">Aktiviere schnelles USB Laden</string>
     <string name="wifi_pm_summary">Aktiviere diese Option um das WiFi Signal auf Kosten einiger Batterieleistung zu verstärken. Nützlich für das Streamen wenn der Screen aus ist.</string>
     <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
@@ -66,7 +66,7 @@
     <string name="tegra_screen_dimmer_summary">Standardmässig aktiviert sorgt es für längere Akkuleistung indem während des abspielens von Videos der Kontrast und die Helligkeit verringert werden. Wenn Du maximale Qualität beim abspielen von Videos möchtest deaktiviere diese Funktion.</string>
     <string name="tegra_screen_dimmer_title">Tegra Screen Dimmer</string>
     <string name="tcp_title">TCP Congestion Avoidance Algorithmus</string>
-    <string name="high_performance_summary">Dies verbessert die Sound Klarheit.</string>
+    <string name="high_performance_summary">Dies verbessert die Klangklarheit.</string>
     <string name="high_performance_title">High Performance Sound aktiveren - nur für Kopfhöhrer</string>
     <string name="volume_boost_title">Volume Boost - nur für Kopfhöhrer</string>
     <string name="bootanimation_category_title">Eigene Boot Animation</string>
@@ -109,7 +109,7 @@
     <string name="mpu_voltages_activity_title">CPU Spannungen</string>
     <string name="core_voltages_activity_title">CORE Spannungen</string>
     <string name="iva_voltages_activity_title">IVA Spannungen</string>
-    <string name="voltages_boot_summary">Wenn diese Option aktiv ist, werden alle gesicherten Spannungseinstellungen beim Hochfahren gesetzt. Dies geschieht auf eigene Gefahr, wenn die Spannungen falsch gesetzt sind bist Du auf Dich allein gestellt.</string>
+    <string name="voltages_boot_summary">Wenn diese Option aktiv ist, werden alle gesicherten Spannungseinstellungen beim Hochfahren gesetzt. Dies geschieht auf eigene Gefahr, wenn die Spannungen falsch gesetzt sind, bist Du auf Dich allein gestellt.</string>
     <string name="voltages_boot_title">Setze Spannungen beim Hochfahren</string>
 
     <!-- ColorControl Activity -->
@@ -118,8 +118,8 @@
     <string name="multipliers_dialog_title">Farb Multiplier</string>
     <string name="gamma_dialog_title">RGB Gamma</string>
     <string name="colorcontrol_category_title">Farb Kontrolle</string>
-    <string name="color_multiplier_summary">Tune Deinen AMOLED Screen um Deinem Augenstandard zu entsprechen</string>
-    <string name="color_multiplier_title">Farb Multiplier</string>
+    <string name="color_multiplier_summary">Verändere Deinen AMOLED Screen Farbeinstellungen, um diese deinem Farbempfinden anzupassen</string>
+    <string name="color_multiplier_title">Farb Multiplikator</string>
     <string name="color_gamma_summary">Tweake Deine RGB Gamma Werte.</string>
     <string name="color_gamma_title">RGB Gamma</string>
     <string name="color_profiles_summary">Dies sichert Deine Farb Multiplier und RGB Gamma Werte um einfach auf Grund Deiner Laune/Situation zu wechseln.</string>
@@ -166,7 +166,7 @@
     <string name="latest_stable_version_error">Du benötigst hierfür eine Internetverbindung.</string>
 
     <!-- Lean Kernel Activity -->
-    <string name="lean_kernel_dialog_exp_title">Lade aktuellsten exp. Imoseyon Kernel herunter</string>
+    <string name="lean_kernel_dialog_exp_title">Lade aktuellsten exp Imoseyon Kernel herunter</string>
     <string name="lean_kernel_dialog_stable_title">Lade aktuellsten stable Imoseyon Kernel herunter</string>
     <string name="lean_kernel_activity_title">LeanKernel download</string>
     <string name="latest_exp_title">Aktuelle exp version</string>
@@ -194,8 +194,8 @@
 
     <!-- Unlicensed dialog messages -->
     <string name="application_error">Application Fehler: %1$s</string>
-    <string name="unlicensed_dialog_title">Application nicht lizensiert</string>
-    <string name="unlicensed_dialog_body">Diese Application ist nicht lizensiert. Bitte kaufe sie Dir im Android Market.</string>
+    <string name="unlicensed_dialog_title">Applikation nicht lizensiert</string>
+    <string name="unlicensed_dialog_body">Diese Applikation ist nicht lizensiert. Bitte kaufe sie Dir im Play Store.</string>
     <string name="buy_button">App kaufen</string>
     <string name="quit_button">Beenden</string>
 
@@ -220,6 +220,8 @@
     <string name="readme_summary">Es ist sehr wichtig das nun zu lesen!</string>
     <string name="franco_kernel_onex_title">franco.Kernel für das One X</string>
     <string name="checkbox_text">nicht nochmal anzeigen</string>
+	
+	<!-- New PM Dialog -->
     <string name="new_pm_name_text">Name:</string>
     <string name="new_pm_max_cpu_text">Max CPU Frequenz:</string>
     <string name="new_pm_min_cpu_text">Min CPU Frequenz:</string>
@@ -236,14 +238,15 @@
     <string name="power_presets_error">Dein Gerät unterstützt diese Funktion nicht. Wahrscheinlich wird sie in einer zukünftigen Version verfügbar sein.</string>
     <string name="license_checkz_title">Fehler beim Prüfen der Lizenz</string>
     <string name="license_checkz_message">Es gibt ein Problem beim überprüfen der Applikations Lizenz. Klicke auf wiederholen (retry) wenn Du die App gekauft hast, oder auf kaufen (buy) wenn Du versuchst hast mich zu betrügen.</string>
-
+	<string name="preview_img">preview_img</string>
+	
     <string name="error_vibration_toast">Du kannst nur zwischen 0 und 100 wählen.</string>
     <string name="vibration_summary">Hiermit kontrolliert Du die Stärke der haptischen Rückmeldung - Stock Kernel Einstellung ist 70, wenn Du jedoch franco.Kernel nutzt ist es 100.</string>
     <string name="vibration_title">Stärke der haptischen Rückmeldung (Vibration)</string>
     <string name="error_md5_no_match">ACHTUNG! Die MD5 Summen stimmen nicht überein, zu Deiner Sicherheit wurde der Kernel nicht installiert. Du musst den Kernel erneut herunterladen!</string>
     <string name="colors_summary">Hier kannst Du die Rot, Grün und Blau Farbeinstellungen für Deinen Bildschirm anpassen um ihn für Deine Augen angenehmer zu gestalten. Die Einstellungen werden automatisch beim Hochfahren gesetzt.</string>
     <string name="colors_title">Bildschirmfarben Tuning</string>
-    <string name="defaults_summary">Hiermit werden die Farbeinstellungen auf Kernel Defaults zurückgesetzt.</string>
+    <string name="defaults_summary">Hiermit werden die Farbeinstellungen auf die Standardwerte zurückgesetzt.</string>
     <string name="defaults_title">Standardeinstellungen wiederherstellen</string>
     <string name="n4_color_control_title">IPS Farbeinstellungskorrektur für den Bildschirm</string>
     <string name="franco_kernel_rebootZipDialog_message">Die Kernel .zip wurde erfolgreich heruntergeladen. Du kannst nun Reboot wählen und die .zip wird automatisch in Recovery geflashed.</string>
@@ -252,12 +255,57 @@
     <string name="stable_download_n10_summary">Lade franco.Kernel für Dein Nexus 10 herunter!</string>
     <string name="kernel_update_n10">Nexus 10 Kernel Download</string>
     <string name="busybox_warning">Tut mir leid aber Du benötigst BusyBox um diese Seite zu sehen. Dies ist eine Maßnahme gegen Force Closes. Du kannst BusyBox kostenlos über den Play Store beziehen.</string>
-	<string name="clear_app_data">"Warnung: hiermit werden alle Applikationsdaten gelöscht wie bei  einer Neuinstallation - Du verlierst alle gespeicherten Einstellungen und Deine Lizenz wird zurückgesetzt , daher wird über den Play Store Dein Lizenzschlüssel abgefragt sobald Du die Applikation neu startest. Nachdem Du OK klickst wird die App geschlossen."</string>
+	<string name="clear_app_data">"Warnung: hiermit werden alle Applikationsdaten gelöscht wie bei einer Neuinstallation - Du verlierst alle gespeicherten Einstellungen und Deine Lizenz wird zurückgesetzt , daher wird über den Play Store Dein Lizenzschlüssel abgefragt sobald Du die Applikation neu startest. Nachdem Du OK klickst wird die App geschlossen."</string>
 	<string name="clear_app_data_title">App Daten löschen</string>
 	<string name="enable_all_load_threshold_summary">Ziel System Load um alle CPU Kerne zu aktivieren. Höhere Werte erschweren das Zuschalten von CPU Kernen, niedrigere Werte erleichtern es.</string>
-	<string name="enable_load_threshold_summary">Schwellwert welcher für das setzen eines einzelnen CPU Kerns zuständig ist. Höhere Werte erschweren das Zuschalten eines CPU Kerns, niedrigere Werte erleichtern es.</string>
-	<string name="disable_load_threshold_summary">Kontrolliert wie oft Kernel deaktiviert werden. Wenn Du den Wert verringerst wird es schwerer CPU Kerne zu deaktivieren, höhere Werte ermöglichen ein sehr einfach deaktivieren der Kerne.</string>
+	<string name="enable_load_threshold_summary">Schwellwert welcher für das Setzen eines einzelnen CPU Kerns zuständig ist. Höhere Werte erschweren das Zuschalten eines CPU Kerns, niedrigere Werte erleichtern es.</string>
+	<string name="disable_load_threshold_summary">Kontrolliert, wie oft Kerne deaktiviert werden. Wenn Du den Wert verringerst wird es schwerer CPU Kerne zu deaktivieren, höhere Werte ermöglichen ein sehr einfach deaktivieren der Kerne.</string>
 	<string name="temp_threshold_summary">Dies ist das Temperatur Limit in Celsius Deiner CPU bevor diese gedrosselt wird um die Temperatur zu senken..</string>
 	<string name="temp_threshold_title">Schwellwert für Temperatur Drosselung</string>
-    
+    <string name="io_tuning_title">IO Scheduler Tuning</string>
+	<string name="io_tuning_summary">WARNUNG: dieser Bereich enthält alle Optionen, um den IO Scheduler zu tunen. Er ist für FORTGESCHRITTENE Benutzer. Wenn Du die darin enthaltenen Einstellungen nicht verstehst, suche diese bitte in die Kernel-Dokumentation. Diese Werte werden NICHT beim Booten gesetzt, also kannst Du diese leicht zurücksetzen.</string>
+	
+	<string name="gamma_title">Screen Gamma Einstellungen</string>
+	<string name="gamma_summary">Hier kannst du alle deine Gamma Einstellungen tweaken. Dies beinhaltet whites, mids, blacks, contrast, brightness, saturation und grays.</string>
+	<string name="cpu_freq_title">aktuelle CPU Frequenz</string>
+	<string name="temperature_title">CPU Temperatur</string>
+	<string name="gamma_defaults_summary">Dies hier setzt alle Gamma Werte auf den Standard zurück.</string>
+	<string name="gamma_warning_title">WICHTIG</string>
+	<string name="gamma_defaults_title">Standardwerte</string>
+	<string name="gamma_category_title">Gamma Einstellungen</string>
+	<string name="grays">Grays</string>
+	<string name="mids">Mids</string>
+	<string name="blacks">Blacks</string>
+	<string name="contrast">Contrast</string>
+	<string name="brightness">Brightness</string>
+	<string name="saturation">Saturation</string>
+	<string name="whites">Whites</string>
+	<string name="gpu_oc_title">Max GPU Frequenz</string>
+	<string name="lp_oc_title">Max Companion Core Frequenz</string>
+	<string name="hotplug_control_title">Hotplug Control</string>
+	<string name="cpuquiet_title">CPUQuiet Governor</string>
+	<string name="hotplug_control_summary">Tweake die Parameter um das CPU Kern Management zu kontrollieren.</string>
+	<string name="enable_all_load_title">Schwellwert (threshold) für das in Betrieb nehmen aller Kerne</string>
+	<string name="enable_load_title">Schwellwert (threshold) für das in Betrieb nehmen eines einzelnen Kernes</string>
+	<string name="disable_load_title">Schwellwert (threshold) für das Abschalten eines einzelnen Kernes</string>
+	<string name="hotplug_mode_title">Kern Management Modus</string>
+	<string name="hotplug_mode_summary">Hotplug: Schaltet Kerne an/ab je nach Last.\nDual-Core: Es werden nur zwei Kerne betrieben egal wie hoch die Last ist.\nQuad-Core: alle vier Kerne sind ständig in Betrieb. Für Spiele geeignet.\nDies kann ein Aus- und wieder Anschalten des Bildschirms erfordern, um aktiv zu werden.</string>
+	<string name="hotplug_category_title">Hotplug Control</string>
+	<string name="clicky_summary">Einstellungsdialog, um die GAMMA Einstellungen zu tweaken</string>
+	<string name="clicky_title">Tippe hier für GAMMA</string>
+	<string name="gamma_recommended_summary">Empfohlene Werte für satte Farben und ein tiefes Schwarz. Danke an obsanity!</string>
+	<string name="gamma_recommended_title">Empfohlene Werte</string>
+	<string name="sampling_rate_summary">Dieser Wert gibt an, wie oft der Treiber nach niedriger Last abfragt bevor er sich entscheidet, ob das Gerät wirklich dazu bereit ist, die Kerne abzuschalten. Der Standardwert ist ein guter Kompromiss zwischen Akkulaufzeit und Performance. Ein Erhöhen des Wertes ist besser für Spiele, ein Erniedrigen für die Akkulaufzeit</string>
+	<string name="sampling_rate_title">Sampling Rate</string>
+	<string name="su_dialog_summary">Du benötigst root Rechte, um diese App zu nutzen. Bitte verlasse die App und versuche es erneut.</string>
+	<string name="su_dialog_title">Kein root?</string>
+	<string name="tvRed">Rot:</string>
+	<string name="tvGreen">Grün:</string>
+	<string name="tvBlue">Blau:</string>
+	<string name="title_volt_plus_25">+25 mV</string>
+	<string name="title_volt_minus_25">-25 mV</string>
+	<string name="summary_volt_plus_25">Erhöhe alle Voltages um 25 mV.</string>
+	<string name="summary_volt_minus_25">Erniedrige alle Voltages um 25 mV.</string>
+	<string name="please_reboot">Bitte starte neu, damit die Gamma Werte ordentlich zurückgesetzt werden können.</string>
+	
 </resources>
