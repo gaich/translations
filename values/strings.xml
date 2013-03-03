@@ -302,5 +302,10 @@
 	<string name="tvRed">Red:</string>
 	<string name="tvGreen">Green:</string>
 	<string name="tvBlue">Blue:</string>
+	<string name="title_volt_plus_25">+25 mV</string>
+	<string name="title_volt_minus_25">-25 mV</string>
+	<string name="summary_volt_plus_25">Increase all voltages by 25 mV.</string>
+	<string name="summary_volt_minus_25">Decrease all voltages by 25 mV.</string>
+	<string name="please_reboot">Please reboot to have your gamma values reset properly.</string>
     
 </resources>
