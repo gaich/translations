@@ -71,10 +71,10 @@
     <string name="volume_boost_title">Potenciador de volumen - Solo funciona en auricualres</string>
     <string name="bootanimation_category_title">Animación de inicio personalizada</string>
     <string name="bootanimation_summary">Animación personalizada de franco.Kernel hecha por rascarlo. Es necesaria una conexión de internet para la descarga.</string>
-    <string name="bootanimation_title">franco.Kernel boot animation</string>
+    <string name="bootanimation_title">Animación de arranque franco.Kernel</string>
     <string name="download_path_category_title">Ruta de descarga del Kernel</string>
     <string name="download_path_title">Ruta de descarga personalizada</string>
-    <string name="toast_volume_boost">No es posible asignar un valor menor a 0 o mayor a 62, maldito tramposo!</string>
+    <string name="toast_volume_boost">No es posible asignar un valor menor a 0 o mayor a 62, ¡maldito tramposo!</string>
 
     <!-- Device Monitor Activity -->
     <string name="monitor_category_title">Monitor del dispositivo</string>
@@ -116,12 +116,12 @@
     <string name="profile_confirmation_text">Guardar</string>
     <string name="profile_dialog_title">Nombre del perfil:</string>
     <string name="multipliers_dialog_title">Multiplicadores del color</string>
-    <string name="gamma_dialog_title">RGB Gamma</string>
+    <string name="gamma_dialog_title">Gamma RGB</string>
     <string name="colorcontrol_category_title">Control del color</string>
     <string name="color_multiplier_summary">Ajuste los colores de la pantalla hasta que cumpla con tus preferencias.</string>
     <string name="color_multiplier_title">Multiplicadores del color</string>
-    <string name="color_gamma_summary">Ajuste los valores RGB gamma de la pantalla.</string>
-    <string name="color_gamma_title">RGB Gamma</string>
+    <string name="color_gamma_summary">Ajuste los valores gamma RGB de la pantalla.</string>
+    <string name="color_gamma_title">Gamma RGB</string>
     <string name="color_profiles_summary">Aquí puedes guardar tus valores para los multiplicadores de color y RGB gamma e intercambiarlos fácilmente dependiendo de su estádo de ánimo/situación.</string>
     <string name="color_profiles_title">Guardar un perfil de color</string>
     <string name="load_profiles_summary">Revisar y carga tus perfiles de color guardados previamente.</string>
@@ -143,14 +143,14 @@
     <string name="clicky_to_backup">Haga click para realizar la copia de seguridad</string>
     <string name="backup_title1">Añadido: </string>
     <string name="backup_title2">Click para restaurar o eliminar.</string>
-    <string name="backup_toast">Qué estás intentando hacer?  Esta función no es compatible con tu dispositivo.</string>
+    <string name="backup_toast">¿Qué estás intentando hacer?  Esta función no es compatible con tu dispositivo.</string>
 
     <!-- Franco Kernel Activity -->
-    <string name="franco_kernel_current_version_summary">No estás utilizando franco.Kernel… en qué estás pensando!?</string>
+    <string name="franco_kernel_current_version_summary">No estás utilizando franco.Kernel… ¿!en qué estás pensando!?</string>
     <string name="franco_kernel_activity_toast">Es necesaria una conexión a internet para realizar esta acción.</string>
     <string name="franco_kernel_rebootDialog_title">Reiniciar?</string>
-    <string name="franco_kernel_rebootDialog_message">El Kernel fue instalado satisfactoriamente pero debes reiniciar el dispositivo para cargar el nuevo Kernel. Reiniciar ahora?</string>
-    <string name="franco_kernel_rebootDialog_positiveButton">Si - ADELANTE!</string>
+    <string name="franco_kernel_rebootDialog_message">El Kernel fue instalado satisfactoriamente pero debes reiniciar el dispositivo para cargar el nuevo Kernel. ¿Reiniciar ahora?</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Si - ¡ADELANTE!</string>
     <string name="franco_kernel_rebootDialog_negativeButton">No.</string>
     <string name="latest_stable_summary">Obteniendo…</string>
     <string name="latest_nightly_summary">Obteniendo…</string>
@@ -170,11 +170,12 @@
     <string name="lean_kernel_dialog_stable_title">Descargar la versión estable más reciente de imoseyon Kernel</string>
     <string name="lean_kernel_activity_title">Descargar LeanKernel</string>
     <string name="latest_exp_title">Version exp más reciente</string>
+	<string name="lean_stable_download_summary">Click aquí para instalar automáticamente la versión estable de Imoseyon\'s Kernel.</string>
     <string name="lean_exp_download_summary">Click aquí para instalar automáticamente la versión exp de Imoseyon Kernel.</string>
     <string name="lean_exp_download_title">Descargar el Kernel exp más reciente</string>
 
     <!-- Power Modes Activity -->
-    <string name="power_modes_create_summary">Aui podrás crear planes de energía que se adapten a tus necesidades.</string>
+    <string name="power_modes_create_summary">Aquí podrás crear planes de energía que se adapten a tus necesidades.</string>
     <string name="power_modes_create_title">Crear un plan de energía personalizado</string>
     <string name="power_modes_create_error_toast">Para guardar este plan de energía no puedes dejar espacios en blanco.</string>
     <string name="pm_max_cpu_title">Velocidad máxima CPU</string>
@@ -220,6 +221,7 @@
     <string name="franco_kernel_onex_title">franco.Kernel para el One X</string>
     <string name="checkbox_text">No mostrar de nuevo</string>
     
+	<!-- New PM Dialog -->
     <string name="new_pm_name_text">Nombre:</string>
     <string name="new_pm_max_cpu_text">Frecuencia máxima de CPU:</string>
     <string name="new_pm_min_cpu_text"> Frecuencia mínima de CPU:</string>
@@ -236,6 +238,74 @@
 	<string name="power_presets_error">Esta función no está disponible en este equipo. Es probable que esté disponible en una próxima versión.</string>
 	<string name="license_checkz_title">Error de verificación de licencia </string>
 	<string name="license_checkz_message">Hubo un problema validando la licencia. Inténtalo de nuevo si ya compró la aplicación o seleccione comprar ahora si estás intentando engañarme.</string>
+    <string name="preview_img">preview_img</string>
     
-
+    <string name="error_vibration_toast">Solo puedes escoger entre 0 y 100.</string>
+    <string name="vibration_summary">Esto controla la intensidad de haptic feedback. El valor por defecto (stock) es de 70, pero si estas usando franco.Kernel es 100.</string>
+    <string name="vibration_title">Intensidad del Haptic feedback (vibración)</string>
+    <string name="error_md5_no_match">¡PELIGRO! El MD5 no concuerda, para tu seguridad el Kernel no ha sido actualizado. !Vuelvelo a descargar por motivos de seguridad!</string>
+    <string name="colors_summary">Aquí podrás ajustar los valores para los colores Rojo, Verde y Azul de tu pantalla para hacerla más cómoda a tus ojos. Los valores que uses se cargaran siempre al arrancar.</string>
+    <string name="colors_title">Ajustes de color para la pantalla.</string>
+    <string name="defaults_summary">Esto restaura los colores a su valor por defecto.</string>
+    <string name="defaults_title">Restaurar valores por defecto.</string>
+    <string name="n4_color_control_title">Corrección de color para pantalla IPS.</string>
+    <string name="franco_kernel_rebootZipDialog_message">El .zip del kernel ha sido descargado correctamente. Puedes elegir reinicar y el .zip se flasheara automaticamente en recovery.</string>
+    <string name="languages">Selecciona el idioma-</string>
+    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="stable_download_n10_summary">Descarga franco.Kernel para tu Nexus 10!</string>
+    <string name="kernel_update_n10">Descarga Kernel Nexus 10</string>
+    <string name="busybox_warning">Lo siento pero necesitas busybox para poder ver esta página. Es una precaución para evitar forzar cierres. Puedes descargar busybox de la Play Store gratis.</string>
+	<string name="clear_app_data">"Peligo: esto borrará toda la información de la aplicación como si fuera instalada desde 0 - perderás todas las opciones guardadas y borrará tu liencia, así que tendrá que consultar la Play Store por tu licencia la próxima vez que abras la aplicación. Cuando hagas click OK la aplicación se cerrará."</string>
+	<string name="clear_app_data_title">Borra datos de la aplicación.</string>
+	<string name="enable_all_load_threshold_summary">Carga del sistema para activar todos los núcleos de la CPU. Valores más altos hacen más dificil encender un núcleo, más bajos lo hacen más fácil.</string>
+	<string name="enable_load_threshold_summary">Valor del umbral responsable de detectar cuando encender un núcleo de la CPU. Valores más altos hacen más dificil encender un núcleo, más bajos lo hacen más fácil.</string>
+	<string name="disable_load_threshold_summary">Controla la frequencia en la que los núcleos se desactivan. Si bajas este valor será más difícil deshabilitar núcleos, pero valores más altos lo hará mas fácil.</string>
+	<string name="temp_threshold_summary">Esta es la temperatura límite en Celsius en la que el teléfono reducira su velocidad para reducir la temperatura.</string>
+	<string name="temp_threshold_title">Umbral del limitador de temperatura.</string>
+	<string name="io_tuning_title">Ajustes de IO Scheduler</string>
+	<string name="io_tuning_summary">PELIGRO: esta sección contiene todas las opciones para ajustar el IO scheduler. Es para usuarios AVANZADOS. Si no entienes las opciones tienes que buscar documentación sobre el Kernel. Estos valores NO se autocargar al arrancar, volver atrás siempre sera fácil.</string>
+	
+	<string name="gamma_title">Ajustes Gamma Pantalla</string>
+	<string name="gamma_summary">Dentro podrás ajustar todos los valores Gamma, blancos, medios, negros, contraste, brillo, saturación y grises.</string>
+	<string name="cpu_freq_title">Frequencia de CPU actual:</string>
+	<string name="temperature_title">Temperatura CPU</string>
+	<string name="gamma_defaults_summary">Esto resetea los valores gamma a valores por defecto del Kernel.</string>
+	<string name="gamma_warning_title">IMPORTANTE</string>
+	<string name="gamma_defaults_title">Valores por defecto</string>
+	<string name="gamma_category_title">Ajustes Gamma</string>
+	<string name="grays">Grises</string>
+	<string name="mids">Medios</string>
+	<string name="blacks">Negros</string>
+	<string name="contrast">Contraste</string>
+	<string name="brightness">Brillo</string>
+	<string name="saturation">Saturación</string>
+	<string name="whites">Blancos</string>
+	<string name="gpu_oc_title">Frequencia GPU máxima</string>
+	<string name="lp_oc_title">Frequencia máxima del Companion Core.</string>
+	<string name="hotplug_control_title">Controles de Hotplug</string>
+	<string name="cpuquiet_title">Governador CPUQuiet</string>
+	<string name="hotplug_control_summary">Ajusta los parametros de gestión de los núcleos de la CPU</string>
+	<string name="enable_all_load_title">Umbral activación todos los núcleos</string>
+	<string name="enable_load_title">Umbral activación un solo núcleo</string>
+	<string name="disable_load_title">Umbral desactivación de un solo núcleo</string>
+	<string name="hotplug_mode_title">Modo Gestión Núcleos</string>
+	<string name="hotplug_mode_summary">Hotplug: cambia el estado de los núcleos (on/off) basandose en la carga del sistema.\nDoble Núcleo: se comporta como un dispotivo doble núcleo sin importar la carga.\nCuatro núcleos: los cuatro núcleos siempre estarán encendidos. Esto es bueno para jugar. (Puede requerir encender y apagar la pantalla).</string>
+	<string name="hotplug_category_title">Control de Hotplug</string>
+	<string name="clicky_summary">Diálogo para ajustar los valores GAMMA de la pantalla.</string>
+	<string name="clicky_title">Abrir interfaz de ajustes GAMMA.</string>
+	<string name="gamma_recommended_summary">Ajustes recomendados para colores ricos y negros profundos, ¡gracias a obsanity!</string>
+	<string name="gamma_recommended_title">Valores recomendados</string>
+	<string name="sampling_rate_summary">Es valor representa cuantas veces el controlador muestrea por cargas bajas antes de decidir si el dispositivo realmente esta preparado para desactivar un núcleo. El valor por defecto es un buen valor entre bateria y rendimiento. Incrementar el valor es mejor para jugar, disminuirlo es mejor para la batería.</string>
+	<string name="sampling_rate_title">Ratio muestreo</string>
+	<string name="su_dialog_summary">Necesitas root para esta aplicación.Sal y vuelve a intentarlo.</string>
+	<string name="su_dialog_title">¿No tienes root?</string>
+	<string name="tvRed">Rojo:</string>
+	<string name="tvGreen">Verde:</string>
+	<string name="tvBlue">Azul:</string>
+	<string name="title_volt_plus_25">+25 mV</string>
+	<string name="title_volt_minus_25">-25 mV</string>
+	<string name="summary_volt_plus_25">Incrementar todos los voltajes (+25 mV).</string>
+	<string name="summary_volt_minus_25">Reducir todos los voltajes (-25 mV).</string>
+	<string name="please_reboot">Porfavor reinica para que se carguen los valores de Gamma por defecto correctamente.</string>
+    
 </resources>
