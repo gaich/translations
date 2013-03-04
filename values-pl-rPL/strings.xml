@@ -8,9 +8,11 @@
     <string name="device_supported_title">Status Twojego urządzenia</string>
     <string name="device_supported_summary">Twoje urządzenie jest:</string>
     <string name="franco_kernel_title">franco.Kernel updater</string>
-    <string name="franco_kernel_summary">Tutaj sprawdzisz czy dostępne są nowe wersje Franco.Kernel oraz pobierzesz je i zainstalujesz. </string>
+    <string name="franco_kernel_summary">Tutaj sprawdzisz czy dostępne są nowe wersje Franco.Kernel oraz pobierzesz je i zainstalujesz. 
+</string>
     <string name="lean_kernel_title">LeanKernel updater</string>
-    <string name="lean_kernel_summary">	Jeśli klikniesz tutaj, oficjalnie jesteś zdrajcą, ale za to możesz cieszyć się Kernelem Imoseyona :) </string>
+    <string name="lean_kernel_summary">	Jeśli klikniesz tutaj, oficjalnie jesteś zdrajcą, ale za to możesz cieszyć się Kernelem Imoseyona :) 
+</string>
     <string name="backup_restore_title">Kopia zapasowa/Przywracanie Kernela</string>
     <string name="backup_restore_summary">Zapisz obecne ustawienia Kernela i przywróć je w razie potrzeby bez konieczności korzystania z recovery. </string>
     <string name="oc_uv_title">Częstotliwości/Napięcia</string>
@@ -63,7 +65,8 @@
     <string name="wifi_pm_title">Wzmocnienie sygnału Wi-Fi</string>
     <string name="blx_summary">Ustawienie determinujące maksymalną wartość, do jakiej akumulator w urządzeniu może być ładowany.</string>
     <string name="blx_title">Battery Life eXtender</string>
-    <string name="tegra_screen_dimmer_summary">	Domyślnie włączona opcja, która oszczędza baterię poprzez zmniejszenie kontrastu i jasności w filmach. Jeśli zależy Ci na najlepszej jakości filmów, wyłącz tę opcję. </string>
+    <string name="tegra_screen_dimmer_summary">	Domyślnie włączona opcja, która oszczędza baterię poprzez zmniejszenie kontrastu i jasności w filmach. Jeśli zależy Ci na najlepszej jakości filmów, wyłącz tę opcję. 
+</string>
     <string name="tegra_screen_dimmer_title">Przyciemniacz ekranów Tegra</string>
     <string name="tcp_title">Algorytm odciążania TCP</string>
     <string name="high_performance_summary">Udoskonala "czystość" dźwięków.</string>
@@ -122,15 +125,19 @@
     <string name="color_multiplier_title">Współczynniki koloru</string>
     <string name="color_gamma_summary">Podrasuj wartości RGB swojego ekranu.</string>
     <string name="color_gamma_title">RGB Gamma</string>
-    <string name="color_profiles_summary">	Zapisuje profil koloru, co ułatwia późniejsze przełączanie ich w zależności od potrzeb. </string>
+    <string name="color_profiles_summary">	Zapisuje profil koloru, co ułatwia późniejsze przełączanie ich w zależności od potrzeb. 
+</string>
     <string name="color_profiles_title">Zapisz profil kolorów</string>
     <string name="load_profiles_summary">Zaznacz i wczytaj wcześniej zapisany profil kolorów.</string>
     <string name="load_profiles_title">Wczytaj swój profil kolorów</string>
-    <string name="adaptive_brightness_summary">Dostosowuje jasność kolorów w zależności od tego, co jest wyświetlane na ekranie.</string>
+    <string name="adaptive_brightness_summary">Dostosowuje jasność kolorów w zależności od tego, co jest wyświetlane na ekranie.
+</string>
     <string name="adaptive_brightness_title">Wyłącz dostosowywanie jasności</string>
-    <string name="trinity_contrast_summary">	Oryginalna implementacja z Kernela Trinity, która umożliwia polepszenie kontrastu dla osiągnięcia lepszego komfortu wizualnego. </string>
+    <string name="trinity_contrast_summary">	Oryginalna implementacja z Kernela Trinity, która umożliwia polepszenie kontrastu dla osiągnięcia lepszego komfortu wizualnego. 
+</string>
     <string name="trinity_contrast_title">Interfejs kontrastu Trinity</string>
-    <string name="omap_gamma_summary">	Interfejs od Omapzoom, który umożliwia zmianę współczynika gamma ekranu poprzez zestaw zdefiniowanych wartości. Działa niezależnie od interfejsu powyżej.</string>
+    <string name="omap_gamma_summary">	Interfejs od Omapzoom, który umożliwia zmianę współczynika gamma ekranu poprzez zestaw zdefiniowanych wartości. Działa niezależnie od interfejsu powyżej.
+</string>
     <string name="omap_gamma_title">Interfejs GAMMA OMAP</string>
     <string name="color_profiles_category_title">Profile kolorów</string>
 
@@ -175,7 +182,8 @@
     <string name="lean_exp_download_title">Pobierz najnowszą eksperymentalną wersję LeanKernel.</string>
 
     <!-- Power Modes Activity -->
-    <string name="power_modes_create_summary">W tym miejscu możesz tworzyć własne profile zarządzania Kernelem w celu dopasowania jego działania do własnych potrzeb.</string>
+    <string name="power_modes_create_summary">W tym miejscu możesz tworzyć własne profile zarządzania Kernelem w celu dopasowania jego działania do własnych potrzeb.
+</string>
     <string name="power_modes_create_title">Stwórz własny Profil zarządzania Kernelem</string>
     <string name="power_modes_create_error_toast">Nie możesz zapisać tego profilu bez wypełnienia wszystkich pól.</string>
     <string name="pm_max_cpu_title">Maksymalne taktowanie zegara CPU</string>
@@ -221,21 +229,26 @@
     <string name="franco_kernel_onex_title">franco.Kernel dla One X</string>
     <string name="checkbox_text">Nie pokazuj więcej tego okna!</string>
     <string name="new_pm_name_text">Nazwa:</string>
-    <string name="new_pm_max_cpu_text">Maklymalna częstotliwość CPU:</string>
+    <string name="new_pm_max_cpu_text">Maksymalna częstotliwość CPU:</string>
     <string name="new_pm_min_cpu_text">Minimalna częstotliwość CPU:</string>
     <string name="new_pm_gov_text">Zarządca:</string>
     <string name="new_pm_io_sched_text">Harmonogram IO:</string>
     <string name="new_pm_freq_screen_off_text">Maksymalna częstotliwość CPU dla wyłączonego ekranu.</string>
-    <string name="power_modes_warning">	Jeśli posiadałeś jakiekolwiek profile zarządzania przed aktualizacją do wersji 8.0, po aktualizacji nie będą one działać. Wybranie profilu z poprzednich wersji będzie skutkowało wymuszonym zamknięciem aplikacji. Wyczyść dane aplikacji albo zainstaluj ją ponownie aby rozwiązać problemy- przepraszam za kłopot. </string>
-    <string name="backup_toast_error">	Kopia zapasowa o takiej nazwie już istnieje, wybierz inną nazwę.</string>
+    <string name="power_modes_warning">	Jeśli posiadałeś jakiekolwiek profile zarządzania przed aktualizacją do wersji 8.0, po aktualizacji nie będą one działać. Wybranie profilu z poprzednich wersji będzie skutkowało wymuszonym zamknięciem aplikacji. Wyczyść dane aplikacji albo zainstaluj ją ponownie aby rozwiązać problemy- przepraszam za kłopot. 
+</string>
+    <string name="backup_toast_error">	Kopia zapasowa o takiej nazwie już istnieje, wybierz inną nazwę.
+</string>
     <string name="xda_nexus">Wątek dot. Galaxy Nexus na XDA </string>
     <string name="xda_nexus7">Wątek dot. Asus Nexus 7 na XDA</string>
     <string name="xda_nexus4">Wątek dot. LG Nexus 4 na XDA </string>
-    <string name="presets_summary">	Ta opcja pozwala na dostęp do czterech zestawów ustawień proponowanych przez twórcę aplikacji: Oszczędność baterii, Zrównoważony, Przyśpieszony i Pełna wydajność.     </string>
+    <string name="presets_summary">	Ta opcja pozwala na dostęp do czterech zestawów ustawień proponowanych przez twórcę aplikacji: Oszczędność baterii, Zrównoważony, Przyśpieszony i Pełna wydajność.     
+</string>
     <string name="presets_title">Power-Presets</string>
-    <string name="power_presets_error">	Opcja jeszcze nie jest dostępna na Twoim urządzeniu. Powinno się to zmienić w niedalekiej przyszłości.</string>
+    <string name="power_presets_error">	Opcja jeszcze nie jest dostępna na Twoim urządzeniu. Powinno się to zmienić w niedalekiej przyszłości.
+</string>
     <string name="license_checkz_title">Błąd sprawdzania licencji</string>
-    <string name="license_checkz_message">	Pojawił się problem z weryfikacją Twojej licencji na program FKU. Spróbuj ponownie, jeśli kupiłeś aplikację lub kup ją, jeśli jest inaczej. Kosztuje tylko dyszkę! :) </string>
+    <string name="license_checkz_message">	Pojawił się problem z weryfikacją Twojej licencji na program FKU. Spróbuj ponownie, jeśli kupiłeś aplikację lub kup ją, jeśli jest inaczej. Kosztuje tylko dyszkę! :) 
+</string>
 
     <string name="error_vibration_toast">Możesz wybrać tylko wartość w przedziale 0-100.</string>
     <string name="vibration_summary">To ustawienie wpływa na siłę wibracji dotyku. W stockowym kernelu wartość ta ustawiona jest na 70, ale we franco.Kernel jest ona zwiększona do 100.</string>
