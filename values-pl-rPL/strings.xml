@@ -268,7 +268,7 @@
 	<string name="clear_app_data">"UWAGA! Ta funkcja wyczyści WSZYSTKIE Twoje ustawienia aplikacji, włącznie z zapisanymi profilami oraz licencją. Po ponownym uruchomieniu aplikacja sprawdzi licencję w sklepie Play. Kliknij OK a aplikacja zostanie zamknięta."</string>
 	<string name="clear_app_data_title">Wyczyśc dane aplikacji</string>
 	<string name="enable_all_load_threshold_summary">Wpływa na aktywowanie wszystkich rdzeni CPU. Wyższe wartości powodują, że rdzenie będą włączane rzadziej, niższe zaś ułatwiają włączanie wszystkich rdzeni.</string>
-	<string name="enable_load_threshold_summary">Wartość brzegowa odpowiedzialna za aktywowanie pojedynczego rdzenia CPU. Ustawienie wyższych wartości spowoduje, że pojedyńcze rdzenie będą włączane rzadziej,niższe zaś ułatwią dodawanie kolejnych rdzeni.</string>
+	<string name="enable_load_threshold_summary">Wartość progowa odpowiedzialna za aktywowanie pojedynczego rdzenia CPU. Ustawienie wyższych wartości spowoduje, że pojedyńczy rdzeń będzie włączany rzadziej,niższe zaś ułatwią dodawanie kolejnych rdzeni.</string>
 	<string name="disable_load_threshold_summary">Kontroluje jak często rdzenie są deaktywowane. Im niższa wartość tym rzadziej rdzenie będą deaktywowane, im wyższa wartość tym częsciej.</string>
 	<string name="temp_threshold_summary">Progowa wartość temperatury w stopniach celsjusza po jakiej przekroczeniu procesor zacznie zwalniać w celu schłodzenia.</string>
 	<string name="temp_threshold_title">Kontrola temperatury- wartość progowa</string>
