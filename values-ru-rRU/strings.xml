@@ -271,6 +271,11 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="tvRed">Красный:</string>
     <string name="tvGreen">Зеленый:</string>
     <string name="tvBlue">Синий:</string>
+    <string name="title_volt_plus_25">+25 mV</string>
+    <string name="title_volt_minus_25">-25 mV</string>
+    <string name="summary_volt_plus_25">Увеличить все напряжения на 25 mV.</string>
+    <string name="summary_volt_minus_25">Уменьшить все напряжения на 25 mV.</string>
+    <string name="please_reboot">Пожалуйста, перезагрузите устройство для правильной установки значений гаммы.</string>
 </resources>
 
 
