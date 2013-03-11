@@ -68,7 +68,7 @@
     <string name="wifi_pm_summary">Activez cette option pour booster votre signal Wi-Fi moyennant une consommation de batterie augmentée. Utile pour le streaming lorsque l\'écran est éteint.</string>
     <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
     <string name="blx_summary">Définir le pourcentage maximum de la recharge de votre batterie.</string>
-    <string name="blx_title">Extension de l'autonomie de la batterie</string>
+    <string name="blx_title">Extension de l\'autonomie de la batterie</string>
     <string name="tegra_screen_dimmer_summary">Active par défaut, il économise une peu de batterie lors de la lecture vidéo en diminuant le contraste et la luminosité. Si vous voulez regarder vos vidéos en qualité maximale, désactivez cette fonction.</string>
     <string name="tegra_screen_dimmer_title">Variateur d\'Ecran Tegra</string>
     <string name="tcp_title">Algorithme TCP d\'évitement d\'encombrement</string>
@@ -152,7 +152,7 @@
     <string name="backup_toast">Qu\'essayez-vous de faire? Cette fonctionnalité n\'est pas prise en charge sur votre appareil.</string>
 
     <!-- Franco Kernel Activity -->
-    <string name="franco_kernel_current_version_summary">Vous n'utilisez pas franco.Kernel... A quoi pensez vous ?</string>
+    <string name="franco_kernel_current_version_summary">Vous n\'utilisez pas franco.Kernel... A quoi pensez vous ?</string>
     <string name="franco_kernel_activity_toast">Une connexion Internet est nécessaire pour cela</string>
     <string name="franco_kernel_rebootDialog_title"> Redémarrer ?</string>
     <string name="franco_kernel_rebootDialog_message">Le kernel a été correctement auto-flashé, mais vous devez redémarrer pour charger le nouveau kernel. Redémarrer maintenant?</string>
@@ -169,7 +169,7 @@
     <string name="nightly_download_title">Télécharger la dernière nightly du kernel</string>
     <string name="stable_download_summary">Cliquez ici pour choisir l\'auto-flash ou le téléchargement du .zip.</string>
     <string name="stable_download_title">Télécharger la dernière version stable du kernel</string>
-    <string name="latest_stable_version_error">Vous avez besoin d'une connexion internet pour voir ceci</string>
+    <string name="latest_stable_version_error">Vous avez besoin d\'une connexion internet pour voir ceci</string>
 
     <!-- Lean Kernel Activity -->
     <string name="lean_kernel_dialog_exp_title">Télécharger la dernière version expérimental du Kernel Imoseyon</string>
@@ -186,7 +186,7 @@
     <string name="power_modes_create_error_toast">Vous ne pouvez pas enregistrer ce mode d\'alimentation sans remplir tous les champs.</string>
     <string name="pm_max_cpu_title">Fréquence Max du CPU</string>
     <string name="pm_min_cpu_title">fréquence Min du CPU</string>
-    <string name="pm_governor_title">Gouverneur</tring>
+    <string name="pm_governor_title">Gouverneur</string>
     <string name="pm_io_sched_title">Planificateur d\'E/S</string>
     <string name="pm_screen_max_freq_title">Fréquence max lorsque l\'ecran est éteint</string>
     <string name="pm_save_title">Sauvegarder</string>
@@ -241,7 +241,7 @@
 	<string name="xda_nexus7">Fil de discussion XDA sur la Nexus 7</string>
 	<string name="xda_nexus4">Fil de discussion XDA sur le Nexus 4</string>
 	<string name="presets_summary">Cette option vous donnera accés à 4 présélections: Beastly Battery (max de batterie), Best Balance (Meilleur équilibre), Slight Speed (un peu plus rapide) and Powerful Performance (Haute performance).</string>
-	<string name="presets_title">Préréglages d'alimentation</string>
+	<string name="presets_title">Préréglages d\'alimentation</string>
 	<string name="power_presets_error">Fonctionnalité non prise en charge sur cet appareil. Susceptible d\'être bientôt disponible dans des itérations futures.</string>
 	<string name="license_checkz_title">Erreur dans la vérification de la licence</string>
 	<string name="license_checkz_message">Il y a eu un problème lors de la validation de la licence de votre application. Toucher Réessayer si vous avez acheté l\'app avant, ou appuyez sur Acheter si vous essayiez de me faire un coup bas.</string>

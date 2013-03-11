@@ -239,7 +239,6 @@
     <string name="license_checkz_title">License Check Error</string>
     <string name="license_checkz_message">There was a problem validating your application license. Hit retry if you bought the app before, or hit buy if you\'re trying to fool me down.</string>
     <string name="preview_img">preview_img</string>
-    
     <string name="error_vibration_toast">You can only chose between 0 and 100.</string>
     <string name="vibration_summary">This controls the strength of your haptic feedback. Stock kernel value is 70, but if you\'re using franco.Kernel its 100.</string>
     <string name="vibration_title">Haptic feedback strength (vibration)</string>
@@ -264,7 +263,6 @@
     <string name="temp_threshold_title">Thermal throttle threshold</string>
     <string name="io_tuning_title">IO Scheduler Tuning</string>
     <string name="io_tuning_summary">WARNING: this section contains all the options to tune the IO scheduler. It is for ADVANCED users. If you don\'t understand the options inside you have to search on the Kernel Documentation files. The values are NOT set on boot, so you can reset them back easily.</string>
-    
     <string name="gamma_title">Screen Gamma Settings</string>
     <string name="gamma_summary">Inside you\'ll be able to tweak all your Gamma settings ranging from whites, mids, blacks, contrast, brightness, saturation and grays.</string>
     <string name="cpu_freq_title">Live CPU frequency</string>
@@ -317,5 +315,5 @@
     <string name="others_array_title">Misc. gamma settings</string>
     <string name="gain_level_summary">This controls the level of gain for the headphones.</string>
     <string name="gain_level_title">Headphones Gain.</string>
-    
+
 </resources>

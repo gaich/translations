@@ -70,7 +70,7 @@
     <string name="high_performance_title">Yüksek performanslı ses çıkışını etkinleştir - Sadece kulaklık için</string>
     <string name="volume_boost_title">Ses seviyesini yükselt - Sadece kulaklık için</string>
     <string name="bootanimation_category_title">Başlangıç animasyonu</string>
-    <string name="bootanimation_summary">rascarlo'non hazırladığı franco.Kernel başlangıç animasyonu. Kurabilmek için internet bağlantısı gerekir.</string>
+    <string name="bootanimation_summary">rascarlo\'non hazırladığı franco.Kernel başlangıç animasyonu. Kurabilmek için internet bağlantısı gerekir.</string>
     <string name="bootanimation_title">franco.Kernel başlangıç animasyonu</string>
     <string name="download_path_category_title">Kernel indirme dizini</string>
     <string name="download_path_title">İndirme dizini</string>
