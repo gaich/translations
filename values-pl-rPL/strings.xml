@@ -314,4 +314,15 @@
 	<string name="io_tuning_summary">UWAGA: ta sekcja zawiera wszystkie opcje dotyczące ustawiania Zarządcy IO. Jest to sekcja dla ZAAWANSOWANYCH użytkowników. Jeśli nie rozumiesz opcji wewnątrz, poszukaj wyjaśnień w dokumentacji Kernela. Ustawiane tu wartości NIE SĄ włączane podczas uruchamiania, więc możesz je łatwo zresetować.  </string>
 	<string name="io_tuning_title">Dostrajanie zarządcy IO</string>
 	<string name="preview_img">preview_img</string>
+	<!-- NEW 11-03-13-->
+	<string name="gain_level_title">Wzmocnienie słuchawek</string>
+	<string name="gain_level_summary">Ta opcja kontroluje poziom wzmocnienia dźwięku słuchawek</string>
+	<string name="others_array_title">Różne ustawienia GAMMA</string>
+	<string name="others_array_summary">Ustawienia nasycenia, jasności i kontrastu dla widma RGB</string>
+	<string name="blue_array_title">Niebieski</string>
+	<string name="blue_array_summary">Ustawienia bieli, szarości, czerni i pośrednich dla krzywych GAMMA niebieskiego  </string>
+	<string name="green_array_title">Zielony</string>
+	<string name="green_array_summary">Ustawienia bieli, szarości, czerni i pośrednich dla krzywych GAMMA zielonego</string>
+	<string name="red_array_title">Czerwony</string>
+	<string name="red_array_summary">Ustawienia bieli, szarości, czerni i pośrednich dla krzywych GAMMA czerwonego</string>
 </resources>
