@@ -238,8 +238,7 @@
 	<string name="power_presets_error">Esta función no está disponible en este equipo. Es probable que esté disponible en una próxima versión.</string>
 	<string name="license_checkz_title">Error de verificación de licencia </string>
 	<string name="license_checkz_message">Hubo un problema validando la licencia. Inténtalo de nuevo si ya compró la aplicación o seleccione comprar ahora si estás intentando engañarme.</string>
-    <string name="preview_img">preview_img</string>
-    
+    <string name="preview_img">preview_img</string> 
     <string name="error_vibration_toast">Solo puedes escoger entre 0 y 100.</string>
     <string name="vibration_summary">Esto controla la intensidad de haptic feedback. El valor por defecto (stock) es de 70, pero si estas usando franco.Kernel es 100.</string>
     <string name="vibration_title">Intensidad del Haptic feedback (vibración)</string>
@@ -264,7 +263,6 @@
 	<string name="temp_threshold_title">Umbral del limitador de temperatura.</string>
 	<string name="io_tuning_title">Ajustes de IO Scheduler</string>
 	<string name="io_tuning_summary">PELIGRO: esta sección contiene todas las opciones para ajustar el IO scheduler. Es para usuarios AVANZADOS. Si no entienes las opciones tienes que buscar documentación sobre el Kernel. Estos valores NO se autocargar al arrancar, volver atrás siempre sera fácil.</string>
-	
 	<string name="gamma_title">Ajustes Gamma Pantalla</string>
 	<string name="gamma_summary">Dentro podrás ajustar todos los valores Gamma, blancos, medios, negros, contraste, brillo, saturación y grises.</string>
 	<string name="cpu_freq_title">Frequencia de CPU actual:</string>
@@ -307,5 +305,14 @@
 	<string name="summary_volt_plus_25">Incrementar todos los voltajes (+25 mV).</string>
 	<string name="summary_volt_minus_25">Reducir todos los voltajes (-25 mV).</string>
 	<string name="please_reboot">Porfavor reinica para que se carguen los valores de Gamma por defecto correctamente.</string>
-    
+	<string name="red_array_summary">Ajusta el color Rojo de blancos, grises, negros y medios en curva gamma.</string>
+    <string name="red_array_title">ROJO</string>
+    <string name="green_array_summary">Ajusta el color Verde de blancos, grises, negros y medios en curva gamma.</string>
+    <string name="green_array_title">VERDE</string>
+    <string name="blue_array_summary">Ajusta el color Azul de blancos, grises, negros y medios en curva gamma.</string>
+    <string name="blue_array_title">AZUL</string>
+    <string name="others_array_summary">Ajusta la saturación, brillo y contraste para el espectro RGB.</string>
+    <string name="others_array_title">Ajustes misc. gamma</string>
+    <string name="gain_level_summary">Esto controla el nivel de ganancia de los auriculares.</string>
+    <string name="gain_level_title">Ganancia Auriculares</string>    
 </resources>
