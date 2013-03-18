@@ -38,7 +38,7 @@
     <string name="voltages_summary">调节你的 CPU、IVA 和 CORE 电压。</string>
     <string name="voltages_title">电压</string>
     <string name="kernel_settings">自定义内核设置</string>
-    <string name="loud_summary">从 0 到 3 逐级提高耳机的输出音量。</string>
+    <string name="loud_summary">从 0 到 20 逐级提高耳机的输出音量。</string>
     <string name="loud_title">提高耳机音量</string>
     <string name="tcp_summary">你需要安装 busybox 来查看或改变 TCP 算法。</string>
     <string name="throttle_off_summary">"警告！这将完全禁用热量节流功能。你的设备在过热后不会自动节流并在到达 110ºC 后断电。"</string>
