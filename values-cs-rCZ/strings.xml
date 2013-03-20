@@ -40,8 +40,8 @@
     <string name="voltages_title">Voltáže</string>
     <!-- Kernel Settings Activity -->
     <string name="kernel_settings">Vlastní nastavení kernelu</string>
-    <string name="loud_summary">Zvyšuje hlasitost sluchátek v rozsahu 0 až 3.</string>
-    <string name="loud_title">Zvýšit hlasitost sluchátek</string>
+    <string name="loud_summary">Zvýší hlasitost sluchátek. Před změnou této hodnoty je dobré zastavit multimediální aplikace. Pozor na uši, výsledek může být velmi hlasitý!</string>
+    <string name="loud_title">Zesílení hlasitosti sluchátek</string>
     <string name="tcp_summary">Pro zobrazení a změnu TCP algoritmu je třeba busybox.</string>
     <string name="throttle_off_summary">POZOR! Prevence přehřátí bude úplně vypnuta. Zařízení nebude schopné snižovat výkon při vyšších teplotách, a bude kompletně vypnuto dosažím 110°C.</string>
     <string name="throttle_off_title">Vypnout prevenci přehřátí</string>
@@ -64,7 +64,7 @@
     <string name="tcp_title">Algoritmus zabránění přetížení TCP</string>
     <string name="high_performance_summary">Zvyšuje čistotu zvuku.</string>
     <string name="high_performance_title">Přepnout vysokou kvalitu zvuku - jen pro sluchátka</string>
-    <string name="volume_boost_title">Zvýšení hlasitosti - jen pro sluchátka</string>
+    <string name="volume_boost_title">Zesílení hlasitosti - jen pro sluchátka</string>
     <string name="bootanimation_category_title">Vlastní startovací animace</string>
     <string name="bootanimation_summary">Vlastní startovací animace franco.Kernel od rascarlo. Připojení k internetu je vyžadováno.</string>
     <string name="bootanimation_title">Bootovací animace franco.Kernel</string>
@@ -289,4 +289,14 @@
     <string name="summary_volt_plus_25">Zvýšit všchny voltáže o 25 mV.</string>
     <string name="summary_volt_minus_25">Snížit všechny voltáže o 25 mV.</string>
     <string name="please_reboot">Pro správne nastavení gamma hdonot je třeba restartovat.</string>
+    <string name="red_array_summary">Ladění bílých, šedých, černých a středních odstínů pro červené gamma spektrum.</string>
+    <string name="red_array_title">ČERVENÁ</string>
+    <string name="green_array_summary">Ladění bílých, šedých, černých a středních odstínů pro zelené gamma spektrum.</string>
+    <string name="green_array_title">ZELENÁ</string>
+    <string name="blue_array_summary">Ladění bílých, šedých, černých a středních odstínů pro modré gamma spektrum.</string>
+    <string name="blue_array_title">MODRÁ</string>
+    <string name="others_array_summary">Ladění saturace, jasu a kontrastu pro RGB spektrum.</string>
+    <string name="others_array_title">Ostatní nastavení gammy</string>
+    <string name="gain_level_summary">Ovládá úrověn zesílení sluchátek.</string>
+    <string name="gain_level_title">Zesílení sluchátek.</string>
 </resources>
