@@ -1,6 +1,5 @@
 <resources>
-
-    <string name="app_name">franco.Kernel updater</string>
+    <string name="app_name">franco.Kernel aktualizace</string>
     <string name="menu_settings">Nastavení</string>
     <!-- Main Activity -->
     <string name="main">Hlavní</string>
@@ -23,7 +22,7 @@
     <string name="device_monitor_title">Monitor zařízení</string>
     <string name="device_monitor_summary">Panel ukazující stav zařízení v reálném čase.</string>
     <!-- Frequencies/Voltages Activity -->
-    <string name="oc_uv_class">Frekvence/Napětí</string>
+    <string name="oc_uv_class">Frekvence/Voltáže</string>
     <string name="max_cpu_title">Nejvyšší frekvence CPU</string>
     <string name="min_cpu_title">Nejnižší frekvence CPU</string>
     <string name="governor_title">Aktuální governor</string>
@@ -37,15 +36,15 @@
     <string name="governor_control_boot_title">Použít nastavení governoru při startu</string>
     <string name="governor_control_boot_summary">Pokud je vybráno, vlastní nastavení governoru bude aplikováno při startu.</string>
     <string name="governor_control_error_toast">Použitý governor není podporován touto aplikací.</string>
-    <string name="voltages_summary">Připojením k temné straně :) je možné experimentovat s CPU, IVA a CORE napětím.</string>
-    <string name="voltages_title">Napětí</string>
+    <string name="voltages_summary">Připojením k temné straně :) je možné experimentovat s CPU, IVA a CORE voltážemi.</string>
+    <string name="voltages_title">Voltáže</string>
     <!-- Kernel Settings Activity -->
     <string name="kernel_settings">Vlastní nastavení kernelu</string>
-    <string name="loud_summary">Zvyšuje hlasitost sluchátek v rozsahu 0 až 3.</string>
-    <string name="loud_title">Zvýšit hlasitost sluchátek</string>
+    <string name="loud_summary">Zvýší hlasitost sluchátek. Před změnou této hodnoty je dobré zastavit multimediální aplikace. Pozor na uši, výsledek může být velmi hlasitý!</string>
+    <string name="loud_title">Zesílení hlasitosti sluchátek</string>
     <string name="tcp_summary">Pro zobrazení a změnu TCP algoritmu je třeba busybox.</string>
-    <string name="throttle_off_summary">POZOR! Tepelná pojistka bude úplně vypnuta. Zařízení nebude schopné snižovat výkon při vyšších teplotách, a bude kompletně vypnuto dosažím 110°C.</string>
-    <string name="throttle_off_title">Vypnout tepelnou pojistku</string>
+    <string name="throttle_off_summary">POZOR! Prevence přehřátí bude úplně vypnuta. Zařízení nebude schopné snižovat výkon při vyšších teplotách, a bude kompletně vypnuto dosažím 110°C.</string>
+    <string name="throttle_off_title">Vypnout prevenci přehřátí</string>
     <string name="io_sched_title">IO Scheduler</string>
     <string name="input_touch_booster_title">Vylešení dotyků</string>
     <string name="fsync_summary">Zařízení si bude s touto volbou udržovat větší integritu dat, ale trochu nižší IO rychlost. Vypnutá volba způsobí větší IO rychlost, ale horší integritu dat.</string>
@@ -65,7 +64,7 @@
     <string name="tcp_title">Algoritmus zabránění přetížení TCP</string>
     <string name="high_performance_summary">Zvyšuje čistotu zvuku.</string>
     <string name="high_performance_title">Přepnout vysokou kvalitu zvuku - jen pro sluchátka</string>
-    <string name="volume_boost_title">Zvýšení hlasitosti - jen pro sluchátka</string>
+    <string name="volume_boost_title">Zesílení hlasitosti - jen pro sluchátka</string>
     <string name="bootanimation_category_title">Vlastní startovací animace</string>
     <string name="bootanimation_summary">Vlastní startovací animace franco.Kernel od rascarlo. Připojení k internetu je vyžadováno.</string>
     <string name="bootanimation_title">Bootovací animace franco.Kernel</string>
@@ -91,21 +90,21 @@
     <string name="cpu2_title">CPU jádro 2</string>
     <string name="cpu3_title">CPU jádro 3</string>
     <!-- Voltages Activity -->
-    <string name="voltages_category_title">Npětí</string>
-    <string name="mpu_voltages_summary">Opatrně s napětím CPU!</string>
-    <string name="mpu_voltages_title">Napětí CPU</string>
-    <string name="iva_voltages_summary">Napětí dekodéru médií.</string>
-    <string name="iva_voltages_title">Napětí IVA</string>
-    <string name="core_voltages_summary">Nastavení napětí GPU.</string>
-    <string name="core_voltages_title">Napětí GPU</string>
-    <string name="apply_summary">Klikněte zde, pro nastavení nového napětí.</string>
+    <string name="voltages_category_title">Voltáž</string>
+    <string name="mpu_voltages_summary">Opatrně s voltáží CPU!</string>
+    <string name="mpu_voltages_title">Voltáž CPU</string>
+    <string name="iva_voltages_summary">Voltáž dekodéru médií.</string>
+    <string name="iva_voltages_title">Voltáž IVA</string>
+    <string name="core_voltages_summary">Nastavení voltáže GPU.</string>
+    <string name="core_voltages_title">Voltáž GPU</string>
+    <string name="apply_summary">Kliknutím nastavit novou voltáž.</string>
     <string name="apply_title">Použít vše</string>
     <string name="volt_dialog_button">Použít</string>
-    <string name="mpu_voltages_activity_title">Napětí CPU</string>
-    <string name="core_voltages_activity_title">Napětí GPU</string>
-    <string name="iva_voltages_activity_title">Napětí IVA</string>
-    <string name="voltages_boot_summary">S tímto nastavením budou všechny uložené napětí aplikovány při startu. Toto je na vlastní odpovědnost, pokud budou nastavené špatné voltáže nic už nepomůže :).</string>
-    <string name="voltages_boot_title">Nastavit napětí při startu</string>
+    <string name="mpu_voltages_activity_title">Voltáž CPU</string>
+    <string name="core_voltages_activity_title">Voltáž GPU</string>
+    <string name="iva_voltages_activity_title">Voltáž IVA</string>
+    <string name="voltages_boot_summary">S tímto nastavením budou všechny uložené voltáže aplikovány při startu. Toto je na vlastní odpovědnost, pokud budou nastaveny špatné voltáže nic už nepomůže :).</string>
+    <string name="voltages_boot_title">Nastavit voltáže při startu</string>
     <!-- ColorControl Activity -->
     <string name="profile_confirmation_text">Uložit</string>
     <string name="profile_dialog_title">Jméno profilu:</string>
@@ -205,6 +204,7 @@
     <string name="readme_summary">Toto je velmi důležité, číst pozorně!</string>
     <string name="franco_kernel_onex_title">franco.Kernel pro HTC One X</string>
     <string name="checkbox_text">znovu nezobrazovat</string>
+    <!-- New PM Dialog -->
     <string name="new_pm_name_text">Jméno:</string>
     <string name="new_pm_max_cpu_text">Nejvyšší frekvence CPU:</string>
     <string name="new_pm_min_cpu_text">Nejnižší frekvence CPU:</string>
@@ -221,5 +221,82 @@
     <string name="power_presets_error">Na tomto zařízení není tato funkcionalita podporována. Nejspíš bude k dispozici v budoucnu.</string>
     <string name="license_checkz_title">Chyba kontroly licence</string>
     <string name="license_checkz_message">Při kontrole licence došlo k chybě. Je možné zkusit znovu, pokud byla aplikace řádně zakoupená. Pokud se snažíte autora ošálit, je nutné aplikaci řádnéí zakoupit!</string>
+    
+    <string name="error_vibration_toast">Je možné použít pouze hodnoty z rozsahu 0 až 100.</string>
+    <string name="vibration_summary">Nastavuje sílu hmatové odezvy. Hodnota výchozího kernelu je 70, franco.Kernel používá 100.</string>
+    <string name="vibration_title">Síla hmatové odezvy (vibrace)</string>
+    <string name="error_md5_no_match">POZOR! MD5 kontroloní součet nesedí, pro zachování bezpečnosti nemůže být kernel nainstalován. Je třeba ho sáhnout znovu!</string>
+    <string name="colors_summary">Zde je možné ladit červené, zelené a modré barvy obrazovky pro lepší přizpůsobení očím. Vybrané hodnoty jsou automaticky použity při startu.</string>
+    <string name="colors_title">Ladění barev obrazovky</string>
+    <string name="defaults_summary">Obnoví ladění barev do výchozích hodnot kernelu.</string>
+    <string name="defaults_title">Obnovit výchozí hodnoty</string>
+    <string name="n4_color_control_title">Korekce barev IPS obrazovky</string>
+    <string name="franco_kernel_rebootZipDialog_message">ZIP s kernelem byl úspěšně stažen. Je možné zvolit restart a .zip bude automaticky flashnut z recovery.</string>
+    <string name="languages">Nastavit jazyk</string>
+    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="stable_download_n10_summary">Stáhnout franco.Kernel pro Nexus 10!</string>
+    <string name="kernel_update_n10">Stažení kernelu pro Nexus 10</string>
+    <string name="busybox_warning">Je mi líto, ale k zobrazení této stránky je potřeba busybox. Je to pouze prevence před FC. Busybox je možné zdarma stáhnout z Obchodu Play.</string>
+    <string name="clear_app_data">"Pozor: Toto smaže všechny aplikační data jako při čisté instalaci aplikace - dojde ke ztrátě všech uložených nastavení a také bude smazána licence. Při dalším spuštění bude licence vyžádána z Obchodu Play. Po stisku OK bude aplikace ukončena."</string>
+    <string name="clear_app_data_title">Smazat aplikační data</string>
+    <string name="enable_all_load_threshold_summary">Cílové zatížení systému pro aktivaci všech jader. Vyšší hodnoty aktivují jádra obtížněji narozdíl od nízkých.</string>
+    <string name="enable_load_threshold_summary">Prahová hodnota určuje, kdy se aktivuje jádro CPU. Vyšší honoty dělají aktivaci jádra obtížnější narozdíl od nízkých.</string>
+    <string name="disable_load_threshold_summary">Ovládá jak často jsou vypnutá jádra. Pri nižších hodnotách je obtížené jádra vypnout, vyšší hodnoty vypnutí usnadňují.</string>
+    <string name="temp_threshold_summary">Teplota ve °C po které dojde ke zpomalování CPU pro jeho ochlazení.</string>
+    <string name="temp_threshold_title">Práh prevence přehřátí</string>
+    <string name="io_tuning_title">Ladění IO scheduleru</string>
+    <string name="io_tuning_summary">POZOR: tato sekce obsahuje všechny volby pro ovládání IS scheduleru určené pro POKROČILÉ uživatele. Pokud není nějakému nastavení něčemu rozumět, je třeba pohledat v dokumentaci kernelu. Hodnoty nejsou nastaveny při startu, takže je jejich obnovení snadné.</string>
 
+    <string name="gamma_title">Nastavení gammy obrazovky</string>
+    <string name="gamma_summary">Zde je možné nastavit všechny hodnoty gammy - bílé, středy, černé, kontrast, jas, saturace a šedé.</string>
+    <string name="cpu_freq_title">Aktuální CPU frekvence</string>
+    <string name="temperature_title">Teplota CPU</string>
+    <string name="gamma_defaults_summary">Obnoví všechny hodnoty gammy do výchozího nastavení kernelu.</string>
+    <string name="gamma_warning_title">DŮLEŽITÉ</string>
+    <string name="gamma_defaults_title">Výchozí hodnoty</string>
+    <string name="gamma_category_title">Natavení gammy</string>
+    <string name="grays">Šedé</string>
+    <string name="mids">Středy</string>
+    <string name="blacks">Černé</string>
+    <string name="contrast">Kontrast</string>
+    <string name="brightness">Jas</string>
+    <string name="saturation">Saturace</string>
+    <string name="whites">Bílé</string>
+    <string name="gpu_oc_title">Nejvyšší GPU ferkvence</string>
+    <string name="lp_oc_title">Nejvyšší společná frekvence jader</string>
+    <string name="hotplug_control_title">Ovládání Hotplug</string>
+    <string name="cpuquiet_title">CPUQuiet Governor</string>
+    <string name="hotplug_control_summary">Tweak your device\'s parameters to control the CPU cores management.</string>
+    <string name="enable_all_load_title">Práh zapnutí všech jader</string>
+    <string name="enable_load_title">Práh zapnutí jednoho jádra</string>
+    <string name="disable_load_title">Práh vypnutí jednoho jádra</string>
+    <string name="hotplug_mode_title">Režim řízení jader</string>
+    <string name="hotplug_mode_summary">Hotplug: zapíná/vypíná jádra na základě systémové zátěže.\nDual-Core: chová se jako 2-jádrové zařízení nehledě na zatížení systému.\nQuad-Core: 4 jádra jsou stále zapnuta. Vhodné pro hraní her.\nMůže vyžadovat vypnutí a zapnutí obrazovky pro správnou aplikaci.</string>
+    <string name="hotplug_category_title">Ovládání Hotplug</string>
+    <string name="clicky_summary">Dialog pro nastavení gamma hodnot.</string>
+    <string name="clicky_title">Klikátko pro GAMMU</string>
+    <string name="gamma_recommended_summary">Doporučené hodnoty pro bohaté barvy a temnou černou. Poděkpování zaslouží obsanity!</string>
+    <string name="gamma_recommended_title">Doporučené hodnoty</string>
+    <string name="sampling_rate_summary">Honota reprezentuje, jak často ovladač kontroluje zatížení před tím, než se rohodne, že je skutečně možné vypnout jádra. Výchozí hodnota je dobrý kompormis mezi životností baterie a výkonem. Zvýšení hodnoty bude dobré pro hraní her, snížení zase pro baterii.</string>
+    <string name="sampling_rate_title">Vzorkování</string>
+    <string name="su_dialog_summary">Pro práci s touto aplikací je třeba mít práva roota. Zavřít a zkusit znovu.</string>
+    <string name="su_dialog_title">Není root?</string>
+    <string name="tvRed">Červená:</string>
+    <string name="tvGreen">Zelená:</string>
+    <string name="tvBlue">Modrá:</string>
+    <string name="title_volt_plus_25">+25 mV</string>
+    <string name="title_volt_minus_25">-25 mV</string>
+    <string name="summary_volt_plus_25">Zvýšit všchny voltáže o 25 mV.</string>
+    <string name="summary_volt_minus_25">Snížit všechny voltáže o 25 mV.</string>
+    <string name="please_reboot">Pro správne nastavení gamma hdonot je třeba restartovat.</string>
+    <string name="red_array_summary">Ladění bílých, šedých, černých a středních odstínů pro červené gamma spektrum.</string>
+    <string name="red_array_title">ČERVENÁ</string>
+    <string name="green_array_summary">Ladění bílých, šedých, černých a středních odstínů pro zelené gamma spektrum.</string>
+    <string name="green_array_title">ZELENÁ</string>
+    <string name="blue_array_summary">Ladění bílých, šedých, černých a středních odstínů pro modré gamma spektrum.</string>
+    <string name="blue_array_title">MODRÁ</string>
+    <string name="others_array_summary">Ladění saturace, jasu a kontrastu pro RGB spektrum.</string>
+    <string name="others_array_title">Ostatní nastavení gammy</string>
+    <string name="gain_level_summary">Ovládá úrověn zesílení sluchátek.</string>
+    <string name="gain_level_title">Zesílení sluchátek.</string>
 </resources>
