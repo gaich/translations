@@ -299,7 +299,7 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="settings_theme_cat">Тема приложения</string>
     <string name="settings_theme_choose">Выбрать тему</string>
     <string name="settings">Установки</string>
-    <string name="pref_screen_app">Приложение/string>
+    <string name="pref_screen_app">Приложение</string>
     <string name="settings_app_screen_summary">Разные настройки. Можете выбрать Вашу любимую тему и определить, насколько часто Вы хотите загружать обновления на экран.</string>
     <string name="second">Секунда</string>
     <string name="seconds">Секунды</string>

@@ -435,7 +435,7 @@ nemen.</string>
     <string name="summary_volt_plus_25">Verhoog alle voltages met 25 mV.</string>
     <string name="summary_volt_minus_25">Verlaag alle voltages met 25 mV.</string>
     <string name="please_reboot">Gelieve opnieuw op te starten om alle gamma waarden goed te herstellen.</string>
-    <string name="red_array_summary">Verander de wit-, grijs-, zwart- en tussenwaarden voor de gamma curve voor de kleur rood.</string
+    <string name="red_array_summary">Verander de wit-, grijs-, zwart- en tussenwaarden voor de gamma curve voor de kleur rood.</string>
     <string name="red_array_title">ROOD</string>
     <string name="green_array_summary">Verander de wit-, grijs-, zwart- en tussenwaarden voor de gamma curve voor de kleur groen.</string>
     <string name="green_array_title">GROEN</string>
