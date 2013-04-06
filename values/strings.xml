@@ -315,5 +315,18 @@
     <string name="others_array_title">Misc. gamma settings</string>
     <string name="gain_level_summary">This controls the level of gain for the headphones.</string>
     <string name="gain_level_title">Headphones Gain.</string>
+    <string name="system_monitor_summary">Monitor your CPU load status, your RAM stats, your IO and Network load with a beautiful UI. This functionality is programmed and kindly given by the developer Christian Göllner. More information inside.</string>
+    <string name="system_monitor_title">System Monitor</string>
+    <string name="load_user_profiles_title">Custom color profiles</string>
+    <string name="load_user_profiles_summary">Click here to load up a bunch of custom color profiles kindly researched by users of my kernel/app - thanks all.</string>
+    <string name="check_license_dialog">Checking the application license from Google Play…</string>
+    <string name="first_level_summary">Load threshold to online all cores. If the device is under load greater than this value all cores will go online. It ranges from 0 to 100.</string>
+    <string name="first_level_title">High load threshold</string>
+    <string name="second_level_summary">Load threshold to online just one core at the time. If the load is greater than this value one core will go online.</string>
+    <string name="second_level_title">Medium load threshold</string>
+    <string name="third_level_summary">Lowest load threshold. When the device is under this load all cores will go offline.</string>
+    <string name="third_level_title">Low load threshold</string>
+    <string name="suspend_freq_summary">When the device screens off the maximum frequency will be capped to this value.</string>
+    <string name="suspend_freq_title">Suspend frequency</string>
 
 </resources>
