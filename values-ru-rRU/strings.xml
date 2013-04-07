@@ -288,6 +288,17 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="gain_level_title">Усил.наушников.</string>
     <string name="system_monitor_summary">Монитор статуса загрузки Вашего процессора, статистики RAM, ввода/вывода и загрузки сети в великолепном исполнении. Этот функционал создан и любезно предоставлен разработчиком Кристианом Гелльнером. Более подробно внутри.</string>
     <string name="system_monitor_title">Монитор системы</string>
+    <string name="load_user_profiles_title">Польз.цвет.профили</string>
+    <string name="load_user_profiles_summary">Нажмите здесь для загрузки набора цветовых профилей, любезно предоставленных пользователями моего ядра/приложения - спасибо всем.</string>
+    <string name="check_license_dialog">Проверка лицензии приложения из Google Play…</string>
+    <string name="first_level_summary">Порог загрузки для запуска онлайн всех ядер. Если загрузка устройства больше данной величины, в онлайне будут работать все ядра. Диапазон от 0 до 100.</string>
+    <string name="first_level_title">Порог высокой загрузки</string>
+    <string name="second_level_summary">Порог загрузки для запуска онлайн только одного ядра единовременно. Если порог больше данной величины, онлайн будет работать только одно ядро.</string>
+    <string name="second_level_title">Порог средней загрузки</string>
+    <string name="third_level_summary">Нижний порог загрузки. Когда устройство загружается меньше данной величины, все ядра отключаются (оффлайн).</string>
+    <string name="third_level_title">Порог слабой загрузки</string>
+    <string name="suspend_freq_summary">При отключении экранов устройства максимальная частота будет ограничена данной величиной.</string>
+    <string name="suspend_freq_title">Частота ожидания</string>
     <string name="cg_app_name">Упрощенная версия монитора</string>
     <string name="cg_menu_settings">Установки</string>
     <string name="io_title">ВВОД/ВЫВОД</string>
