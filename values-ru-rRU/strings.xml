@@ -355,7 +355,7 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="settings_notifications_io_category">Уведомление В/В</string>
     <string name="settings_notification_net_category">Уведомление сети</string>
     <string name="settings_pref_screen_not">Уведомления [ПОЛНАЯ ВЕРСИЯ]</string>
-    <string name="settings_notification_screen_summary">"Вы можете увидеть загрузку системы непосредственно в сроке уведомлений. Раскрыв строку, Вы увидете больше информации, чем могли себе представить."</string>
+    <string name="settings_notification_screen_summary">"Вы можете увидеть загрузку системы непосредственно в сроке уведомлений. Раскрыв строку, Вы увидите больше информации, чем могли себе представить."</string>
     <string name="settings_notifications_show_expanded">Показать раскрытую</string>
     <string name="settings_floating_cat">Плавающее приложение</string>
     <string name="settings_floating_cpu">CPU</string>
@@ -363,7 +363,7 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="settings_floating_io">В/В</string>
     <string name="settings_floating_net">СЕТЬ</string>
     <string name="settings_floating_monitor">Монитор</string>
-    <string name="prefscreen_title_floating">Плавающий монитор [ПОЛНАЯ ВЕРСИЯ]</string>
+    <string name="prefscreen_title_floating">Плав.монитор [ПОЛНАЯ ВЕРСИЯ]</string>
     <string name="settings_floating_screen_summary">Это плавающее окошко будет располагаться поверх всех ваших приложений и показывать загрузку системы в реальном времени в изящной и современной графике.</string>
     <string name="settings_floating_cpu_cat">Монитор CPU</string>
     <string name="settings_floating_ram_cat">Монитор RAM</string>
