@@ -314,6 +314,19 @@
     <string name="others_array_summary">Ajuster les saturation, luminosité et contraste du spectre RVB.</string>
     <string name="others_array_title">Paramètres gamma divers</string>
     <string name="gain_level_summary">Contrôler le niveau du gain pour le casque.</string>
-    <string name="gain_level_title">Gain casque</string>
+    <string name="gain_level_title">Gain du casque</string>
+    <string name="system_monitor_summary">Supervisez votre charge CPU, vos statistiques RAM, vos E/S et votre charge réseau avec une belle interface. Cette fonctionnalité a été développée et aimablement donnée par le développeur Christian Göllner. Plus d\'informations à l\'intérieur.</string>
+    <string name="system_monitor_title">Moniteur système</string>
+    <string name="load_user_profiles_title">Profils de couleurs personnalisés</string>
+    <string name="load_user_profiles_summary">Cliquez ici pour charger des profils de couleurs personnalisés gracieusement élaborés par des utilisateurs de mon appli/kernel - merci à tous.</string>
+    <string name="check_license_dialog">Vérification de la licence de l\'application depuis Google Play…</string>
+    <string name="first_level_summary">Seuil de charge pour activer tous les coeurs. Si l\'appareil a une charge supérieure à cette valeur, alors tous les coeurs seront activés. La valeur est comprise entre 0 et 100.</string>
+    <string name="first_level_title">Seuil de charge haute</string>
+    <string name="second_level_summary">Seuil de charge pour activer un coeur à la fois. Si la charge de l\'appareil dépasse ce seuil, un coeur supplémentaire sera activé.</string>
+    <string name="second_level_title">Seuil de charge moyenne</string>
+    <string name="third_level_summary">Seuil de charge la plus basse. Si la charge de l\'appareil descend sous ce seuil, tous les coeurs sont désactivés.</string>
+    <string name="third_level_title">Seuil de charge basse</string>
+    <string name="suspend_freq_summary">Quand l\'écran de l\'appareil est éteint, la fréquence maximum ne peut pas dépasser cette valeur.</string>
+    <string name="suspend_freq_title">Fréquence en mode suspend (écran éteint)</string>
 
 </resources>
