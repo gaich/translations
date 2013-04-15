@@ -15,7 +15,7 @@
     <string name="backup_restore_summary">Powerful Kernel backup and restore. Save your current kernels and load them up anytime without needing to use the recovery.</string>
     <string name="oc_uv_title">Frequencies/Voltages</string>
     <string name="oc_uv_summary">If you want to play Rambo this is the place for you. Use and abuse your device by loading extreme and unstable frequencies and voltages.</string>
-    <string name="kernel_settings_title">Custom Kernel settings</string>
+    <string name="kernel_settings_title">Custom Kernel Settings</string>
     <string name="kernel_settings_summary">All your favorite settings in one place. They are loaded if they are detected in the Kernel.</string>
     <string name="color_control_title">Color Control</string>
     <string name="color_control_summary">Complete control over your screen. Flourish the artist sleeping within you and find the perfect screen calibration for your eyes.</string>
@@ -25,10 +25,10 @@
     <string name="device_monitor_summary">Full real-time panel of your device\'s status.</string>
 
     <!-- Frequencies/Voltages Activity -->
-    <string name="oc_uv_class">Frequencies/Voltages</string>
+    <string name="oc_uv_class">Frequencies &amp; Governor</string>
     <string name="max_cpu_title">Maximum CPU Frequency</string>
     <string name="min_cpu_title">Minimum CPU Frequency</string>
-    <string name="governor_title">Current Governor</string>
+    <string name="governor_title">Current governor</string>
     <string name="toast_max_cpu">You can\'t select a lower frequency than your current minimum.</string>
     <string name="toast_min_cpu">You can\'t select a higher frequency than your current maximum.</string>
     <string name="toast_governor">You can\'t select the same governor that you currently use.</string>
@@ -36,14 +36,14 @@
     <string name="toast_screen_off_max_freq">You can\'t select the same frequency you are currently using.</string>
     <string name="cpu_boot_title">Set CPU settings on boot</string>
     <string name="cpu_boot_summary">If this is checked CPU frequency and governor will be set on boot.</string>
-    <string name="governor_control_boot_title">Set Governor Control on boot</string>
+    <string name="governor_control_boot_title">Set governor control on boot</string>
     <string name="governor_control_boot_summary">If this is checked your custom governor settings will be set on boot.</string>
     <string name="governor_control_error_toast">Your governor is not supported by this utility.</string>
     <string name="voltages_summary">Join the Dark Side and experiment with your device\'s voltages if the kernel supports it.</string>
-    <string name="voltages_title">Voltages</string>
+    <string name="voltages_title">Voltage control</string>
 
     <!-- Kernel Settings Activity -->
-    <string name="kernel_settings">Custom Kernel Settings</string>
+    <string name="kernel_settings">Misc. settings</string>
     <string name="loud_summary">This will increase your headphones sound level. Before changing this value its a good practice to stop your media. Take care of your ears, this can be very loud!</string>
     <string name="loud_title">Headphones Volume Boost</string>
     <string name="tcp_summary">You need busybox to be able to see the TCP algorithm and be able to change it.</string>
@@ -79,16 +79,16 @@
     <!-- Device Monitor Activity -->
     <string name="monitor_category_title">Device Monitor</string>
     <string name="gpu_freq_title">Current GPU frequency</string>
-    <string name="voltage_mpu_title">CPU Voltage - Frequency - Temps</string>
-    <string name="voltage_iva_title">IVA Voltage</string>
-    <string name="voltage_core_title">GPU Voltage - Frequency</string>
+    <string name="voltage_mpu_title">CPU voltage - frequency - temps</string>
+    <string name="voltage_iva_title">IVA voltage</string>
+    <string name="voltage_core_title">GPU voltage - frequency</string>
     <string name="mpu_smartreflex_summary">Voltage calibration for the CPU will cease.</string>
     <string name="mpu_smartreflex_title">Disable MPU Smartreflex</string>
     <string name="iva_smartreflex_summary">Voltage calibration for the Media Decoder will cease.</string>
     <string name="iva_smartreflex_title">Disable IVA Smartreflex</string>
     <string name="core_smartreflex_summary">Voltage calibration for the GPU will cease.</string>
     <string name="core_smartreflex_title">Disable CORE Smartreflex</string>
-    <string name="governor_control_title">Governor Control</string>
+    <string name="governor_control_title">Governor control</string>
     <string name="governor_control_summary">Play with your governor preferences to achieve your desired performance and battery life.</string>
     <string name="cpu0_title">CPU Core 0</string>
     <string name="cpu1_title">CPU Core 1</string>
@@ -154,16 +154,17 @@
     <string name="franco_kernel_rebootDialog_negativeButton">No.</string>
     <string name="latest_stable_summary">Fetching…</string>
     <string name="latest_nightly_summary">Fetching…</string>
-    <string name="franco_kernel_activity_title">franco.Kernel download</string>
+    <string name="franco_kernel_activity_title">Info</string>
+    <string name="franco_kernel_activity_download_title">Downloads</string>
     <string name="current_version_title">Installed version</string>
     <string name="nightly_version_title">Installed nightly version</string>
     <string name="latest_stable_title">Latest stable version available</string>
     <string name="latest_nightly_title">Latest nightly version available</string>
-    <string name="nightly_download_summary">Click here to choose auto-flash or .zip download.</string>
+    <string name="nightly_download_summary">You can either choose to auto-flash or download the .zip, which is also available for auto-flash.</string>
     <string name="nightly_download_title">Download latest nightly kernel</string>
-    <string name="stable_download_summary">Click here to choose auto-flash or .zip download.</string>
+    <string name="stable_download_summary">You can either choose to auto-flash or download the .zip, which is also available for auto-flash.</string>
     <string name="stable_download_title">Download latest stable kernel</string>
-    <string name="latest_stable_version_error">You need internet connectivity to see this.</string>
+    <string name="latest_stable_version_error">You need internet connection to fetch this information.</string>
 
     <!-- Lean Kernel Activity -->
     <string name="lean_kernel_dialog_exp_title">Download latest Exp Imoseyon Kernel</string>
@@ -250,7 +251,7 @@
     <string name="n4_color_control_title">IPS Screen Color Correction</string>
     <string name="franco_kernel_rebootZipDialog_message">The kernel .zip was successfuly downloaded. You can choose to reboot and the .zip will be automatically flashed in recovery.</string>
     <string name="languages">Set the language</string>
-    <string name="xda_nexus10">Samsung Nexus 10</string>
+    <string name="xda_nexus10">Samsung Nexus 10 XDA thread</string>
     <string name="stable_download_n10_summary">Download franco.Kernel for your Nexus 10!</string>
     <string name="kernel_update_n10">Nexus 10 Kernel download</string>
     <string name="busybox_warning">I\'m sorry but you need busybox to be able to view this page. This is just a precaution against force closes. You can download busybox from the Play Store for free.</string>
@@ -278,9 +279,9 @@
     <string name="brightness">Brightness</string>
     <string name="saturation">Saturation</string>
     <string name="whites">Whites</string>
-    <string name="gpu_oc_title">Max GPU frequency</string>
+    <string name="gpu_oc_title">Maximum GPU frequency</string>
     <string name="lp_oc_title">Max Companion Core frequency</string>
-    <string name="hotplug_control_title">Hotplug Control</string>
+    <string name="hotplug_control_title">Hotplug control</string>
     <string name="cpuquiet_title">CPUQuiet Governor</string>
     <string name="hotplug_control_summary">Tweak your device\'s parameters to control the CPU cores management.</string>
     <string name="enable_all_load_title">Online all cores threshold</string>
@@ -297,9 +298,9 @@
     <string name="sampling_rate_title">Sampling Rate</string>
     <string name="su_dialog_summary">You need root permissions to operate this application. Exit and try again.</string>
     <string name="su_dialog_title">No root?</string>
-    <string name="tvRed">Red:</string>
-    <string name="tvGreen">Green:</string>
-    <string name="tvBlue">Blue:</string>
+    <string name="tvRed">Red</string>
+    <string name="tvGreen">Green</string>
+    <string name="tvBlue">Blue</string>
     <string name="title_volt_plus_25">+25 mV</string>
     <string name="title_volt_minus_25">-25 mV</string>
     <string name="summary_volt_plus_25">Increase all voltages by 25 mV.</string>
@@ -313,11 +314,11 @@
     <string name="blue_array_title">BLUE</string>
     <string name="others_array_summary">Tweak Saturation, Brightness and Contrast for the RGB spectrum.</string>
     <string name="others_array_title">Misc. gamma settings</string>
-    <string name="gain_level_summary">This controls the level of gain for the headphones.</string>
-    <string name="gain_level_title">Headphones Gain.</string>
+    <string name="gain_level_summary">This controls the level of gain for the headset. Might clear the sound output from the headphones.</string>
+    <string name="gain_level_title">Headset gain.</string>
     <string name="system_monitor_summary">Monitor your CPU load status, your RAM stats, your IO and Network load with a beautiful UI. This functionality is programmed and kindly given by the developer Christian Göllner. More information inside.</string>
     <string name="system_monitor_title">System Monitor</string>
-    <string name="load_user_profiles_title">Custom color profiles</string>
+    <string name="load_user_profiles_title">Load color profile presets</string>
     <string name="load_user_profiles_summary">Click here to load up a bunch of custom color profiles kindly researched by users of my kernel/app - thanks all.</string>
     <string name="check_license_dialog">Checking the application license from Google Play…</string>
     <string name="first_level_summary">Load threshold to online all cores. If the device is under load greater than this value all cores will go online. It ranges from 0 to 100.</string>
@@ -328,5 +329,23 @@
     <string name="third_level_title">Low load threshold</string>
     <string name="suspend_freq_summary">When the device screens off the maximum frequency will be capped to this value.</string>
     <string name="suspend_freq_title">Suspend frequency</string>
+    <string name="restore_button">Restore &amp; Reboot</string>
+    <string name="delete_button">Delete the backup</string>
+    <string name="rate_title">Rate this app!</string>
+    <string name="rate_message">Your rating helps me and helps this application being noticed! It takes you 2 minutes of your time to leave a rating which will make me happy :) Thank you!</string>
+    <string name="rate_button">Rate me</string>
+    <string name="rate_me">Rate this app</string>
+    <string name="io_settings">I/O settings</string>
+    <string name="logs_settings">Logs settings</string>
+    <string name="controls">Controls</string>
+    <string name="making_a_backup">Making a backup</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="save_button">Save</string>
+    <string name="new_power_mode_title">Power-Mode creation factory</string>
+    <string name="delete_user_profiles_title">Delete all profiles</string>
+    <string name="delete_user_profiles_summary">WARNING: this deletes all your color profiles from the /sdcard directory.</string>
+    <string name="save_the_profile">Save the profile</string>
 
 </resources>
+
