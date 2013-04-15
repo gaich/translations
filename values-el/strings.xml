@@ -12,7 +12,7 @@
     <string name="lean_kernel_title">LeanKernel updater</string>
     <string name="lean_kernel_summary">Εάν κάνετε κλικ εδώ είστε και επίσημα προδότες, αλλά θα εξακολουθήσετε να μπορείτε να χαίρεστε τα kernel του Imoseyon.</string>
     <string name="backup_restore_title">Αντίγρ. ασφ./επαναφορά του Kernel</string>
-    <string name="backup_restore_summary">Δυναμική δημιουργία αντιγράφου ασφαλείας/επαναφορά του Kernel. Αποθηκεύστε το τρέχον kernel και φορτώστε το οποιαδήποτε στιγμή χωρίς τη χρήση του recovery.</string>
+    <string name="backup_restore_summary">Ισχυρή δημιουργία αντιγράφου ασφαλείας/επαναφορά του Kernel. Αποθηκεύστε το τρέχον kernel και φορτώστε το οποιαδήποτε στιγμή χωρίς τη χρήση του recovery.</string>
     <string name="oc_uv_title">Συχνότητες/Τάσεις</string>
     <string name="oc_uv_summary">Εάν θέλετε να το παίξετε Rambo, αυτό το σημείο είναι για εσάς. Χρησιμοποιήστε και εκμεταλλευτείτε τη συσκευή σας χρησιμοποιόντας ακραίες και ασταθείς συχνότητες και τάσεις.</string>
     <string name="kernel_settings_title">Ρυθμίσεις Custom Kernel</string>
@@ -51,7 +51,7 @@
     <string name="throttle_off_title">Απενεργοποίηση της λειτουργίας Thermal Throttle</string>
     <string name="io_sched_title">IO Scheduler</string>
     <string name="input_touch_booster_title">Input Touch Booster</string>
-    <string name="fsync_summary">Με τη λειτουργία αυτή ενεργοποιημένη,η συσκευή σας θα διαθέτει μεγαλύτερη αξιοπιστία στα δεδομένα With this option enabled the device will have more data integrity but less IO speed. With it disabled it will have less data integrity but more IO speed.</string>
+    <string name="fsync_summary">Με τη λειτουργία αυτή ενεργοποιημένη,η συσκευή σας θα διαθέτει μεγαλύτερη αξιοπιστία στα δεδομένα αλλά χαμηλότερη ταχύτητα ΙΟ. Εάν απενεργοποιηθεί αυτή η λειτουργία, η συσκευή σας θα διαθέτει μικρότερη αξιοπιστία στα δεδομένα αλλά μεγαλύτερη ταχύτητα ΙΟ.</string>
     <string name="fsync_title">Ενεργοποίηση της λειτουργίας fsync</string>
     <string name="logger_off_summary">Αυτό θα απενεργοποιήσει την λειτουργία Logger(logcat). Ενδέχεται να παρατηρήσετε βελτίωση στη διάρκεια της μπαταρίας ή στις επιδόσεις, ακόμη και σε ελάχιστο βαθμό. Η λειτουργία App debugging δεν θα λειτουργήσει εάν η επιλογή αυτή είναι ενεργοποιημένη.</string>
     <string name="logger_off_title">Απενεργοποίηση της λειτουργίας Logger</string>
@@ -61,7 +61,7 @@
     <string name="fast_charge_title">Ενεργοποίηση της λειτουργίας γρήγορης φόρτισης μέσω USB</string>
     <string name="wifi_pm_summary">Ενεργοποιήστε αυτήν την επιλογή για να αυξήσετε σημαντικά την εμβέλεια του wi-fi με κάποιο κόστος όμως στη διάρκεια της μπαταρίας. Χρήσιμο για streaming όταν είναι η οθόνη σβηστή.</string>
     <string name="wifi_pm_title">Wi-Fi PM_FAST</string>
-    <string name="blx_summary">Setting to cap the max battery percentage that the device is capable of being charged.</string>
+    <string name="blx_summary">Ρύθμιση για το μέγιστο ποσοστό φόρτισης που μπορεί να φτάσει η μπαταρία.</string>
     <string name="blx_title">Επέκταση διάρκειας ζωής της μπαταρίας (Battery Life eXtender)</string>
     <string name="tegra_screen_dimmer_summary">Η λειτουργία αυτή είναι ενεργοποιημένη εξ΄ορισμου. Εξοικονομεί λίγη μπαταρία κατα τη διάρκεια αναπαραγωγής βίντεο με μείωση της αντίθεσης και της φωτεινότητας της οθόνης. Εάν επιθυμείτε τη μέγιστη ποιότητα κατά την αναπαραγωγή βίντεο, απενεργοποιήστε αυτήν την λειτουργία.</string>
     <string name="tegra_screen_dimmer_title">Tegra Screen Dimmer</string>
@@ -69,7 +69,7 @@
     <string name="high_performance_summary">Αυτή η λειτουργία βελτιώνει την ευκρίνεια του ήχου.</string>
     <string name="high_performance_title">Ενεργοποίηση του ήχου υψηλής ποιότητας - Μόνον για ακουστικά</string>
     <string name="volume_boost_title">Αύξηση της έντασης του ήχου (Volume Boost) - Μόνον για ακουστικά</string>
-    <string name="bootanimation_category_title">Μη αυτόματη Custom boot animation</string>
+    <string name="bootanimation_category_title">Custom boot animation</string>
     <string name="bootanimation_summary">Custom franco.Kernel boot animation κατασκευασμένο από τον rascarlo. Χρειάζεται πρόσβαση στο διαδίκτυο.</string>
     <string name="bootanimation_title">franco.Kernel boot animation</string>
     <string name="download_path_category_title">Διαδρομή μεταφόρτωσης του Kernel</string>
@@ -113,7 +113,7 @@
     <string name="voltages_boot_title">Ορισμός τιμών τάσεων κατά την εκκίνηση</string>
 
     <!-- ColorControl Activity -->
-    <string name="profile_confirmation_text">Save it</string>
+    <string name="profile_confirmation_text">Αποθήκευση</string>
     <string name="profile_dialog_title">Όνομα προφίλ:</string>
     <string name="multipliers_dialog_title">Πολλαπλασιαστές χρωμάτων</string>
     <string name="gamma_dialog_title">RGB Gamma</string>
@@ -122,117 +122,117 @@
     <string name="color_multiplier_title">Πολλαπλασιαστές χρώματος</string>
     <string name="color_gamma_summary">Ρυθμίστε τις τιμές RGB gamma της οθόνης σας.</string>
     <string name="color_gamma_title">RGB Gamma</string>
-    <string name="color_profiles_summary">Αυτό αποθηκεύει τις τιμές για τους πολλαπλασιαστές χρωμάτωνκαι για το RGB Gamma values για εύκολη εναλλαγή ανάλογα με τη διάθεσή σας.</string>
+    <string name="color_profiles_summary">Αυτό αποθηκεύει τις τιμές για τους πολλαπλασιαστές χρωμάτων και για το RGB Gamma για εύκολη εναλλαγή ανάλογα με τη διάθεσή σας.</string>
     <string name="color_profiles_title">Αποθήκευση ενός προφίλ χρώματος</string>
-    <string name="load_profiles_summary">Check and load your previously saved color profiles.</string>
-    <string name="load_profiles_title">Load Your Color Profile</string>
-    <string name="adaptive_brightness_summary">Content Adaptive Brightness adjusts the brightness depending on what\'s showing on the screen (whites + text).</string>
-    <string name="adaptive_brightness_title">Disable Content Adaptive Brightness</string>
-    <string name="trinity_contrast_summary">Original implementation from Trinity\'s kernel which allows us to tweak the contrast for a better viewing experience.</string>
-    <string name="trinity_contrast_title">Trinity\'s Contrast interface</string>
-    <string name="omap_gamma_summary">Interface picked from omapzoom that allows to change the screen gamma within a set of defined values. Works independent from the interface above.</string>
-    <string name="omap_gamma_title">OMAP Gamma interface</string>
-    <string name="color_profiles_category_title">Color Profiles</string>
+    <string name="load_profiles_summary">Ελέγξτε και φορτώστε τα προφίλ χρωμάτων που αποθηκεύσατε προηγουμένως.</string>
+    <string name="load_profiles_title">Φορτώστε το προφίλ χρώματος</string>
+    <string name="adaptive_brightness_summary">Η λειτουργία φωτεινότητας ανάλογα με το περιεχόμενο (Content Adaptive Brightness) ρυθμίζει την φωτεινότητα ανάλογα με το τι δείχνει η οθόνη (λευκά + κείμενο).</string>
+    <string name="adaptive_brightness_title">Απενεργοποίηση της λειτουργίας Content Adaptive Brightness</string>
+    <string name="trinity_contrast_summary">Προτότυπη υλοποίηση από τον Trinity kernel που σας επιτρέπει να ρυθμίσετε την αντίθεση για καλύτερη θέαση της οθόνης.</string>
+    <string name="trinity_contrast_title">Περιβάλλον χρήσης αντίθεσης Trinity (Trinity\'s Contrast interface)</string>
+    <string name="omap_gamma_summary">Περιβάλλον χρήσης που λήφθηκε απο το omapzoom το οποίο επιτρέπει την αλλαγή του γαμμα της οθόνης εντός ενός σετ από προκαθορισμένες τιμές. Λειτουργεί ανεξάρτητα από το παραπάνω περιβάλλον χρήσης.</string>
+    <string name="omap_gamma_title">Περιβάλλον χρήσης OMAP Gamma</string>
+    <string name="color_profiles_category_title">Προφίλ χρωμάτων</string>
 
     <!-- Backup Restore Activity -->
     <string name="backup_restore_activity">Αντιγραφο ασφαλείας/επαναφορά Kernel</string>
     <string name="backup_summary">Δημιουργήστε ένα αντίγραφο ασφαλείας του τρέχοντος kernel</string>
     <string name="backup_title">Αντίγραφο ασφαλείας</string>
     <string name="restore_kernel_title">ΕΠΑΝΑΦΟΡΑ Kernel</string>
-    <string name="backup_kernel">The backup file goes to /sdcard/kernel_backups. Please don\'t use any spaces for the filename.</string>
-    <string name="clicky_to_backup">Clicky to backup</string>
-    <string name="backup_title1">Added: </string>
-    <string name="backup_title2">Click to restore or delete.</string>
-    <string name="backup_toast">What are you trying to do? This feature is not supported on your device.</string>
+    <string name="backup_kernel">Το αντίγραφο ασφαλείας αποθηκεύεται στη διαδρομή /sdcard/kernel_backups. Μην χρησιμοποιήσετε κενά στο όνομα του αρχείου.</string>
+    <string name="clicky_to_backup">Κάντε κλικ για λήψη αντιγράφου ασφαλείας</string>
+    <string name="backup_title1">Προστέθηκε: </string>
+    <string name="backup_title2">Κάντε κλικ για επαναφορά ή διαγραφή.</string>
+    <string name="backup_toast">Μα τι πάτε να κάνετε; Αυτή η λειτουργία δεν υποστηρίζεται απή τη συσκευή σας.</string>
 
     <!-- Franco Kernel Activity -->
-    <string name="franco_kernel_current_version_summary">You\'re not running franco.Kernel… What are you thinking!?</string>
-    <string name="franco_kernel_activity_toast">You need internet connection for this.</string>
-    <string name="franco_kernel_rebootDialog_title">Reboot?</string>
-    <string name="franco_kernel_rebootDialog_message">The kernel was successfully auto-flashed, but you need to reboot to load the new kernel. Reboot now?</string>
-    <string name="franco_kernel_rebootDialog_positiveButton">Yes - BRING IT ON!</string>
-    <string name="franco_kernel_rebootDialog_negativeButton">No.</string>
-    <string name="latest_stable_summary">Fetching…</string>
-    <string name="latest_nightly_summary">Fetching…</string>
-    <string name="franco_kernel_activity_title">franco.Kernel download</string>
-    <string name="current_version_title">Installed version</string>
-    <string name="nightly_version_title">Installed nightly version</string>
-    <string name="latest_stable_title">Latest stable version available</string>
-    <string name="latest_nightly_title">Latest nightly version available</string>
-    <string name="nightly_download_summary">Click here to choose auto-flash or .zip download.</string>
-    <string name="nightly_download_title">Download latest nightly kernel</string>
-    <string name="stable_download_summary">Click here to choose auto-flash or .zip download.</string>
-    <string name="stable_download_title">Download latest stable kernel</string>
-    <string name="latest_stable_version_error">You need internet connectivity to see this.</string>
+    <string name="franco_kernel_current_version_summary">Δεν έχετε εγκατεστημένο τον franco.Kernel… Μα τι σκέφτεστε;</string>
+    <string name="franco_kernel_activity_toast">Χρειάζετε πρόσβαση στο διαδίκτυο.</string>
+    <string name="franco_kernel_rebootDialog_title">Επανεκκίνηση;</string>
+    <string name="franco_kernel_rebootDialog_message">Ο kernel φλασαρίστικε αυτόματα επιτυχώς, αλλά θα πρέπει να κάνετε επανεκκίνηση για να φορτώσει ο νέος kernel. Επανεκκίνση τώρα;</string>
+    <string name="franco_kernel_rebootDialog_positiveButton">Ναι - ΠΑΜΕ!</string>
+    <string name="franco_kernel_rebootDialog_negativeButton">Όχι.</string>
+    <string name="latest_stable_summary">Λήψη…</string>
+    <string name="latest_nightly_summary">Λήψη…</string>
+    <string name="franco_kernel_activity_title">Μεταφόρτωση franco.Kernel</string>
+    <string name="current_version_title">Εγκατεστημένη έκδοση</string>
+    <string name="nightly_version_title">Εγκατεστημένη έκδοση nightly</string>
+    <string name="latest_stable_title">Πιο πρόσφατη σταθερή έκδοση</string>
+    <string name="latest_nightly_title">Πιο πρόσφατη nightly έκδοση</string>
+    <string name="nightly_download_summary">Κάντε κλικ εδώ για αυτόματο φλασάρισμα ή για μεταφόρτωση σε μορφή .zip.</string>
+    <string name="nightly_download_title">Μεταφόρτωση του πιο πρόσφατου nightly kernel</string>
+    <string name="stable_download_summary">Κάντε κλικ εδώ για αυτόματο φλασάρισμα ή για μεταφόρτωση σε μορφή .zip.</string>
+    <string name="stable_download_title">Μεταφόρτωση του πιο πρόσφατου σταθερού kernel</string>
+    <string name="latest_stable_version_error">Χρειάζετε πρόσβαση στο διαδίκτυο για να το δειτε αυτό.</string>
 
     <!-- Lean Kernel Activity -->
-    <string name="lean_kernel_dialog_exp_title">Download latest Exp Imoseyon Kernel</string>
-    <string name="lean_kernel_dialog_stable_title">Download latest stable Imoseyon Kernel</string>
-    <string name="lean_kernel_activity_title">LeanKernel download</string>
-    <string name="latest_exp_title">Latest exp version</string>
-    <string name="lean_stable_download_summary">Click here to auto-flash Imoseyon\'s stable Kernel.</string>
-    <string name="lean_exp_download_summary">Click here to auto-flash Imoseyon\'s exp Kernel.</string>
-    <string name="lean_exp_download_title">Download latest exp kernel</string>
+    <string name="lean_kernel_dialog_exp_title">Κάντε λήψη της πιο πρόσφατης δοκιμαστικής έκδοσης του Imoseyon Kernel</string>
+    <string name="lean_kernel_dialog_stable_title">Κάντε λήψη της πιο πρόσφατης σταθερής έκδοσης του Imoseyon Kernel</string>
+    <string name="lean_kernel_activity_title">Λήψη του LeanKernel</string>
+    <string name="latest_exp_title">Πιο πρόσφατη δοκιμαστική έκδοση</string>
+    <string name="lean_stable_download_summary">Κάντε κλικ εδώ για αυτόματο φλασάρισμα της σταθερής έκδοσης του kernel του Imoseyon Kernel.</string>
+    <string name="lean_exp_download_summary">Κάντε κλικ εδώ για αυτόματο φλασάρισμα της δοκιμαστικής έκδοσης του Imoseyon Kernel.</string>
+    <string name="lean_exp_download_title">Λήψη της πιο πρόσφατης δοκιμαστικής έκδοεσης kernel</string>
 
     <!-- Power Modes Activity -->
-    <string name="power_modes_create_summary">Here you\'ll be able to create your own Power Modes to fit your personal usage.</string>
-    <string name="power_modes_create_title">Create a custom Power Mode</string>
-    <string name="power_modes_create_error_toast">You can\'t save this power mode without filling all the fields.</string>
-    <string name="pm_max_cpu_title">Max CPU clock</string>
-    <string name="pm_min_cpu_title">Min CPU clock</string>
+    <string name="power_modes_create_summary">Εδώ θα μπορείτε να δημιουργήσετε τους δικούς σας τρόπους λειτουργίας ισχύος (Power Modes) οι οποίες θα ταιριάζουν στην καθημερινή σας χρήση.</string>
+    <string name="power_modes_create_title">Δημιουργήστε έναν μη αυτόματο τρόπο λειτουργίας</string>
+    <string name="power_modes_create_error_toast">Δεν μπορείτε να αποθηκεύσετε αυτόν τον τρόπο λειτουργίας ισχύος αν δεν συμπληρώσετε όλα τα πεδία.</string>
+    <string name="pm_max_cpu_title">Μέγιστος χρονισμός CPU</string>
+    <string name="pm_min_cpu_title">Ελάχιστος χρονισμός CPU</string>
     <string name="pm_governor_title">Governor</string>
-    <string name="pm_io_sched_title">IO Scheduler</string>
-    <string name="pm_screen_max_freq_title">Screen off max frequency</string>
-    <string name="pm_save_title">Save</string>
-    <string name="power_modes_button_apply">Apply</string>
-    <string name="power_modes_button_delete">Delete</string>
-    <string name="pm_name_title">Name</string>
-    <string name="power_modes_button_on_boot">Set this on boot</string>
-    <string name="power_modes_button_on_boot_toast">This mode is now elegible to be set on boot if you check the set on boot Checkbox above!</string>
-    <string name="on_boot_title">Set Power Mode on boot</string>
-    <string name="on_boot_summary">Selected for being set on boot: </string>
+    <string name="pm_io_sched_title">Προγραμματισμός IO</string>
+    <string name="pm_screen_max_freq_title">Μέγιστη συχνότητα όταν η οθόνη είναι σβηστή</string>
+    <string name="pm_save_title">Αποθήκευση</string>
+    <string name="power_modes_button_apply">Εφαρμογή</string>
+    <string name="power_modes_button_delete">Διαγραφή</string>
+    <string name="pm_name_title">Όνομα</string>
+    <string name="power_modes_button_on_boot">Ορισμός κατά την εκκίνηση</string>
+    <string name="power_modes_button_on_boot_toast">Αυτός ο τρόπος λειτουργίας μπορεί να οριστεί κατά την εκκίνηση αν επιλέξετε "Ορισμός κατά την εκκίνηση" στο παραπάνω κουτί επιλογής!</string>
+    <string name="on_boot_title">Ορισμός του τρόπου λειτουργίας ισχύος κατά την εκκίνηση</string>
+    <string name="on_boot_summary">Επιλέχθηκε για ορισμό κατά την εκκίνηση: </string>
 
     <!-- Unlicensed dialog messages -->
-    <string name="application_error">Application error: %1$s</string>
-    <string name="unlicensed_dialog_title">Application not licensed</string>
-    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
-    <string name="buy_button">Buy app</string>
-    <string name="quit_button">Exit</string>
+    <string name="application_error">Σφάλμα εφαρμογής: %1$s</string>
+    <string name="unlicensed_dialog_title">Η εφαρμογή δεν είναι δηλωμένη</string>
+    <string name="unlicensed_dialog_body">Η εφαρμογή αυτή δεν είναι δηλωμένη. Παρακαλώ αγοράστε την από το Android Market.</string>
+    <string name="buy_button">Αγορά εφαρμογής</string>
+    <string name="quit_button">Έξοδος</string>
 
     <!-- Main Menu -->
-    <string name="about_me">About me</string>
-    <string name="donate">Donate to me</string>
-    <string name="share_settings">Share settings</string>
+    <string name="about_me">Για εμένα</string>
+    <string name="donate">Κάντε μου μια δωρεά</string>
+    <string name="share_settings">Ρυθμίσεις κοινής χρήσης</string>
 
     <!-- FrancoKernelN7 Activity -->
-    <string name="mstable_n7_title">Download latest kernel</string>
-    <string name="mstable_n7_message">This will download the latest Grouper franco.Kernel. If you click auto-flash after the download is finished it will reboot your device.</string>
-    <string name="kernel_update_n7">franco.Kernel for Nexus 7</string>
-    <string name="stable_download_n7_summary">Click here to auto-flash franco.Kernel.</string>
+    <string name="mstable_n7_title">Λήψη της πιο πρόσφατης έκδοσης του kernel</string>
+    <string name="mstable_n7_message">Επιλέγοντας αυτό, θα γίνει λήψη της πιο πρόσφατης έκδοσης του franco.Kernel για την συσκευή Grouper. Εάν κάνετε κλικ στην επιλογή auto-flash μετά το τέλος της λήψης θα γίνει επανεκκίνηση της συσκευής σας.</string>
+    <string name="kernel_update_n7">franco.Kernel για το Nexus 7</string>
+    <string name="stable_download_n7_summary">Κάντε κλικ εδώ για αυτόματο φλασάρισμα του franco.Kernel.</string>
 
     <!-- FrancoKernelSGS3 Activity -->
-    <string name="franco_kernel_sgs3_title">franco.Kernel for Galaxy S3</string>
-    <string name="stable_download_sgs3_title">Download latest stable kernel</string>
+    <string name="franco_kernel_sgs3_title">franco.Kernel για το Galaxy S3</string>
+    <string name="stable_download_sgs3_title">Λήψη της πιο πρόσφατης σταθερής έκδοσης του kernel</string>
 
     <!-- FrancoKernelOneX Activity -->
-    <string name="stable_download_onex_title">Click here to choose auto-flash or .zip download.</string>
-    <string name="readme_title">READ THIS!!!</string>
-    <string name="readme_summary">Very important, read this now!</string>
-    <string name="franco_kernel_onex_title">franco.Kernel for the One X</string>
-    <string name="checkbox_text">don\'t show again</string>
+    <string name="stable_download_onex_title">Κάντε κλικ εδώ για να επιλέξετε αυτόματο φλασάρισμα ή λήψη του αρχείου σε μορφή .zip.</string>
+    <string name="readme_title">ΔΙΑΒΑΣΤΕ ΑΥΤΟ!!!</string>
+    <string name="readme_summary">Πολύ σημαντικό. Διαβάστε το τώρα!</string>
+    <string name="franco_kernel_onex_title">franco.Kernel για το One X</string>
+    <string name="checkbox_text">Να μην προβληθεί ξανά</string>
 
     <!-- New PM Dialog -->
-    <string name="new_pm_name_text">Name:</string>
-    <string name="new_pm_max_cpu_text">Max CPU Frequency:</string>
-    <string name="new_pm_min_cpu_text">Min CPU Frequency:</string>
+    <string name="new_pm_name_text">Όνομα:</string>
+    <string name="new_pm_max_cpu_text">Μέγιστη συχνότητα CPU:</string>
+    <string name="new_pm_min_cpu_text">Ελάχιστη συχνότητα CPU:</string>
     <string name="new_pm_gov_text">Governor:</string>
-    <string name="new_pm_io_sched_text">IO Scheduler:</string>
-    <string name="new_pm_freq_screen_off_text">Screen off Max Freq</string>
+    <string name="new_pm_io_sched_text">Προγραμματισμός IO:</string>
+    <string name="new_pm_freq_screen_off_text">Μέγιστη συχνότητα με την οθόνη σβηστή</string>
     <string name="power_modes_warning">If you had Power Modes before updating to v8.0 they won\'t work and selecting one will cause a Force Close because the implementation pre and post v8.0 is completely different. The only solution is for you to clear the application data or uninstall/install it again. Sorry for the inconvenience.</string>
     <string name="backup_toast_error">You already have a backup with this name, please choose a different one.</string>
-    <string name="xda_nexus">Galaxy Nexus XDA thread</string>
-    <string name="xda_nexus7">Asus Nexus 7 XDA thread</string>
-    <string name="xda_nexus4">LG Nexus 4 XDA thread</string>
+    <string name="xda_nexus">Νήμα Galaxy Nexus XDA</string>
+    <string name="xda_nexus7">Νήμα Asus Nexus 7 XDA</string>
+    <string name="xda_nexus4">Νήμα LG Nexus 4 XDA</string>
     <string name="presets_summary">This option will give you access to 4 presets: Beastly Battery, Best Balance, Slight Speed and Powerful Performance.</string>
     <string name="presets_title">Power-Presets</string>
     <string name="power_presets_error">Functionality not supported on this device. Most likely to be available soon in some future iteration.</string>
