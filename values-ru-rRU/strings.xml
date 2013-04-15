@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">franco.Kernel updater</string>
     <string name="menu_settings">Установки</string>
+    
+    <!-- Main Activity -->
     <string name="main">Главное меню</string>
     <string name="device_supported_title">Статус вашего устройства</string>
     <string name="device_supported_summary">Ваше устройство:</string>
@@ -21,7 +23,9 @@
     <string name="power_modes_summary">Чувствуете себя творческой личностью? Можете самореализоваться здесь. Овладейте искусством создания режимов питания и получите собственного монстра!</string>
     <string name="device_monitor_title">Мониторинг устройства</string>
     <string name="device_monitor_summary">Статус Вашего устройства в режиме реального времени.</string>
-    <string name="oc_uv_class">Частоты/напряжения</string>
+	
+    <!-- Frequencies/Voltages Activity -->
+    <string name="oc_uv_class">Частоты &amp; говернор</string>
     <string name="max_cpu_title">Максимальная частота CPU</string>
     <string name="min_cpu_title">Минимальная частота CPU</string>
     <string name="governor_title">Текущий говернор</string>
@@ -36,8 +40,10 @@
     <string name="governor_control_boot_summary">Если выбрано, то Ваши настройки говернора будут установлены при загрузке.</string>
     <string name="governor_control_error_toast">Ваш говернор не поддерживается этой утилитой.</string>
     <string name="voltages_summary">Перейдите на темную сторону и экспериментируйте с напряжениями CPU, IVA и CORE.</string>
-    <string name="voltages_title">Напряжения</string>
-    <string name="kernel_settings">Настройки ядра</string>
+    <string name="voltages_title">Управление напряжением</string>
+	
+    <!-- Kernel Settings Activity -->
+    <string name="kernel_settings">Разные настройки</string>
     <string name="loud_summary">Позволяет увеличить громкость наушников (значения: от 0 до 3).</string>
     <string name="loud_title">Усил.громкости наушников</string>
     <string name="tcp_summary">Необходим busybox чтобы отобразить и менять алгоритм TCP.</string>
@@ -69,6 +75,8 @@
     <string name="download_path_category_title">Путь для сохранения ядра</string>
     <string name="download_path_title">Свой путь для сохранения</string>
     <string name="toast_volume_boost">Нельзя вводить меньше 0 или больше 62, хитрец!</string>
+	
+    <!-- Device Monitor Activity -->
     <string name="monitor_category_title">Мониторинг устройства</string>
     <string name="gpu_freq_title">Текущая частота GPU</string>
     <string name="voltage_mpu_title">CPU:напряж.-частота-темп.</string>
@@ -86,6 +94,8 @@
     <string name="cpu1_title">CPU 1</string>
     <string name="cpu2_title">CPU 2</string>
     <string name="cpu3_title">CPU 3</string>
+	
+    <!-- Voltages Activity -->
     <string name="voltages_category_title">Напряжения</string>
     <string name="mpu_voltages_summary">Аккуратнее с напряжениями CPU!</string>
     <string name="mpu_voltages_title">Напряжения CPU</string>
@@ -101,6 +111,8 @@
     <string name="iva_voltages_activity_title">Напряжения IVA</string>
     <string name="voltages_boot_summary">Если выбрано, все сохраненные настройки будут уставлены при загрузке. Под Вашу ответственность-если Вы выставили некорректные значения напряжений, сами виноваты.</string>
     <string name="voltages_boot_title">Уст.напряж.при загрузке</string>
+	
+    <!-- ColorControl Activity -->
     <string name="profile_confirmation_text">Сохранить</string>
     <string name="profile_dialog_title">Название профиля:</string>
     <string name="multipliers_dialog_title">Усилители цвета</string>
@@ -121,6 +133,8 @@
     <string name="omap_gamma_summary">Интерфейс omapzoom, позволяющий менять экранную гамму в пределах заданных значений. Работает независимо от интерфейса Trinity.</string>
     <string name="omap_gamma_title">Интерфейс гаммы OMAP</string>
     <string name="color_profiles_category_title">Цветовые профили</string>
+	
+    <!-- Backup Restore Activity -->
     <string name="backup_restore_activity">Копия/восстановление ядра</string>
     <string name="backup_summary">Резервная копия образа Вашего текущего ядра.</string>
     <string name="backup_title">Резервная копия</string>
@@ -130,6 +144,8 @@
     <string name="backup_title1">Добавлено:</string>
     <string name="backup_title2">Восстановить или удалить.</string>
     <string name="backup_toast">Что Вы пытаетесь сделать? Это не поддерживается Вашим устройством.</string>
+	
+    <!-- Franco Kernel Activity -->
     <string name="franco_kernel_current_version_summary">Вы не используете ядро Франко… Что Вы хотите!?</string>
     <string name="franco_kernel_activity_toast">Требуется интернет соединение.</string>
     <string name="franco_kernel_rebootDialog_title">Перезагрузка?</string>
@@ -138,16 +154,19 @@
     <string name="franco_kernel_rebootDialog_negativeButton">Нет.</string>
     <string name="latest_stable_summary">Получение данных…</string>
     <string name="latest_nightly_summary">Получение данных…</string>
-    <string name="franco_kernel_activity_title">Загрузка ядра Франко</string>
+	<string name="franco_kernel_activity_title">Информация</string>
+    <string name="franco_kernel_activity_title">Загрузки</string>
     <string name="current_version_title">Установленная версия</string>
     <string name="nightly_version_title">Установленная ночная сборка</string>
     <string name="latest_stable_title">Последняя стабильная версия</string>
     <string name="latest_nightly_title">Последняя ночная сборка</string>
-    <string name="nightly_download_summary">Выбрать авто-прошивку или скачать .zip архив.</string>
+    <string name="nightly_download_summary">Выбрать авто-прошивку или скачать .zip архив, который также доступен для автоматической прошивки.</string>
     <string name="nightly_download_title">Скачать посл.ночную сборку</string>
-    <string name="stable_download_summary">Выбрать авто-прошивку или скачать .zip архив.</string>
+    <string name="stable_download_summary">Выбрать авто-прошивку или скачать .zip архив, который также доступен для автоматической прошивки.</string>
     <string name="stable_download_title">Скачать посл.стабильное ядро</string>
-    <string name="latest_stable_version_error">Требуется интернет соединение.</string>
+    <string name="latest_stable_version_error">Требуется интернет соединение для получения данной информации.</string>
+	
+    <!-- Lean Kernel Activity -->
     <string name="lean_kernel_dialog_exp_title">Скачать посл.эксп.ядро</string>
     <string name="lean_kernel_dialog_stable_title">Скачать посл.стабильное ядро</string>
     <string name="lean_kernel_activity_title">Загрузка LeanKernel</string>
@@ -155,6 +174,8 @@
     <string name="lean_stable_download_summary">Скачать и прошить стабильное ядро от Imoseyon.</string>
     <string name="lean_exp_download_summary">Скачать и прошить экспериментальное ядро от Imoseyon.</string>
     <string name="lean_exp_download_title">Скачать последнее эксп.ядро</string>
+	
+    <!-- Power Modes Activity -->
     <string name="power_modes_create_summary">Здесь Вы можете создать собственные режимы питания в соответствии со своими потребностями.</string>
     <string name="power_modes_create_title">Создание режима питания</string>
     <string name="power_modes_create_error_toast">Нельзя сохранить данный режим питания без заполнения всех полей.</string>
@@ -171,25 +192,37 @@
     <string name="power_modes_button_on_boot_toast">Этот режим теперь может быть выставлен при загрузке, если установите галочку выше!</string>
     <string name="on_boot_title">Уст.режима при загрузке.</string>
     <string name="on_boot_summary">Выбран для установки при загрузке:</string>
+	
+    <!-- Unlicensed dialog messages -->
     <string name="application_error">Ошибка приложения: %1$s</string>
     <string name="unlicensed_dialog_title">Приложение не лицензировано</string>
     <string name="unlicensed_dialog_body">На это приложение нет лицензии. Пожалуйста, купите на Android Market.</string>
     <string name="buy_button">Купить</string>
     <string name="quit_button">Выйти</string>
+	
+    <!-- Main Menu -->
     <string name="about_me">Об авторе</string>
     <string name="donate">Пожертвовать</string>
     <string name="share_settings">Поделиться настройками</string>
+	
+    <!-- FrancoKernelN7 Activity -->
     <string name="mstable_n7_title">Скачать последнее ядро.</string>
     <string name="mstable_n7_message">Это скачает последнее ядро Франко для Grouper. Если выберете авто-прошивку, то после загрузки Ваше устройство будет автоматически перезагружено.</string>
     <string name="kernel_update_n7">ядро Франко для Nexus 7</string>
     <string name="stable_download_n7_summary">Нажмите, чтобы автоматически прошить ядро Франко.</string>
+	
+    <!-- FrancoKernelSGS3 Activity -->
     <string name="franco_kernel_sgs3_title">ядро Франко для Galaxy S3</string>
     <string name="stable_download_sgs3_title">Скачать последнее стабильное ядро.</string>
+	
+    <!-- FrancoKernelOneX Activity -->
     <string name="stable_download_onex_title">Нажмите, чтобы прошить автоматически или скачать .zip архив.</string>
     <string name="readme_title">ПРОЧИТАТЬ!!!</string>
     <string name="readme_summary">Очень важно, прочтите сейчас!</string>
     <string name="franco_kernel_onex_title">ядро Франко для HTC One X</string>
     <string name="checkbox_text">больше не показывать</string>
+	
+    <!-- New PM Dialog -->
     <string name="new_pm_name_text">Название:</string>
     <string name="new_pm_max_cpu_text">Максимальная частота CPU:</string>
     <string name="new_pm_min_cpu_text">Минимальная частота CPU:</string>
@@ -208,10 +241,10 @@
     <string name="license_checkz_message">Проблема валидации лицензии проложения. Нажмите повторить(retry) если вы купили приложение ранее, или нажмите купить(buy), если пытаетесь меня обмануть</string>
     <string name="preview_img">Предпросмотр</string>
     <string name="error_vibration_toast">Можно выбрать только между 0 и 100.</string>
-    <string name="vibration_summary">"Контролирует уровень тактильной отдачи. Значение на стоковом ядре 70, при использовании ядра Франко - 100."</string>
+    <string name="vibration_summary">Контролирует уровень тактильной отдачи. Значение на стоковом ядре 70, при использовании ядра Франко - 100.</string>
     <string name="vibration_title">Тактильная отдача (вибрация)</string>
     <string name="error_md5_no_match">"ПРЕДУПРЕЖДЕНИЕ! MD5's не совпадают, в целях безопасности, ядро не было установлено. Необходима повторная загрузка!"</string>
-    <string name="colors_summary">"Здесь можно настроить красный, зеленый и синий цвета экрана в соответствии с Вашими предпочтениями. Выбранные значения автоматически устанавливаются при загрузке."</string>
+    <string name="colors_summary">Здесь можно настроить красный, зеленый и синий цвета экрана в соответствии с Вашими предпочтениями. Выбранные значения автоматически устанавливаются при загрузке.</string>
     <string name="colors_title">Настройка цвета экрана</string>
     <string name="defaults_summary">Это возвращает Ваши цвета к настройкам ядра по умолчанию.</string>
     <string name="defaults_title">Восстановить значения по умолчанию</string>
@@ -221,18 +254,18 @@
     <string name="xda_nexus10">Samsung Nexus 10 на XDA</string>
     <string name="stable_download_n10_summary">Загрузить ядро Франко для Вашего Nexus 10!</string>
     <string name="kernel_update_n10">Загрузка ядра для Nexus 10</string>
-    <string name="busybox_warning">"Простите, но, чтобы увидеть эту страницу, необходим бизибокс. Это лишь мера предосторожности от сбоя приложения. Вы можете бесплатно скачать бизибокс из Play Store."</string>
-    <string name="clear_app_data">"Предупреждение: это очистит данные приложения, как если бы оно было только установлено - Вы потеряете все сохраненные опции и информацию о лицензии, поэтому, при следующем открытии приложение направит запрос в Play Store для подтверждения Вашего лицензионного ключа. После нажатия ok приложение закроется."</string>
-    <string name="clear_app_data_title">"Очистить данные"</string>
+    <string name="busybox_warning">Простите, но, чтобы увидеть эту страницу, необходим бизибокс. Это лишь мера предосторожности от сбоя приложения. Вы можете бесплатно скачать бизибокс из Play Store.</string>
+    <string name="clear_app_data">Предупреждение: это очистит данные приложения, как если бы оно было только установлено - Вы потеряете все сохраненные опции и информацию о лицензии, поэтому, при следующем открытии приложение направит запрос в Play Store для подтверждения Вашего лицензионного ключа. После нажатия ok приложение закроется.</string>
+    <string name="clear_app_data_title">Очистить данные</string>
     <string name="enable_all_load_threshold_summary">Номинальная системная нагрузка для активации всех ядер CPU. Чем больше значение, тем труднее задействовать все ядра, чем меньше, тем легче.</string>
     <string name="enable_load_threshold_summary">Значение порога, определяющее, когда необходимо подключить режим одного ядра CPU. Чем больше значение, тем труднее подключить ядро, чем меньше, тем легче.</string>
     <string name="disable_load_threshold_summary">Управляет частотой отключения ядер. При уменьшении этого значения отключение ядер затрудняется, при увеличении - облегчается.</string>
     <string name="temp_threshold_summary">Предел температуры Вашего процессора в гр. Цельсия, активирующий температурный контроль для снижения нагревания.</string>
     <string name="temp_threshold_title">Порог темп.контроля</string>
     <string name="io_tuning_title">Настройка диспетчера</string>
-    <string name="io_tuning_summary">"ПРЕДУПРЕЖДЕНИЕ: раздел содержит все опции настройки диспетчера ввода/вывода. Для ОПЫТНЫХ пользователей. Если Вам непонятны опции внутри данного раздела, обратитесь к поиску информации по ядру. Значения НЕ устанавливаются при загрузке, Вы можете легко сбросить настройки."</string>
+    <string name="io_tuning_summary">ПРЕДУПРЕЖДЕНИЕ: раздел содержит все опции настройки диспетчера ввода/вывода. Для ОПЫТНЫХ пользователей. Если Вам непонятны опции внутри данного раздела, обратитесь к поиску информации по ядру. Значения НЕ устанавливаются при загрузке, Вы можете легко сбросить настройки.</string>
     <string name="gamma_title">Настройки гаммы экрана</string>
-    <string name="gamma_summary">"Здесь можно настроить все значения гаммы - белые, промежуточные, черные тона, контраст, яркость, насыщенность и оттенки серого."</string>
+    <string name="gamma_summary">Здесь можно настроить все значения гаммы - белые, промежуточные, черные тона, контраст, яркость, насыщенность и оттенки серого.</string>
     <string name="cpu_freq_title">Текущая частота CPU</string>
     <string name="temperature_title">Температура CPU</string>
     <string name="gamma_defaults_summary">Сброс всех значений гаммы к настройкам по умолчанию.</string>
@@ -250,44 +283,41 @@
     <string name="lp_oc_title">Макс.частота вспомог.ядра</string>
     <string name="hotplug_control_title">Упр.горячим подключением</string>
     <string name="cpuquiet_title">Говернор CPUQuiet</string>
-    <string name="hotplug_control_summary">"Настройте параметры устройства для управления ядрами CPU."</string>
+    <string name="hotplug_control_summary">Настройте параметры устройства для управления ядрами CPU.</string>
     <string name="enable_all_load_title">Порог вкл.всех ядер</string>
     <string name="enable_load_title">Порог вкл.одного ядра</string>
     <string name="disable_load_title">Порог откл.одного ядра</string>
     <string name="hotplug_mode_title">Режим управления ядрами</string>
-    <string name="hotplug_mode_summary">"Горячее подключение: подключает/отключает ядра в зависимости от нагрузки системы.
-Dual-Core (два ядра): работает как устройство с двумя ядрами, вне зависимости от величины нагрузки.
-Quad-Core (четыре ядра): четыре ядра всегда подключены. Хорошо работает с играми.
-Возможно, для применения потребуется включить/выключить экран."</string>
+    <string name="hotplug_mode_summary">"Горячее подключение: подключает/отключает ядра в зависимости от нагрузки системы.\nDual-Core (два ядра): работает как устройство с двумя ядрами, вне зависимости от величины нагрузки.\nQuad-Core (четыре ядра): четыре ядра всегда подключены. Хорошо работает с играми.\nВозможно, для применения потребуется включить/выключить экран."</string>
     <string name="hotplug_category_title">Упр.горячим подключением</string>
     <string name="clicky_summary">Диалог настроек ГАММЫ дисплея.</string>
     <string name="clicky_title">Настр.ГАММЫ</string>
-    <string name="gamma_recommended_summary">Рекомендованные  настройки насыщенных цветов и глубокого черного - спасибо obsanity!</string>
+    <string name="gamma_recommended_summary">Рекомендованные настройки насыщенных цветов и глубокого черного - спасибо obsanity!</string>
     <string name="gamma_recommended_title">Рекомендованные значения</string>
     <string name="sampling_rate_summary">Это значение устанавливает количество раз, которое драйвер проходит на малой нагрузке перед тем, как определить, насколько устройство готово к отключению ядер. Значение по умолчанию установлено на компромиссе между батареей и производительностью. Увеличение значения лучше для игр, уменьшение - для батареи.</string>
     <string name="sampling_rate_title">Количество тестовых проходов</string>
     <string name="su_dialog_summary">Для управления приложением необходим рут-доступ. Выйдите и попытайтесь снова.</string>
     <string name="su_dialog_title">Нет рут-доступа?</string>
-    <string name="tvRed">Красный:</string>
-    <string name="tvGreen">Зеленый:</string>
-    <string name="tvBlue">Синий:</string>
+    <string name="tvRed">Красный</string>
+    <string name="tvGreen">Зеленый</string>
+    <string name="tvBlue">Синий</string>
     <string name="title_volt_plus_25">+25 mV</string>
     <string name="title_volt_minus_25">-25 mV</string>
     <string name="summary_volt_plus_25">Увеличить все напряжения на 25 mV.</string>
     <string name="summary_volt_minus_25">Уменьшить все напряжения на 25 mV.</string>
     <string name="please_reboot">Пожалуйста, перезагрузите устройство для правильной установки значений гаммы.</string>
-<string name="red_array_summary">"Настройка белых, серых, черных и промежуточных тонов гаммы красного."</string>
+    <string name="red_array_summary">Настройка белых, серых, черных и промежуточных тонов гаммы красного.</string>
     <string name="red_array_title">КРАСНЫЙ</string>
-    <string name="green_array_summary">"Настройка белых, серых, черных и промежуточных тонов гаммы зеленого."</string>
+    <string name="green_array_summary">Настройка белых, серых, черных и промежуточных тонов гаммы зеленого.</string>
     <string name="green_array_title">ЗЕЛЕНЫЙ</string>
-    <string name="blue_array_summary">"Настройка белых, серых, черных и промежуточных тонов гаммы синего."</string>
+    <string name="blue_array_summary">Настройка белых, серых, черных и промежуточных тонов гаммы синего.</string>
     <string name="blue_array_title">СИНИЙ</string>
     <string name="others_array_summary">Настройка насыщенности, яркости и контраста RGB.</string>
     <string name="others_array_title">Разные установки гаммы</string>
     <string name="gain_level_summary">Это управляет уровнем усиления для наушников.</string>
     <string name="gain_level_title">Усил.наушников.</string>
     <string name="system_monitor_summary">Монитор статуса загрузки Вашего процессора, статистики RAM, ввода/вывода и загрузки сети в великолепном исполнении. Этот функционал создан и любезно предоставлен разработчиком Кристианом Гелльнером. Более подробно внутри.</string>
-    <string name="system_monitor_title">Монитор системы</string>
+	<string name="system_monitor_title">Монитор системы</string>
     <string name="load_user_profiles_title">Польз.цвет.профили</string>
     <string name="load_user_profiles_summary">Нажмите здесь для загрузки набора цветовых профилей, любезно предоставленных пользователями моего ядра/приложения - спасибо всем.</string>
     <string name="check_license_dialog">Проверка лицензии приложения из Google Play…</string>
@@ -299,126 +329,23 @@ Quad-Core (четыре ядра): четыре ядра всегда подкл
     <string name="third_level_title">Порог слабой загрузки</string>
     <string name="suspend_freq_summary">При отключении экранов устройства максимальная частота будет ограничена данной величиной.</string>
     <string name="suspend_freq_title">Частота ожидания</string>
-    <string name="cg_app_name">Упрощенная версия монитора</string>
-    <string name="cg_menu_settings">Установки</string>
-    <string name="io_title">ВВОД/ВЫВОД</string>
-    <string name="network_title">СЕТЬ</string>
-    <string name="ram_title">RAM</string>
-    <string name="cpu_title">CPU</string>
-    <string name="top_apps_title">ПОТРЕБИТЕЛИ</string>
-    <string name="display_all_cores">Показать все ядра</string>
-    <string name="settings_theme_cat">Тема приложения</string>
-    <string name="settings_theme_choose">Выбрать тему</string>
-    <string name="settings">Установки</string>
-    <string name="pref_screen_app">Приложение</string>
-    <string name="settings_app_screen_summary">Разные настройки. Можете выбрать Вашу любимую тему и определить, насколько часто Вы хотите загружать обновления на экран.</string>
-    <string name="second">Секунда</string>
-    <string name="seconds">Секунды</string>
-    <string name="extension_cpu_description">Показывает использование CPU, мин.,  макс., и текущую частоту. Информация по нескольким ядрам также доступна.</string>
-    <string name="extension_ram_description">Показывает статистику RAM, такую, как использование, задействованную, свободную и общую.</string>
-    <string name="extension_io_description">Показывает статистику ввода/вывода, такую, как использование, скорость чтения и записи.</string>
-    <string name="extension_net_description">Показывает статистику сети, такую, как скорость приема, передачи и общую.</string>
-    <string name="cpuUsage">Использование</string>
-    <string name="cpuFrequency">Скорость</string>
-    <string name="availableRam">Свободно</string>
-    <string name="totalRam">Всего</string>
-    <string name="usedRam">Задействовано</string>
-    <string name="min_speed">Мин.скорость</string>
-    <string name="max_speed">Макс.скорость</string>
-    <string name="max">Макс.</string>
-    <string name="min">Мин.</string>
-    <string name="read_speed">Скорость чтения</string>
-    <string name="write_speed">Скорость записи</string>
-    <string name="read">Чтение</string>
-    <string name="write">Запись</string>
-    <string name="send">Отправл.</string>
-    <string name="through">Через</string>
-    <string name="total">Всего</string>
-    <string name="throughput">Через</string>
-    <string name="send_speed">Скорость передачи</string>
-    <string name="receive">Получ.</string>
-    <string name="receive_speed">Получено</string>
-    <string name="widget_name_cpu">Сист.монитор CPU</string>
-    <string name="widget_name_ram">Сист.монитор RAM</string>
-    <string name="widget_name_io">Сист.монитор В/В</string>
-    <string name="widget_name_network">Сист.монитор сети</string>
-    <string name="settings_widgets">Виджеты</string>
-    <string name="settings_widgets_summary">Определите настройки виджета</string>
-    <string name="settings_notifications_title">Уведомления</string>
-    <string name="settings_notifications_cpu">Уведомление</string>
-    <string name="settings_notifications_ram">Уведомление</string>
-    <string name="settings_notifications_io">Уведомление</string>
-    <string name="settings_notifications_net">Уведомление</string>
-    <string name="settings_notifications_cpu_updatefreq">Интервал обновления</string>
-    <string name="settings_notifications_cpu_category">Уведомление CPU</string>
-    <string name="settings_notifications_ram_category">Уведомление RAM</string>
-    <string name="settings_notifications_io_category">Уведомление В/В</string>
-    <string name="settings_notification_net_category">Уведомление сети</string>
-    <string name="settings_pref_screen_not">Уведомления [ПОЛНАЯ ВЕРСИЯ]</string>
-    <string name="settings_notification_screen_summary">"Вы можете увидеть загрузку системы непосредственно в сроке уведомлений. Раскрыв строку, Вы увидите больше информации, чем могли себе представить."</string>
-    <string name="settings_notifications_show_expanded">Показать раскрытую</string>
-    <string name="settings_floating_cat">Плавающее приложение</string>
-    <string name="settings_floating_cpu">CPU</string>
-    <string name="settings_floating_ram">RAM</string>
-    <string name="settings_floating_io">В/В</string>
-    <string name="settings_floating_net">СЕТЬ</string>
-    <string name="settings_floating_monitor">Монитор</string>
-    <string name="prefscreen_title_floating">Плав.монитор [ПОЛНАЯ ВЕРСИЯ]</string>
-    <string name="settings_floating_screen_summary">Это плавающее окошко будет располагаться поверх всех ваших приложений и показывать загрузку системы в реальном времени в изящной и современной графике.</string>
-    <string name="settings_floating_cpu_cat">Монитор CPU</string>
-    <string name="settings_floating_ram_cat">Монитор RAM</string>
-    <string name="settings_floating_io_cat">Монитор В/В</string>
-    <string name="settings_floating_net_cat">Монитор сети</string>
-    <string name="settings_floating_showgraph">Показать график</string>
-    <string name="settings_floating_width">Ширина окна</string>
-    <string name="settings_floating_height">Высота окна</string>
-   <string name="settings_floating_width_key">settings_floating_width_key</string>
-    <string name="settings_floating_height_key">settings_floating_height_key</string>
-    <string name="settings_floating_net_showgraph_key">settings_floating_net_showgraph_key</string>
-    <string name="settings_floating_io_showgraph_key">settings_floating_io_showgraph_key</string>
-    <string name="settings_floating_ram_showgraph_key">settings_floating_ram_showgraph_key</string>
-    <string name="settings_floating_cpu_showgraph_key">settings_floating_cpu_showgraph_key</string>
-    <string name="settings_extension_cpu_updatefreq_key">settings_extension_cpu_updatefreq_key</string>
-    <string name="settings_extension_ram_updatefreq_key">settings_extension_ram_updatefreq_key</string>
-    <string name="settings_extension_io_updatefreq_key">settings_extension_io_updatefreq_key</string>
-    <string name="settings_extension_net_updatefreq_key">settings_extension_net_updatefreq_key</string>
-    <string name="settings_floating_display_all_cores_key">floatingallcoreskey</string>
-    <string name="settings_app_net_updatefreq_key">settings_app_net_updatefreq_key</string>
-    <string name="settings_app_cpu_updatefreq_key">settings_app_cpu_updatefreq_key</string>
-    <string name="settings_app_ram_updatefreq_key">settings_app_ram_updatefreq_key</string>
-    <string name="settings_app_io_updatefreq_key">settings_app_io_updatefreq_key</string>
-    <string name="settings_notifications_io_key">settingsnotificationsiokey</string>
-    <string name="settings_notifications_net_key">settingsnotificationsnetkey</string>
-    <string name="settings_notifications_cpu_key">showCPUnotification</string>
-    <string name="settings_floating_ram_key">settsfloatinramkey</string>
-    <string name="settings_floating_net_key">settsfloatinnetkey</string>
-    <string name="settings_floating_io_key">settsfloatiniokey</string>
-    <string name="settings_notifications_cpu_updatefreq_key">CPUupdatefrequency</string>
-    <string name="settings_floating_cpu_updatefreq_key">settsfloatingcpuupdatekey</string>
-    <string name="settings_floating_ram_updatefreq_key">settsfloatingramupdatekey</string>
-    <string name="settings_floating_io_updatefreq_key">settsfloatingioupdatekey</string>
-    <string name="settings_floating_net_updatefreq_key">settsfloatingnetupdatekey</string>
-    <string name="settings_floating_cpu_key">settsfloatincpukey</string>
-    <string name="settings_notifications_ram_updatefreq_key">RAMupdatefrequency</string>
-    <string name="settings_notifications_io_updatefreq_key">IOupdatefrequency</string>
-    <string name="settings_notifications_net_updatefreq_key">NETupdatefrequency</string>
-    <string name="settings_theme_choose_key">choosetheme</string>
-    <string name="settings_notifications_ram_key">showRAMnotification</string>
-    <string name="settings_notification_display_all_cores_key">displayallcores</string>
-    <string name="settings_notifications_show_expanded_cpu_key">settings_notifications_show_expanded_cpu_key</string>
-    <string name="settings_notifications_show_expanded_ram_key">settings_notifications_show_expanded_ram_key</string>
-    <string name="settings_notifications_show_expanded_io_key">settings_notifications_show_expanded_io_key</string>
-    <string name="settings_notifications_show_expanded_net_key">settings_notifications_show_expanded_net_key</string>
-    <string name="settings_app_topapps_updatefreq_key">settings_app_topapps_updatefreq_key</string>
-    <string name="check_license">Проверить лицензию</string>
-    <string name="checking_license">Проверка лицензии...</string>
-    <string name="dont_allow">"Запретить доступ пользователя"</string>
-    <string name="allow">Разрешить доступ пользователя</string>
-    <string name="unlicensed_dialog_retry_body">Невозможно проверить лицензию. Убедитесь, что доступно сетевое соединение.</string>
-    <string name="retry_button">Повтор</string>
-    <string name="settings_extension_all_cores">Информация по неск.ядрам</string>
-    <string name="settings_extension_all_cores_key">уст.расш.все ядра</string>
-    <string name="settings_floating_ui_category">Настройка расположения</string>
-    <string name="menu_show_all_processes">Показать системные процессы</string>
+    <string name="restore_button">Восстановить &amp; перезагрузить</string>
+    <string name="delete_button">Удалить рез.копию</string>
+    <string name="rate_title">Оценить приложение!</string>
+    <string name="rate_message">Ваши оценки помогают мне и этому приложению быть замеченными! Оценка, которая сделает меня счастливым, займет только 2 минуты Вашего времени :) Спасибо!</string>
+    <string name="rate_button">Оценить</string>
+    <string name="rate_me">Оценить приложение</string>
+    <string name="io_settings">Настройки ввода/вывода</string>
+    <string name="logs_settings">Настройки журнала</string>
+    <string name="controls">Управление</string>
+    <string name="making_a_backup">Создание рез.копии</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="save_button">Сохранить</string>
+    <string name="new_power_mode_title">Фабрика режимов питания</string>
+    <string name="delete_user_profiles_title">Удалить все профили</string>
+    <string name="delete_user_profiles_summary">ПРЕДУПРЕЖДЕНИЕ: это удалит все Ваши цветовые профили с карты памяти.</string>
+    <string name="save_the_profile">Сохранить профиль</string>
+
 </resources>
 
